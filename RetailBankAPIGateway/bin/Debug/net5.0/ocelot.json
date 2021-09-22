@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/User/getAllUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63408
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/User/getAllUser",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/getUser/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63408
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/User/getUser/{id}",
+      "UpstreamHttpMethod": [ "GET"]
+    }
+   
+  ]
+ 
+}
