@@ -22,9 +22,33 @@
         }
       ],
       "UpstreamPathTemplate": "/gateway/User/getUser/{id}",
-      "UpstreamHttpMethod": [ "GET"]
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/getCustomerDetails/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63256
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Customer/getCustomerDetails/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/createCustomer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63256
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Customer/createCustomer",
+      "UpstreamHttpMethod": [ "POST" ]
     }
-   
+
   ]
  
 }
