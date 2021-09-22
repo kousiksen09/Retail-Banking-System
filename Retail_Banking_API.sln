@@ -5,11 +5,21 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservice", "{556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}"
 EndProject
+<<<<<<< HEAD
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailBankingGateway", "RetailBankingGateway\RetailBankingGateway.csproj", "{43833AF8-99AC-4B9F-BA09-24EAA252077D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transaction", "Transaction", "{544B788A-6B94-41A1-B876-7C78A3D2A50F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionMicroservice", "TransactionMicroservice", "{5FD90E5C-FAE9-490C-B7AB-9DC22BCDE554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionMicroservice", "TransactionMicroservice\TransactionMicroservice.csproj", "{359A6C55-10F9-4BE1-B187-5A21F4D813FD}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerMicroService", "CustomerMicroService\CustomerMicroService.csproj", "{E84677E7-59FA-4573-B1CD-DA9B48CEFD50}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroService", "UserMicroService\UserMicroService.csproj", "{4AA4C735-E804-4742-9CD6-F3A6C762D294}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailBankAPIGateway", "RetailBankAPIGateway\RetailBankAPIGateway.csproj", "{7EB789F9-DB74-4A0E-A9F0-CC6AED393895}"
+>>>>>>> 255905d0a9e805cdb977153b3538054adff39ea6
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +27,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
+		{43833AF8-99AC-4B9F-BA09-24EAA252077D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43833AF8-99AC-4B9F-BA09-24EAA252077D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43833AF8-99AC-4B9F-BA09-24EAA252077D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43833AF8-99AC-4B9F-BA09-24EAA252077D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359A6C55-10F9-4BE1-B187-5A21F4D813FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359A6C55-10F9-4BE1-B187-5A21F4D813FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359A6C55-10F9-4BE1-B187-5A21F4D813FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359A6C55-10F9-4BE1-B187-5A21F4D813FD}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{E84677E7-59FA-4573-B1CD-DA9B48CEFD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E84677E7-59FA-4573-B1CD-DA9B48CEFD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E84677E7-59FA-4573-B1CD-DA9B48CEFD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,13 +49,20 @@ Global
 		{7EB789F9-DB74-4A0E-A9F0-CC6AED393895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB789F9-DB74-4A0E-A9F0-CC6AED393895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB789F9-DB74-4A0E-A9F0-CC6AED393895}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 255905d0a9e805cdb977153b3538054adff39ea6
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+<<<<<<< HEAD
+		{544B788A-6B94-41A1-B876-7C78A3D2A50F} = {556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}
+		{5FD90E5C-FAE9-490C-B7AB-9DC22BCDE554} = {544B788A-6B94-41A1-B876-7C78A3D2A50F}
+		{359A6C55-10F9-4BE1-B187-5A21F4D813FD} = {5FD90E5C-FAE9-490C-B7AB-9DC22BCDE554}
+=======
 		{E84677E7-59FA-4573-B1CD-DA9B48CEFD50} = {556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}
 		{4AA4C735-E804-4742-9CD6-F3A6C762D294} = {556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}
+>>>>>>> 255905d0a9e805cdb977153b3538054adff39ea6
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {720C61B0-F251-4D65-BEC1-DFF86230B208}

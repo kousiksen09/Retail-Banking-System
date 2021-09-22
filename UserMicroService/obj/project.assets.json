@@ -6124,19 +6124,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kousik Sen\\.nuget\\packages\\": {}
+    "C:\\Users\\rohit\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\UserMicroService\\UserMicroService.csproj",
+      "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
       "projectName": "UserMicroService",
-      "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\UserMicroService\\UserMicroService.csproj",
-      "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\UserMicroService\\obj\\",
+      "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
+      "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
+      "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
