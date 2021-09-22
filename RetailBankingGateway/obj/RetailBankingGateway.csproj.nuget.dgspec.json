@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Retail Banking System\\Retail_Banking_API\\RetailBankingGateway\\RetailBankingGateway.csproj": {}
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankingGateway\\RetailBankingGateway.csproj": {}
   },
   "projects": {
-    "C:\\Retail Banking System\\Retail_Banking_API\\RetailBankingGateway\\RetailBankingGateway.csproj": {
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankingGateway\\RetailBankingGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Retail Banking System\\Retail_Banking_API\\RetailBankingGateway\\RetailBankingGateway.csproj",
+        "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankingGateway\\RetailBankingGateway.csproj",
         "projectName": "RetailBankingGateway",
-        "projectPath": "C:\\Retail Banking System\\Retail_Banking_API\\RetailBankingGateway\\RetailBankingGateway.csproj",
-        "packagesPath": "C:\\Users\\934754\\.nuget\\packages\\",
-        "outputPath": "C:\\Retail Banking System\\Retail_Banking_API\\RetailBankingGateway\\obj\\",
+        "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankingGateway\\RetailBankingGateway.csproj",
+        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
+        "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankingGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\934754\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
