@@ -89,3 +89,7 @@ INFO  05:53:19 Now listening on: http://localhost:5004
 INFO  05:53:19 Application started. Press Ctrl+C to shut down.
 INFO  05:53:19 Hosting environment: Development
 INFO  05:53:19 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\CustomerMicroService
+INFO  08:50:06 Now listening on: http://localhost:5004
+INFO  08:50:06 Application started. Press Ctrl+C to shut down.
+INFO  08:50:06 Hosting environment: Development
+INFO  08:50:06 Content root path: C:\Users\PRATIK\source\repos\Banking Project\Retail-Banking-System\CustomerMicroService

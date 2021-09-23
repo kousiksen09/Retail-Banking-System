@@ -10,10 +10,10 @@ namespace AccountMicroservice.Model
     {
         public string Message { get; set; }
 
-        [ForeignKey("Account")]
+       /* [ForeignKey("Account")]
         public int SavingsAccountId { get; set; }
         public int CurrentAccountId { get; set; }
-
+*/
         //public Account Accounts { get; set; }
     }
 }

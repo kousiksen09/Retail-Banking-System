@@ -451,11 +451,11 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.9"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -2722,6 +2722,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "CustomerMicroService": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "Swashbuckle.AspNetCore": "5.6.3"
         },
         "compile": {
@@ -2729,6 +2732,27 @@
         },
         "runtime": {
           "bin/placeholder/AccountMicroservice.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "CustomerMicroService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "5.0.4",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "log4net": "2.0.12"
+        },
+        "compile": {
+          "bin/placeholder/CustomerMicroService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerMicroService.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -3376,17 +3400,17 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.9": {
-      "sha512": "WGKYDApx75QRQ8LecGoPi5tvwHM8CvHz383U4c9zfW2Pjz+yUNUL4XAzLRlkg9QyE7USGk4VnAVNS0sTXK4qVQ==",
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.10": {
+      "sha512": "HyZK8UIsoI14uIMF6eNlg4lCzWWxRrwBVJ8ZJztOqhqQSO/3TX03MzoPnz/yMN5Hqv+2lbEp29wnuUowjGEcng==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.9",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.5.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.5.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -9007,6 +9031,11 @@
       "path": "../AccountMicroservice/AccountMicroservice/AccountMicroservice.csproj",
       "msbuildProject": "../AccountMicroservice/AccountMicroservice/AccountMicroservice.csproj"
     },
+    "CustomerMicroService/1.0.0": {
+      "type": "project",
+      "path": "../CustomerMicroService/CustomerMicroService.csproj",
+      "msbuildProject": "../CustomerMicroService/CustomerMicroService.csproj"
+    },
     "TransactionMicroservice/1.0.0": {
       "type": "project",
       "path": "../TransactionMicroservice/TransactionMicroservice.csproj",
@@ -9024,19 +9053,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kousik Sen\\.nuget\\packages\\": {}
+    "C:\\Users\\KIIT\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\RulesMicroservice\\RulesMicroservice.csproj",
+      "projectUniqueName": "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj",
       "projectName": "RulesMicroservice",
-      "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\RulesMicroservice\\RulesMicroservice.csproj",
-      "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\RulesMicroservice\\obj\\",
+      "projectPath": "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj",
+      "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\RulesMicroservice\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9050,11 +9084,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
-              "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
+            "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+              "projectPath": "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
             },
-            "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\TransactionMicroservice\\TransactionMicroservice.csproj": {
-              "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\TransactionMicroservice\\TransactionMicroservice.csproj"
+            "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
+              "projectPath": "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj"
             }
           }
         }
@@ -9104,7 +9138,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

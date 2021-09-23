@@ -14,17 +14,17 @@ namespace AccountMicroservice.Controllers
     public class AccountController : ControllerBase
     {
 
-        private readonly IAccountCreationStatusRepository _AccountCreationStatusrepo;
+       
 
         private readonly IAccountRepository _AccountRepo;
 
-        private readonly IStatementRepository _statementrepo;
+        //private readonly IStatementRepository _statementrepo;
 
-        public AccountController(IAccountCreationStatusRepository repo, IAccountRepository AccountRepo, IStatementRepository StatementRepo)
+        public AccountController(IAccountRepository AccountRepo)
         {
-            _AccountCreationStatusrepo = repo;
+            
             _AccountRepo = AccountRepo;
-            _statementrepo = StatementRepo;
+           // _statementrepo = StatementRepo;
         }
 
         //https://localhost:44352/api/Account/GetCreationStatus/2
@@ -33,12 +33,20 @@ namespace AccountMicroservice.Controllers
         [Route("createAccount/{customer_id}")]
         public ActionResult CreteAccount(int customer_id)
         {
+            AccountCreationStatus creationStatus = new AccountCreationStatus();
             try
             {
+               
                 var newaccount = _AccountRepo.CreateAccount(customer_id);
 
-                var creationstatus = _AccountCreationStatusrepo.GetCreationStatus(newaccount.Cur_AccountId, newaccount.Sav_AccountId);
-                return Ok(creationstatus);
+                if (newaccount)
+                {
+                    creationStatus.Message = "Account Created Successfully!!";
+                    return Ok(creationStatus);
+                }
+                creationStatus.Message = "Something went wrong! Try Again!";
+                return BadRequest(creationStatus.Message);
+                
             }
             catch (Exception e)
             {
@@ -47,6 +55,7 @@ namespace AccountMicroservice.Controllers
             
         }
 
+        
 
 
         [HttpGet]
@@ -57,6 +66,8 @@ namespace AccountMicroservice.Controllers
         }
 
 
+        
+
         [HttpGet]
         [Route("getCustomerAccount/{customer_id}")]
         public ActionResult<List<Account>> GetCustomerAccounts(int customer_id)
@@ -64,35 +75,53 @@ namespace AccountMicroservice.Controllers
             try
             {
                 var acc = _AccountRepo.GetCutomerAccounts(customer_id);
-                return acc;
+                if (acc != null)
+                {
+                    return acc;
+                }
+                else
+                    return NotFound();
+
             }
             catch(Exception e)
             {
-                return NotFound();
-            }
-
-
-        }
-
-
-        [HttpGet]
-        [Route("getAccount/{account_id}")]
-        public ActionResult GetAccount(int account_id)
-        {
-            try
-            {
-                var account = _AccountRepo.GetPerticularAccount(account_id);
-                return Ok(account);
-            }
-            catch (Exception e)
-            {
-                return NotFound();
+                return NotFound(e);
             }
 
 
         }
 
         
+
+        [HttpGet]
+        [Route("getAccount/{account_id}")]
+        public ActionResult GetAccount(int account_id)
+        {
+            if(account_id ==0)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                
+                var account = _AccountRepo.GetParticularAccount(account_id);
+                if (account == null)
+                {
+                    return NotFound();
+                }
+                return Ok(account);
+
+            }
+            catch (Exception e)
+            {
+                return NotFound(e);
+            }
+
+
+        }
+
+        
+        /*
 
         [HttpGet]
         [Route("getAccountStatement/{account_id}")]
@@ -108,13 +137,8 @@ namespace AccountMicroservice.Controllers
                 return NotFound();
             }
 
-        }
-
-        
-
-
-        
-
+        }        
+        */
 
 
     }

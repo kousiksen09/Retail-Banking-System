@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CustomerMicroService.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -10,10 +11,14 @@ namespace AccountMicroservice.Model
     public class Account
     {
         [Key]
+        public int MyId { get; set; }
         public int Sav_AccountId { get; set; }
+
         public int Cur_AccountId { get; set; }
+        
         [ForeignKey("Customer")]
         public int CustomerId { get; set; }
+        public Customer customer { get; set; }
 
         public string accountType { get; set; }
 
