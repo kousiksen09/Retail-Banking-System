@@ -402,11 +402,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\rohit\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Kousik Sen\\.nuget\\packages\\": {}
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
       "projectName": "RetailBankAPIGateway",
       "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
@@ -415,6 +420,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+      "projectName": "RetailBankAPIGateway",
+      "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+      "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\RetailBankAPIGateway\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

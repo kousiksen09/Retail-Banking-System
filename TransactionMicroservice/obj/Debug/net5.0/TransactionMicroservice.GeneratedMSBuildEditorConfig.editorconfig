@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = TransactionMicroservice
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\
+=======
+build_property.ProjectDir = C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\TransactionMicroservice\
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec

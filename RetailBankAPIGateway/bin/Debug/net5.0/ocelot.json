@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 63408
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/User/getAllUser",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 63408
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/User/getUser/{id}",
@@ -42,7 +42,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 63256
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/Customer/createCustomer",
@@ -54,19 +54,19 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44352
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/createAccount/{customer_id}",
       "UpstreamHttpMethod": [ "POST" ]
     },
     {
-      "DownstreamPathTemplate": "/api/Account/getAllAccounts}",
+      "DownstreamPathTemplate": "/api/Account/getAllAccounts",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44352
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getAllAccounts",
@@ -78,7 +78,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44352
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getCustomerAccount/{customer_id}",
@@ -90,7 +90,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44352
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getAccount/{account_id}",
@@ -102,7 +102,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 44352
+          "Port": 5000
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getAccountStatement/{account_id}",
