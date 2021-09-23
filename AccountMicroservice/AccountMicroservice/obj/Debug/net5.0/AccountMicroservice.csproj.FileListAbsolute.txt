@@ -86,6 +86,7 @@ C:\Users\PRATIK\source\repos\Retail-Banking-System\AccountMicroservice\AccountMi
 C:\Users\PRATIK\source\repos\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.pdb
 C:\Users\PRATIK\source\repos\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.genruntimeconfig.cache
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.Development.json
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.json
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.exe
@@ -116,6 +117,8 @@ D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\Accoun
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.pdb
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.genruntimeconfig.cache
 =======
+=======
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.json
 C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.exe
@@ -145,4 +148,7 @@ C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicr
 C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\ref\AccountMicroservice.dll
 C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.pdb
 C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.genruntimeconfig.cache
+<<<<<<< HEAD
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
+=======
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec

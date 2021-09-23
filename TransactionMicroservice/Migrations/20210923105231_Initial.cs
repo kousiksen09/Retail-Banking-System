@@ -47,9 +47,18 @@ namespace TransactionMicroservice.Migrations
                 columns: table => new
                 {
 <<<<<<< HEAD:TransactionMicroservice/Migrations/20210923102503_initial.cs
+<<<<<<< HEAD
                     Id = table.Column<int>(type: "int", nullable: false),
 =======
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec:TransactionMicroservice/Migrations/20210923105231_Initial.cs
+=======
+<<<<<<< HEAD:TransactionMicroservice/Migrations/20210923102503_initial.cs
+                    Id = table.Column<int>(type: "int", nullable: false),
+=======
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec:TransactionMicroservice/Migrations/20210923105231_Initial.cs
+=======
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec:TransactionMicroservice/Migrations/20210923105231_Initial.cs
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
                     message = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>

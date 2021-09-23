@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Error.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1f02565c188bc0cf60de1bc120acef71a3608055"
+=======
+#pragma checksum "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1f02565c188bc0cf60de1bc120acef71a3608055"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #pragma checksum "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1f02565c188bc0cf60de1bc120acef71a3608055"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -18,7 +22,11 @@ namespace RetailBankAPIGateway.Pages
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
+=======
+#line 1 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 1 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -36,7 +44,11 @@ using RetailBankAPIGateway;
         {
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 3 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Error.cshtml"
+=======
+#line 3 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 3 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -49,7 +61,11 @@ using RetailBankAPIGateway;
             WriteLiteral("\r\n<h1 class=\"text-danger\">Error.</h1>\r\n<h2 class=\"text-danger\">An error occurred while processing your request.</h2>\r\n\r\n");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 10 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Error.cshtml"
+=======
+#line 10 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 10 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -62,7 +78,11 @@ using RetailBankAPIGateway;
             WriteLiteral("    <p>\r\n        <strong>Request ID:</strong> <code>");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 13 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Error.cshtml"
+=======
+#line 13 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 13 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -74,7 +94,11 @@ using RetailBankAPIGateway;
             WriteLiteral("</code>\r\n    </p>\r\n");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 15 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Error.cshtml"
+=======
+#line 15 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 15 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Error.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec

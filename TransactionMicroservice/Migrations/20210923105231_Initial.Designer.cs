@@ -10,9 +10,15 @@ using TransactionMicroservice;
 namespace TransactionMicroservice.Migrations
 {
     [DbContext(typeof(TransactionContext))]
+<<<<<<< HEAD
 <<<<<<< HEAD:TransactionMicroservice/Migrations/20210923102503_initial.Designer.cs
     [Migration("20210923102503_initial")]
     partial class initial
+=======
+<<<<<<< HEAD:TransactionMicroservice/Migrations/20210923111512_secondary.Designer.cs
+    [Migration("20210923111512_secondary")]
+    partial class secondary
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
     [Migration("20210923105231_Initial")]
     partial class Initial
@@ -85,7 +91,11 @@ namespace TransactionMicroservice.Migrations
 
             modelBuilder.Entity("TransactionMicroservice.Models.TransactionStatus", b =>
                 {
+<<<<<<< HEAD
 <<<<<<< HEAD:TransactionMicroservice/Migrations/20210923102503_initial.Designer.cs
+=======
+<<<<<<< HEAD:TransactionMicroservice/Migrations/20210923111512_secondary.Designer.cs
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
                     b.Property<int>("Id")
                         .HasColumnType("int");
 

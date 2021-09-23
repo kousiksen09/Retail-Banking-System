@@ -79,9 +79,12 @@ namespace TransactionMicroservice.Migrations
             modelBuilder.Entity("TransactionMicroservice.Models.TransactionStatus", b =>
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     b.Property<int>("Id")
                         .HasColumnType("int");
 
+=======
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
                     b.Property<string>("message")

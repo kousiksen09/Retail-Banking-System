@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Pp98JtbbB9W/3IYmmQVuNJ+hOOtR1ZsETLIbaKccw5GSYAbfgd6jkiZJioVod04iozbkHA2zTlSQT4E9PkFXEw==",
   "success": true,
   "projectFilePath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
@@ -141,6 +142,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\TransactionMicroservice\\TransactionMicroservice.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "uSaYdUMR7zvEYQdcWrjc41ZfgWxHeHySPdFgkZLHlJa796Mg74TPBjYRFSiDtWdRi0EsBF8E0eUstaN9X5NsZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\TransactionMicroservice\\TransactionMicroservice.csproj",
+  "expectedPackageFiles": [
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -272,6 +279,9 @@
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
+=======
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
   ],
   "logs": []

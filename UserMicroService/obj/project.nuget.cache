@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "E7uhF0jtXfQaALLWOed1Zn45sTdkVoELGAgfc/dQO7XyuE1LQB1toxpAngEgLdgYcZENKy0g399kBey3s/bHpQ==",
   "success": true,
   "projectFilePath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
@@ -117,6 +118,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\UserMicroService\\UserMicroService.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "zPHuyLqW0R4JVx8rAS2onE3SrLEdk19esWyalu0yGl1YHe4Li9RcaJRXMTObYX7Bj7r8XPwDw7JkwDEjjbvDxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\UserMicroService\\UserMicroService.csproj",
+  "expectedPackageFiles": [
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -224,6 +231,9 @@
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
+=======
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
   ],
   "logs": []

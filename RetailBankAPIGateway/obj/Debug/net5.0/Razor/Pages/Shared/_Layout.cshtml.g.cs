@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4962946c5734f8899124e24193a6559958c7adba"
+=======
+#pragma checksum "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4962946c5734f8899124e24193a6559958c7adba"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #pragma checksum "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4962946c5734f8899124e24193a6559958c7adba"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -18,7 +22,11 @@ namespace RetailBankAPIGateway.Pages.Shared
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
+=======
+#line 1 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 1 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -72,10 +80,17 @@ using RetailBankAPIGateway;
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba7340", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
 #line 6 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba7370", async() => {
+                WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
+#nullable restore
+#line 6 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba7370", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
@@ -89,7 +104,11 @@ using RetailBankAPIGateway;
 #nullable disable
                 WriteLiteral(" - RetailBankAPIGateway</title>\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4962946c5734f8899124e24193a6559958c7adba8017", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4962946c5734f8899124e24193a6559958c7adba8062", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4962946c5734f8899124e24193a6559958c7adba8062", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -108,7 +127,11 @@ using RetailBankAPIGateway;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4962946c5734f8899124e24193a6559958c7adba9195", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4962946c5734f8899124e24193a6559958c7adba9240", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4962946c5734f8899124e24193a6559958c7adba9240", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -139,9 +162,15 @@ using RetailBankAPIGateway;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba11077", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba11533", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba11122", async() => {
+                WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba11578", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba11122", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div class=\"container\">\r\n                ");
@@ -174,7 +203,11 @@ using RetailBankAPIGateway;
                         <li class=""nav-item"">
                             ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba13634", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba13679", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba13679", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -197,7 +230,11 @@ using RetailBankAPIGateway;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                        <li class=\"nav-item\">\r\n                            ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba15257", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba15302", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba15302", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -221,7 +258,11 @@ using RetailBankAPIGateway;
                 WriteLiteral("\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <div class=\"container\">\r\n        <main role=\"main\" class=\"pb-3\">\r\n            ");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 34 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+=======
+#line 34 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 34 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -232,7 +273,11 @@ using RetailBankAPIGateway;
 #nullable disable
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted\">\r\n        <div class=\"container\">\r\n            &copy; 2021 - RetailBankAPIGateway - ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba17438", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba17498", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba17498", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -254,7 +299,11 @@ using RetailBankAPIGateway;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba18908", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba18968", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba18968", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -272,7 +321,11 @@ using RetailBankAPIGateway;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba20008", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba20068", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba20068", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -290,7 +343,11 @@ using RetailBankAPIGateway;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba21108", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba21168", async() => {
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4962946c5734f8899124e24193a6559958c7adba21168", async() => {
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -304,7 +361,11 @@ using RetailBankAPIGateway;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_10);
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 46 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+=======
+#line 46 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 46 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -324,7 +385,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 WriteLiteral("\r\n\r\n    ");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 48 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+=======
+#line 48 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 48 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Shared\_Layout.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec

@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "6E0DM5cN5K7GLgrpyY/08vDXW2iNelxksx8PpJNNQdF4egVAy/fpaChsZZrALbxKM8CfOQaYO+KlyBwCrQMnzw==",
   "success": true,
   "projectFilePath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
@@ -16,12 +17,21 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "/klBrzOwoX4VyBSoliwJogKzvkeijf3gT6gMJCqnptpiTgDFp30V5Odgwc/aRhJ8jVJzaV2nL70+UDrTcDhlCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+  "expectedPackageFiles": [
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
+=======
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
   ],
   "logs": []

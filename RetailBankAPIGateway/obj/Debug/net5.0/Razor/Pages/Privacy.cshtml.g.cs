@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Privacy.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "a0906750319c55d6ce48b545e707c28c2eb4094c"
+=======
+#pragma checksum "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Privacy.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "a0906750319c55d6ce48b545e707c28c2eb4094c"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #pragma checksum "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Privacy.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "a0906750319c55d6ce48b545e707c28c2eb4094c"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -18,7 +22,11 @@ namespace RetailBankAPIGateway.Pages
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
+=======
+#line 1 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 1 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\_ViewImports.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -36,7 +44,11 @@ using RetailBankAPIGateway;
         {
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 3 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Privacy.cshtml"
+=======
+#line 3 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Privacy.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 3 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Privacy.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
@@ -49,7 +61,11 @@ using RetailBankAPIGateway;
             WriteLiteral("<h1>");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 6 "D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\RetailBankAPIGateway\Pages\Privacy.cshtml"
+=======
+#line 6 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Privacy.cshtml"
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec
 =======
 #line 6 "C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\RetailBankAPIGateway\Pages\Privacy.cshtml"
 >>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec

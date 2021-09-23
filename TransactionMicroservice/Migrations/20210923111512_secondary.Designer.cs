@@ -10,8 +10,13 @@ using TransactionMicroservice;
 namespace TransactionMicroservice.Migrations
 {
     [DbContext(typeof(TransactionContext))]
+<<<<<<< HEAD:TransactionMicroservice/Migrations/20210923111512_secondary.Designer.cs
     [Migration("20210923111512_secondary")]
     partial class secondary
+=======
+    [Migration("20210923105231_Initial")]
+    partial class Initial
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec:TransactionMicroservice/Migrations/20210923105231_Initial.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -80,9 +85,12 @@ namespace TransactionMicroservice.Migrations
 
             modelBuilder.Entity("TransactionMicroservice.Models.TransactionStatus", b =>
                 {
+<<<<<<< HEAD:TransactionMicroservice/Migrations/20210923111512_secondary.Designer.cs
                     b.Property<int>("Id")
                         .HasColumnType("int");
 
+=======
+>>>>>>> a83808bc7b9313aea7cd35d3addc0b6e1007d6ec:TransactionMicroservice/Migrations/20210923105231_Initial.Designer.cs
                     b.Property<string>("message")
                         .HasColumnType("nvarchar(max)");
 
