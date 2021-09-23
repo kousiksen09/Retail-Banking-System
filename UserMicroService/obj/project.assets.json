@@ -6124,19 +6124,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PRATIK\\.nuget\\packages\\": {}
+    "C:\\Users\\rohit\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PRATIK\\Source\\Repos\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
+      "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
       "projectName": "UserMicroService",
-      "projectPath": "C:\\Users\\PRATIK\\Source\\Repos\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
-      "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PRATIK\\Source\\Repos\\Retail-Banking-System\\UserMicroService\\obj\\",
+      "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\UserMicroService.csproj",
+      "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
+      "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\UserMicroService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6211,7 +6211,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,7 +10,7 @@ using TransactionMicroservice;
 namespace TransactionMicroservice.Migrations
 {
     [DbContext(typeof(TransactionContext))]
-    [Migration("20210922081202_initial")]
+    [Migration("20210923102503_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -61,14 +61,17 @@ namespace TransactionMicroservice.Migrations
                     b.Property<DateTime>("DateOfTransaction")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("destination_balance")
-                        .HasColumnType("int");
+                    b.Property<double>("TransactionAmount")
+                        .HasColumnType("float");
+
+                    b.Property<double>("destination_balance")
+                        .HasColumnType("float");
 
                     b.Property<string>("message")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("source_balance")
-                        .HasColumnType("int");
+                    b.Property<double>("source_balance")
+                        .HasColumnType("float");
 
                     b.HasKey("TransactionId");
 
@@ -77,14 +80,11 @@ namespace TransactionMicroservice.Migrations
 
             modelBuilder.Entity("TransactionMicroservice.Models.TransactionStatus", b =>
                 {
-                    b.Property<int>("destination_balance")
+                    b.Property<int>("Id")
                         .HasColumnType("int");
 
                     b.Property<string>("message")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("source_balance")
-                        .HasColumnType("int");
 
                     b.ToTable("TransactionStatus");
                 });

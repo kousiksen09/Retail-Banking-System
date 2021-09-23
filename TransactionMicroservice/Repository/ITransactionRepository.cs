@@ -9,8 +9,9 @@ namespace TransactionMicroservice.Repository
     public interface ITransactionRepository
     {
         List<TransactionHistory> GetTransactionHistory(int CustomerId);
-        //TransactionStatus Deposit(int AccountId, int amount);
-        //TransactionStatus Withdraw(int AccountId, int amount);
-        //TransactionStatus transfer(int SourceAccountId, int DestinationAccountId, int amount);
+        TransactionStatus Deposit(int AccountId, int amount);
+        Account GetDetails(int CustomerId);
+        TransactionStatus Withdraw(int AccountId, int amount);
+        TransactionStatus Transfer(int Source_Account_Id, int Target_Account_Id, int amount);
     }
 }

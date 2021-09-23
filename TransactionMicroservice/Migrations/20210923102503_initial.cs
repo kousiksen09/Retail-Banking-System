@@ -31,9 +31,10 @@ namespace TransactionMicroservice.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     AccountId = table.Column<int>(type: "int", nullable: false),
                     CustomerId = table.Column<int>(type: "int", nullable: false),
+                    TransactionAmount = table.Column<double>(type: "float", nullable: false),
                     message = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    source_balance = table.Column<int>(type: "int", nullable: false),
-                    destination_balance = table.Column<int>(type: "int", nullable: false),
+                    source_balance = table.Column<double>(type: "float", nullable: false),
+                    destination_balance = table.Column<double>(type: "float", nullable: false),
                     DateOfTransaction = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -45,9 +46,8 @@ namespace TransactionMicroservice.Migrations
                 name: "TransactionStatus",
                 columns: table => new
                 {
-                    message = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    source_balance = table.Column<int>(type: "int", nullable: false),
-                    destination_balance = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false),
+                    message = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

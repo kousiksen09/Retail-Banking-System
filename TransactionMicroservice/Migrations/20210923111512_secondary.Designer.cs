@@ -10,8 +10,8 @@ using TransactionMicroservice;
 namespace TransactionMicroservice.Migrations
 {
     [DbContext(typeof(TransactionContext))]
-    [Migration("20210922102334_added TransactionAmount column and changed datatype of source_balance and destination_balance")]
-    partial class addedTransactionAmountcolumnandchangeddatatypeofsource_balanceanddestination_balance
+    [Migration("20210923111512_secondary")]
+    partial class secondary
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -80,14 +80,11 @@ namespace TransactionMicroservice.Migrations
 
             modelBuilder.Entity("TransactionMicroservice.Models.TransactionStatus", b =>
                 {
-                    b.Property<int>("destination_balance")
+                    b.Property<int>("Id")
                         .HasColumnType("int");
 
                     b.Property<string>("message")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("source_balance")
-                        .HasColumnType("int");
 
                     b.ToTable("TransactionStatus");
                 });
