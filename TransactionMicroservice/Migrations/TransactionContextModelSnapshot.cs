@@ -78,14 +78,8 @@ namespace TransactionMicroservice.Migrations
 
             modelBuilder.Entity("TransactionMicroservice.Models.TransactionStatus", b =>
                 {
-                    b.Property<int>("destination_balance")
-                        .HasColumnType("int");
-
                     b.Property<string>("message")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("source_balance")
-                        .HasColumnType("int");
 
                     b.ToTable("TransactionStatus");
                 });

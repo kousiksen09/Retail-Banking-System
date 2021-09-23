@@ -8,3 +8,7 @@ INFO  03:02:05 Application started. Press Ctrl+C to shut down.
 INFO  03:02:05 Hosting environment: Development
 INFO  03:02:05 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\CustomerMicroService
 INFO  03:02:35 Customer details  has been successfully retrieved
+INFO  03:19:16 Application started. Press Ctrl+C to shut down.
+INFO  03:19:16 Hosting environment: Development
+INFO  03:19:16 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\CustomerMicroService
+INFO  03:19:52 Customer details  has been successfully retrieved

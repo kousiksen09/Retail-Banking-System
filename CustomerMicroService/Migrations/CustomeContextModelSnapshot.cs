@@ -55,37 +55,6 @@ namespace CustomerMicroService.Migrations
 
                     b.ToTable("Customers");
                 });
-
-            modelBuilder.Entity("CustomerMicroService.Model.CustomerCreationStatus", b =>
-                {
-                    b.Property<int>("StatusID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Message")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("StatusID");
-
-                    b.HasIndex("CustomerId");
-
-                    b.ToTable("CustomerCreationStatuses");
-                });
-
-            modelBuilder.Entity("CustomerMicroService.Model.CustomerCreationStatus", b =>
-                {
-                    b.HasOne("CustomerMicroService.Model.Customer", "customer")
-                        .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("customer");
-                });
 #pragma warning restore 612, 618
         }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PRATIK\\source\\repos\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {}
+    "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\CustomerMicroService\\CustomerMicroService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PRATIK\\source\\repos\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
+    "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\CustomerMicroService\\CustomerMicroService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PRATIK\\source\\repos\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
+        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\CustomerMicroService\\CustomerMicroService.csproj",
         "projectName": "CustomerMicroService",
-        "projectPath": "C:\\Users\\PRATIK\\source\\repos\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
-        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PRATIK\\source\\repos\\Retail-Banking-System\\CustomerMicroService\\obj\\",
+        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\CustomerMicroService\\CustomerMicroService.csproj",
+        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\CustomerMicroService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

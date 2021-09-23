@@ -61,7 +61,7 @@
       "UpstreamHttpMethod": [ "POST" ]
     },
     {
-      "DownstreamPathTemplate": "/api/Account/getAllAccounts}",
+      "DownstreamPathTemplate": "/api/Account/getAllAccounts",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
