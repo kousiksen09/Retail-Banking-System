@@ -18,7 +18,7 @@ namespace RulesMicroservice.Repository
                 List<Account> acc = null;
 
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:14959");
+                client.BaseAddress = new Uri("http://localhost:5001");
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 HttpResponseMessage response = client.GetAsync("api/Account/getAllCustomerAccounts").Result;
@@ -40,10 +40,10 @@ namespace RulesMicroservice.Repository
             try
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:14959");
+                client.BaseAddress = new Uri("http://localhost:5001");
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage response = client.GetAsync("/gateway/Account/getAccount/" + AccountID).Result;
+                HttpResponseMessage response = client.GetAsync("/api/Account/getAccount/" + AccountID).Result;
                 var result = response.Content.ReadAsStringAsync().Result;
                 Account acc = JsonConvert.DeserializeObject<Account>(result);
                 _log4net.Info("Account details is successfully fetched in rules microservice for AccountId- " + AccountID);

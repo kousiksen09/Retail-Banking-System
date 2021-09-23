@@ -2718,6 +2718,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "AccountMicroservice/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "compile": {
+          "bin/placeholder/AccountMicroservice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountMicroservice.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "TransactionMicroservice/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -8986,6 +9002,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "AccountMicroservice/1.0.0": {
+      "type": "project",
+      "path": "../AccountMicroservice/AccountMicroservice/AccountMicroservice.csproj",
+      "msbuildProject": "../AccountMicroservice/AccountMicroservice/AccountMicroservice.csproj"
+    },
     "TransactionMicroservice/1.0.0": {
       "type": "project",
       "path": "../TransactionMicroservice/TransactionMicroservice.csproj",
@@ -8994,6 +9015,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AccountMicroservice >= 1.0.0",
       "Microsoft.Extensions.Logging.Log4Net.AspNetCore >= 5.0.4",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 5.6.3",
@@ -9028,6 +9050,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+              "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
+            },
             "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\TransactionMicroservice\\TransactionMicroservice.csproj": {
               "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail Banking System\\Retail_Banking_API\\TransactionMicroservice\\TransactionMicroservice.csproj"
             }

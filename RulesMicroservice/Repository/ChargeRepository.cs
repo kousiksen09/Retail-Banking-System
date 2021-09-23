@@ -16,7 +16,7 @@ namespace RulesMicroservice.Repository
             try
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:14959");
+                client.BaseAddress = new Uri("http://localhost:5000");
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
                 var postData = new { AccountId = AccountID, amount = Amount };

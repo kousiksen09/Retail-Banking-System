@@ -6,3 +6,25 @@ INFO  10:58:15 getAllUser API is initiated
 INFO  03:02:15 Application started. Press Ctrl+C to shut down.
 INFO  03:02:15 Hosting environment: Development
 INFO  03:02:15 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\UserMicroService
+INFO  05:19:00 Now listening on: http://localhost:5000
+INFO  05:19:00 Application started. Press Ctrl+C to shut down.
+INFO  05:19:00 Hosting environment: Development
+INFO  05:19:00 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\UserMicroService
+INFO  05:19:32 getAllUser API is initiated
+INFO  05:41:50 Now listening on: http://localhost:5000
+INFO  05:41:50 Application started. Press Ctrl+C to shut down.
+INFO  05:41:50 Hosting environment: Development
+INFO  05:41:50 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\UserMicroService
+INFO  05:46:16 Now listening on: http://localhost:5003
+INFO  05:46:16 Application started. Press Ctrl+C to shut down.
+INFO  05:46:16 Hosting environment: Development
+INFO  05:46:16 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\UserMicroService
+INFO  05:47:53 Now listening on: http://localhost:5003
+INFO  05:47:53 Application started. Press Ctrl+C to shut down.
+INFO  05:47:53 Hosting environment: Development
+INFO  05:47:53 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\UserMicroService
+INFO  05:48:22 getAllUser API is initiated
+INFO  05:53:19 Now listening on: http://localhost:5003
+INFO  05:53:19 Application started. Press Ctrl+C to shut down.
+INFO  05:53:20 Hosting environment: Development
+INFO  05:53:20 Content root path: C:\Users\Kousik Sen\Desktop\Retail Banking System\Retail_Banking_API\UserMicroService
