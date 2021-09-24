@@ -21,7 +21,7 @@ namespace RulesMicroservice.Repository
                 client.BaseAddress = new Uri("http://localhost:5001");
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage response = client.GetAsync("api/Account/getAllCustomerAccounts").Result;
+                HttpResponseMessage response = client.GetAsync("api/Account/getAllAccounts").Result;
                 var result = response.Content.ReadAsStringAsync().Result;
                 acc = JsonConvert.DeserializeObject<List<Account>>(result);
 

@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using RulesMicroservice.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,9 @@ namespace RulesMicroservice
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RulesMicroservice", Version = "v1" });
             });
+
+            services.AddScoped<IChargeRepository, ChargeRepository>();
+            services.AddScoped<IRuleRepository, RulesRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

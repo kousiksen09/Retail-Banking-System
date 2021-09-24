@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uWkZQ/rE0VUNA3IBC4cckdiddXWmWUE9nrucLol3VpEh3bsFb2iJETJy/ic1P2kohIGBCXowfSGZtCwxUgRO3w==",
+  "dgSpecHash": "J8aADLD1T/Oxp655mKp2+pL1eoEPak0Ey8jNyHBkaL/xGjC8yMUL/1dSZc3qZOx57b7ssYTKHO8DgH8xKFnvJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+  "projectFilePath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KIIT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\KIIT\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
@@ -136,12 +136,5 @@
     "C:\\Users\\KIIT\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\KIIT\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\KIIT\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -12,7 +12,7 @@
     "RulesMicroservice": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "/api/Rules",
+      "launchUrl": "api/Rules",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
