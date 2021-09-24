@@ -80,3 +80,9 @@ System.AggregateException: One or more errors occurred. (An error occurred while
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 INFO  11:45:46 Evaluating Minimum Balance
 ERROR 11:45:46 One or more errors occurred. (An error occurred while sending the request.)
+INFO  12:02:55 Now listening on: http://localhost:5002
+INFO  12:02:55 Application started. Press Ctrl+C to shut down.
+INFO  12:02:55 Hosting environment: Development
+INFO  12:02:55 Content root path: C:\Users\KIIT\Desktop\CTS_Project\Retail-Banking-System\RulesMicroservice
+INFO  12:05:37 Evaluating Minimum Balance
+ERROR 12:05:37 One or more errors occurred. (An error occurred while sending the request.)

@@ -2218,7 +2218,6 @@
       },
       "AccountMicroservice/1.0.0": {
         "dependencies": {
-          "CustomerMicroService": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "Swashbuckle.AspNetCore": "5.6.3"
@@ -2228,22 +2227,6 @@
         },
         "compile": {
           "AccountMicroservice.dll": {}
-        }
-      },
-      "CustomerMicroService/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.10",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
-          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "5.0.4",
-          "Swashbuckle.AspNetCore": "5.6.3",
-          "log4net": "2.0.12"
-        },
-        "runtime": {
-          "CustomerMicroService.dll": {}
-        },
-        "compile": {
-          "CustomerMicroService.dll": {}
         }
       },
       "TransactionMicroservice/1.0.0": {
@@ -5112,11 +5095,6 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "AccountMicroservice/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CustomerMicroService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

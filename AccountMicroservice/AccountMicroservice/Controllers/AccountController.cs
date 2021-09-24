@@ -27,7 +27,7 @@ namespace AccountMicroservice.Controllers
            // _statementrepo = StatementRepo;
         }
 
-        //https://localhost:44352/api/Account/GetCreationStatus/2
+       
 
         [HttpPost("{customer_id}")]
         [Route("createAccount/{customer_id}")]

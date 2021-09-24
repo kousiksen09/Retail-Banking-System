@@ -14,10 +14,10 @@ namespace AccountMicroservice.Model
 
         [ForeignKey("Account")]
         public int AccountId { get; set; }
-        public DateTime date { get; set; }
+        public DateTime FromDate { get; set; }
         public string Narration { get; set; }
-        public string refNo { get; set; }
-        public DateTime ValueDate { get; set; }
+        public string RefNo { get; set; }
+        public DateTime ToDate { get; set; }
         public double Withdrawl { get; set; }
         public double Deposit { get; set; }
         public double ClosingBalance { get; set; }

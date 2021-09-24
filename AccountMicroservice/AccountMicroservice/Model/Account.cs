@@ -1,5 +1,4 @@
-﻿using CustomerMicroService.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -18,7 +17,6 @@ namespace AccountMicroservice.Model
         
         [ForeignKey("Customer")]
         public int CustomerId { get; set; }
-        public Customer customer { get; set; }
 
         public string accountType { get; set; }
 
