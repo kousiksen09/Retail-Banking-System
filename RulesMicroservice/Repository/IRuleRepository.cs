@@ -8,7 +8,7 @@ namespace RulesMicroservice.Repository
 {
    public interface IRuleRepository
     {
-        double GetMinBalance(int AccountID);
+        Task<double> GetMinBalance(int AccountID);
         List<Account> GetAccounts();
     }
 }

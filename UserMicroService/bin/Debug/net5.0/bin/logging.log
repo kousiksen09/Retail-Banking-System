@@ -41,7 +41,82 @@ INFO  11:42:08 Now listening on: http://localhost:5003
 INFO  11:42:08 Application started. Press Ctrl+C to shut down.
 INFO  11:42:08 Hosting environment: Development
 INFO  11:42:08 Content root path: C:\Users\KIIT\Desktop\CTS_Project\Retail-Banking-System\UserMicroService
+<<<<<<< Updated upstream
 INFO  12:02:55 Now listening on: http://localhost:5003
 INFO  12:02:55 Application started. Press Ctrl+C to shut down.
 INFO  12:02:55 Hosting environment: Development
 INFO  12:02:55 Content root path: C:\Users\KIIT\Desktop\CTS_Project\Retail-Banking-System\UserMicroService
+=======
+INFO  12:35:54 Now listening on: http://localhost:5003
+INFO  12:35:54 Application started. Press Ctrl+C to shut down.
+INFO  12:35:54 Hosting environment: Development
+INFO  12:35:54 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:43:02 Now listening on: http://localhost:5003
+INFO  12:43:02 Application started. Press Ctrl+C to shut down.
+INFO  12:43:02 Hosting environment: Development
+INFO  12:43:02 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:50:48 Now listening on: http://localhost:5003
+INFO  12:50:48 Application started. Press Ctrl+C to shut down.
+INFO  12:50:48 Hosting environment: Development
+INFO  12:50:48 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:53:04 Now listening on: http://localhost:5003
+INFO  12:53:04 Application started. Press Ctrl+C to shut down.
+INFO  12:53:04 Hosting environment: Development
+INFO  12:53:04 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:54:15 Now listening on: http://localhost:5003
+INFO  12:54:15 Application started. Press Ctrl+C to shut down.
+INFO  12:54:15 Hosting environment: Development
+INFO  12:54:15 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:59:51 Now listening on: http://localhost:5003
+INFO  12:59:51 Application started. Press Ctrl+C to shut down.
+INFO  12:59:51 Hosting environment: Development
+INFO  12:59:51 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  01:59:23 Now listening on: http://localhost:5003
+INFO  01:59:23 Application started. Press Ctrl+C to shut down.
+INFO  01:59:23 Hosting environment: Development
+INFO  01:59:23 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:47:36 Now listening on: http://localhost:5003
+INFO  02:47:36 Application started. Press Ctrl+C to shut down.
+INFO  02:47:36 Hosting environment: Development
+INFO  02:47:36 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:49:17 Now listening on: http://localhost:5003
+INFO  02:49:17 Application started. Press Ctrl+C to shut down.
+INFO  02:49:17 Hosting environment: Development
+INFO  02:49:17 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:50:26 Now listening on: http://localhost:5003
+INFO  02:50:26 Application started. Press Ctrl+C to shut down.
+INFO  02:50:26 Hosting environment: Development
+INFO  02:50:26 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:52:13 Now listening on: http://localhost:5003
+INFO  02:52:13 Application started. Press Ctrl+C to shut down.
+INFO  02:52:13 Hosting environment: Development
+INFO  02:52:13 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:07:22 Now listening on: http://localhost:5003
+INFO  03:07:22 Application started. Press Ctrl+C to shut down.
+INFO  03:07:22 Hosting environment: Development
+INFO  03:07:22 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:17:56 Now listening on: http://localhost:5003
+INFO  03:17:56 Application started. Press Ctrl+C to shut down.
+INFO  03:17:56 Hosting environment: Development
+INFO  03:17:56 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:21:49 Now listening on: http://localhost:5003
+INFO  03:21:49 Application started. Press Ctrl+C to shut down.
+INFO  03:21:49 Hosting environment: Development
+INFO  03:21:49 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:23:47 Now listening on: http://localhost:5003
+INFO  03:23:47 Application started. Press Ctrl+C to shut down.
+INFO  03:23:47 Hosting environment: Development
+INFO  03:23:47 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:25:59 Now listening on: http://localhost:5003
+INFO  03:25:59 Application started. Press Ctrl+C to shut down.
+INFO  03:25:59 Hosting environment: Development
+INFO  03:25:59 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+>>>>>>> Stashed changes
+INFO  03:48:25 Now listening on: http://localhost:5003
+INFO  03:48:26 Application started. Press Ctrl+C to shut down.
+INFO  03:48:26 Hosting environment: Development
+INFO  03:48:26 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:49:59 Now listening on: http://localhost:5003
+INFO  03:49:59 Application started. Press Ctrl+C to shut down.
+INFO  03:49:59 Hosting environment: Development
+INFO  03:49:59 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService

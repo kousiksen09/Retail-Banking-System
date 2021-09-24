@@ -7,7 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
+
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+
 
 namespace RulesMicroservice.Controllers
 {
@@ -24,36 +28,50 @@ namespace RulesMicroservice.Controllers
             _chargeRepository = chargeRepository;
         }
 
-        [HttpGet]
-      
+
+
+        [HttpGet("{AccountID}/{Balance}")]
+
         [Route("evaluateMinBal/{AccountID}/{Balance}")]
-        public RuleStatus EvaluateMinBal(int AccountID, int Balance)
+        public async Task<IActionResult> EvaluateMinBalAsync(int AccountID, int Balance)
         {
+            RuleStatus ruleStatus = new RuleStatus();
             _log4net.Info("Evaluating Minimum Balance");
             try
             {
-                double MinBalance = _ruleRepository.GetMinBalance(AccountID);
+                double MinBalance = await _ruleRepository.GetMinBalance(AccountID);
+               
+
+
 
                 if (Balance >= MinBalance)
                 {
-                    return new RuleStatus { status = Status.Allowed };
+                    ruleStatus.status = Status.Allowed;
+                    return Ok(ruleStatus);
                 }
                 else
                 {
-                    return new RuleStatus { status = Status.Denied };
 
+
+                    ruleStatus.status = Status.Denied;
+                    return BadRequest(ruleStatus);
                 }
             }
             catch (NullReferenceException e)
             {
-                _log4net.Error("NullReferenceException caught. Issue in calling Account API",e);
-                throw;
+                _log4net.Error("NullReferenceException caught. Issue in calling Account API", e);
+                return NotFound(e);
+
             }
             catch (Exception e)
             {
-                throw;
+                _log4net.Error("Exception caught. Issue in calling Account API", e);
+                ruleStatus.status = Status.NA;
+                return NotFound(ruleStatus);
             }
         }
+
+
 
         [HttpGet]
         [Route("getServiceCharge")]
@@ -74,6 +92,8 @@ namespace RulesMicroservice.Controllers
         }
 
 
+
+
         [Route("monthlyBatchJob")]
         public IActionResult MonthlyBatchJob()
         {
@@ -91,9 +111,13 @@ namespace RulesMicroservice.Controllers
                             {
                                 float ServiceCharge = GetServiceCharge(x.accountType);
 
+
+
                                 if (x.accountType == "Savings")
                                 {
                                     var status = _chargeRepository.ApplyServiceCharge(x.Sav_AccountId, (int)ServiceCharge);
+
+
 
                                     if (status.Message == "Your account has been credited")
                                     {
@@ -108,6 +132,8 @@ namespace RulesMicroservice.Controllers
                                 {
                                     var status = _chargeRepository.ApplyServiceCharge(x.Cur_AccountId, (int)ServiceCharge);
 
+
+
                                     if (status.Message == "Your account has been credited")
                                     {
                                         _log4net.Info("Service charge deducted for the AccountID = " + x.Cur_AccountId);
@@ -119,13 +145,15 @@ namespace RulesMicroservice.Controllers
                                 }
                             }
 
+
+
                         }
                     }
                     catch (Exception e)
                     {
                         _log4net.Error("Exception in RunMonthlyJob() in MonthlyJobProvider");
                         _log4net.Error(e.Message);
-                        throw e;
+
                     }
                     _log4net.Info("Monthly Service Charge Deduction Completed");
                 }
