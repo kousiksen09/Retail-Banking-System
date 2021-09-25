@@ -14,7 +14,6 @@ namespace TransactionMicroservice
 
         }
         public DbSet<TransactionHistory> TransactionHistories { get; set; }
-        public DbSet<TransactionStatus> TransactionStatus { get; set; }
-        public DbSet<Account> Accounts { get; set; }
+
     }
 }

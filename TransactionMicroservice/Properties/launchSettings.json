@@ -12,7 +12,7 @@
     "TransactionMicroservice": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "api/Transaction",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

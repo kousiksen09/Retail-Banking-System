@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {}
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
-        "projectName": "TransactionMicroservice",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\obj\\",
+        "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "projectName": "AccountMicroservice",
+        "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
+        "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,87 @@
               "target": "Package",
               "version": "[5.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+        "projectName": "TransactionMicroservice",
+        "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
+        "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+                "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -56,13 +137,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -70,7 +151,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.2, )"
             },
             "log4net": {
               "target": "Package",
@@ -95,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

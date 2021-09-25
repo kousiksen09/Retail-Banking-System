@@ -1,7 +1,9 @@
-﻿using AccountMicroservice.Model;
+﻿using AccountMicroservice.Data;
+using AccountMicroservice.Model;
 using AccountMicroservice.Repositry;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,20 +16,29 @@ namespace AccountMicroservice.Controllers
     public class AccountController : ControllerBase
     {
 
-       
+
 
         private readonly IAccountRepository _AccountRepo;
 
         //private readonly IStatementRepository _statementrepo;
+        private readonly AccountMicroserviceDbContext _accountMicroserviceDbContext;
 
-        public AccountController(IAccountRepository AccountRepo)
+
+
+        //private readonly IStatementRepository _statementrepo;
+
+
+
+        public AccountController(IAccountRepository AccountRepo, AccountMicroserviceDbContext accountMicroserviceDbContext)
         {
-            
+
             _AccountRepo = AccountRepo;
-           // _statementrepo = StatementRepo;
+            _accountMicroserviceDbContext = accountMicroserviceDbContext;
+            // _statementrepo = StatementRepo;
         }
 
-       
+
+
 
         [HttpPost("{customer_id}")]
         [Route("createAccount/{customer_id}")]
@@ -36,7 +47,7 @@ namespace AccountMicroservice.Controllers
             AccountCreationStatus creationStatus = new AccountCreationStatus();
             try
             {
-               
+
                 var newaccount = _AccountRepo.CreateAccount(customer_id);
 
                 if (newaccount)
@@ -46,16 +57,16 @@ namespace AccountMicroservice.Controllers
                 }
                 creationStatus.Message = "Something went wrong! Try Again!";
                 return BadRequest(creationStatus.Message);
-                
+
             }
             catch (Exception e)
             {
                 return BadRequest(e);
             }
-            
+
         }
 
-        
+
 
 
         [HttpGet]
@@ -66,7 +77,7 @@ namespace AccountMicroservice.Controllers
         }
 
 
-        
+
 
         [HttpGet]
         [Route("getCustomerAccount/{customer_id}")]
@@ -83,7 +94,7 @@ namespace AccountMicroservice.Controllers
                     return NotFound();
 
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 return NotFound(e);
             }
@@ -91,19 +102,19 @@ namespace AccountMicroservice.Controllers
 
         }
 
-        
+
 
         [HttpGet]
         [Route("getAccount/{account_id}")]
         public ActionResult GetAccount(int account_id)
         {
-            if(account_id ==0)
+            if (account_id == 0)
             {
                 return BadRequest();
             }
             try
             {
-                
+
                 var account = _AccountRepo.GetParticularAccount(account_id);
                 if (account == null)
                 {
@@ -119,8 +130,31 @@ namespace AccountMicroservice.Controllers
 
 
         }
+        [Route("updateAccount/{AccountId}")]
+        [HttpPut("{AccountId}")]
+        public async Task<IActionResult> UpdateAccount(int AccountId, Account acc)
+        {
+            if (AccountId == 0)
+            {
+                return BadRequest();
+            }
+            var dbAccount = _AccountRepo.GetParticularAccount(AccountId);
+            dbAccount.Balance = acc.Balance;
 
-        
+            _accountMicroserviceDbContext.Entry(dbAccount).State = EntityState.Modified;
+            try
+            {
+
+                await _accountMicroserviceDbContext.SaveChangesAsync();
+                return Ok();
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                return BadRequest(ex);
+            }
+
+        }
+
         /*
 
         [HttpGet]

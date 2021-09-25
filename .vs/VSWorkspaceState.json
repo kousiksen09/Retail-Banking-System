@@ -1,4 +1,11 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\AccountMicroservice",
+    "\\AccountMicroservice\\AccountMicroservice",
+    "\\AccountMicroservice\\AccountMicroservice\\Controllers",
+    "\\AccountMicroservice\\AccountMicroservice\\Repositry"
+  ],
+  "SelectedNode": "\\AccountMicroservice\\AccountMicroservice\\Controllers\\AccountController.cs",
   "PreviewInSolutionExplorer": false
 }

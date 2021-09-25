@@ -820,3 +820,9 @@ C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\obj\De
 C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\obj\Debug\net5.0\ref\TransactionMicroservice.dll
 C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\obj\Debug\net5.0\TransactionMicroservice.pdb
 C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\obj\Debug\net5.0\TransactionMicroservice.genruntimeconfig.cache
+D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.deps.json
+D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.json
+D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.dev.json
+D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.exe
+D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.dll
+D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.pdb
