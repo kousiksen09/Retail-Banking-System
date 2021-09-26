@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroService", "UserMic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailBankAPIGateway", "RetailBankAPIGateway\RetailBankAPIGateway.csproj", "{6D70411F-3179-4B64-B112-E91279189FE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice.Test", "Microservice.Test", "{AAA5BCCD-98FA-4005-8A92-40FE1676DB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction.Test", "Transaction.Test\Transaction.Test.csproj", "{0B140308-34AE-42C5-92EA-FABEA4C88F3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{6D70411F-3179-4B64-B112-E91279189FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D70411F-3179-4B64-B112-E91279189FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D70411F-3179-4B64-B112-E91279189FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B140308-34AE-42C5-92EA-FABEA4C88F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B140308-34AE-42C5-92EA-FABEA4C88F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B140308-34AE-42C5-92EA-FABEA4C88F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B140308-34AE-42C5-92EA-FABEA4C88F3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{7869AED7-1AD7-4E6A-87C7-32BF63FEF8DE} = {556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}
 		{91B49060-C375-49FA-A5CA-7EB2DD200A73} = {556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}
 		{B0429547-681A-48AD-85E7-E6457A5A9064} = {556C6F7B-F8CF-40B0-97DB-FC0C102BFE49}
+		{0B140308-34AE-42C5-92EA-FABEA4C88F3F} = {AAA5BCCD-98FA-4005-8A92-40FE1676DB52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {720C61B0-F251-4D65-BEC1-DFF86230B208}

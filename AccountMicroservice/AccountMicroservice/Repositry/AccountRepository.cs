@@ -1,5 +1,6 @@
 ﻿using AccountMicroservice.Data;
 using AccountMicroservice.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,8 +53,8 @@ namespace AccountMicroservice.Repositry
 
         }
 
-      
-        
+
+
         public int GenerateSavingsAccountId()
         {
 
@@ -91,9 +92,9 @@ namespace AccountMicroservice.Repositry
         public Account GetParticularAccount(int accont_id)
         {
             var account = _context.Accounts.SingleOrDefault(a => a.Cur_AccountId == accont_id || a.Sav_AccountId == accont_id);
-            
+
             return account;
-            
+
         }
 
 
@@ -107,13 +108,41 @@ namespace AccountMicroservice.Repositry
             return account;
         }
 
+        /*   public TransactionStatus Update(int AccountId, double amount)
+           {
+               TransactionStatus status = new TransactionStatus();
+               try
+               {
+                   if (AccountId == 0 || amount == 0)
+                   {
+                       status.Message = "Transaction Failed";
 
 
-       
-       
-        
+                   }
+                   else
+                   {
+
+                       foreach (var item in _context.Accounts)
+                       {
+                           if (item.Cur_AccountId == AccountId || item.Sav_AccountId == AccountId)
+                           {
 
 
+                               item.Balance = item.Balance + amount;
 
+                               status.Message = "Transaction Done";
+
+                           }
+
+                       }
+                   }
+                   return status;
+               }
+               catch (Exception e)
+               {
+                   throw;
+               }
+               }*/
     }
 }
+
