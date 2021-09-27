@@ -20,21 +20,14 @@ namespace AccountMicroservice.Controllers
 
         private readonly IAccountRepository _AccountRepo;
 
-        //private readonly IStatementRepository _statementrepo;
         private readonly AccountMicroserviceDbContext _accountMicroserviceDbContext;
-
-
-
-        //private readonly IStatementRepository _statementrepo;
-
-
 
         public AccountController(IAccountRepository AccountRepo, AccountMicroserviceDbContext accountMicroserviceDbContext)
         {
 
             _AccountRepo = AccountRepo;
             _accountMicroserviceDbContext = accountMicroserviceDbContext;
-            // _statementrepo = StatementRepo;
+           
         }
 
 
@@ -42,22 +35,28 @@ namespace AccountMicroservice.Controllers
 
         [HttpPost("{customer_id}")]
         [Route("createAccount/{customer_id}")]
-        public ActionResult CreteAccount(int customer_id)
+        public ActionResult<string> CreteAccount(int customer_id)
         {
             AccountCreationStatus creationStatus = new AccountCreationStatus();
             try
             {
-
                 var newaccount = _AccountRepo.CreateAccount(customer_id);
+
+
 
                 if (newaccount)
                 {
                     creationStatus.Message = "Account Created Successfully!!";
                     return Ok(creationStatus);
                 }
-                creationStatus.Message = "Something went wrong! Try Again!";
-                return BadRequest(creationStatus.Message);
+                else
+                {
 
+
+
+                    creationStatus.Message = "Account already exists!!!!";
+                    return BadRequest(creationStatus.Message);
+                }
             }
             catch (Exception e)
             {
@@ -155,25 +154,7 @@ namespace AccountMicroservice.Controllers
 
         }
 
-        /*
-
-        [HttpGet]
-        [Route("getAccountStatement/{account_id}")]
-        public ActionResult<Statement> GetAccountStatemnet(int account_id,DateTime fromdate, DateTime todate)
-        {
-            try
-            {
-                var statement = _statementrepo.GetStatement(account_id, fromdate, todate);
-                return Ok(statement);
-            }
-            catch (Exception e)
-            {
-                return NotFound();
-            }
-
-        }        
-        */
-
+     
 
     }
 }

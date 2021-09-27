@@ -14,12 +14,9 @@ namespace TransactionMicroservice.Models
 
         [ForeignKey("Account")]
         public int AccountId { get; set; }
-        //public DateTime FromDate { get; set; }
         public string Narration { get; set; }
         public string RefNo { get; set; }
-        //public DateTime ToDate { get; set; }
-        //public double Withdrawl { get; set; }
-        //public double Deposit { get; set; }
+        public DateTime DateOfTransaction { get; set; }
         public double ClosingBalance { get; set; }
 
         public double Amount { get; set; }

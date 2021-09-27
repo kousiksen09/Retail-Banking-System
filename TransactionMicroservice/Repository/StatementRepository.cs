@@ -3,17 +3,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TransactionMicroservice;
+
 using TransactionMicroservice.Models;
-using TransactionMicroservice.Repository;
+
 
 namespace TransactionMicroservice.Repository
 {
     public class StatementRepository : IStatementRepository
     {
 
-        List<Statement> statements = new List<Statement>() { };                     //statement
-
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(StatementRepository));
         private readonly ITransactionRepository transactionRepository;
 
         private readonly TransactionContext tbc;
@@ -30,13 +29,14 @@ namespace TransactionMicroservice.Repository
             try
             {
                 var acc = await transactionRepository.GetDetailsAsync(account_id);
+                
                 IEnumerable<TransactionHistory> History = null;
 
 
 
-                History = transactionRepository.GetTransactionHistory(acc.CustomerId);
+                History = transactionRepository.GetTransactionHistory(acc.CustomerId).Where(e=>e.DateOfTransaction.Date >=fromdate.Date && e.DateOfTransaction.Date <= todate.Date);
                 List<Statement> s = new List<Statement>();
-                //Statement st = new Statement();
+                
 
                 foreach (TransactionHistory item in History)
                 {
@@ -53,7 +53,7 @@ namespace TransactionMicroservice.Repository
                     tbc.Statements.Add(new Statement()
                     {
                         AccountId = item.AccountId,
-                      
+                      DateOfTransaction=item.DateOfTransaction,
                         Narration = item.message,
                         Amount = item.TransactionAmount,
                         ClosingBalance = item.destination_balance,
@@ -65,19 +65,19 @@ namespace TransactionMicroservice.Repository
 
                 return s;
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                //_log4net.Error("Exception in getting accounts from Account API");
-                throw;
+                _log4net.Error("Exception in getting accounts from Account API"+e.StackTrace);
+                return null;
 
             }
         }
 
         public string generateRefNo(int accid, DateTime dt, double destbalance)
         {
-            string refid = null;
+            
 
-            refid = "Retail_Ref" + accid.ToString() + "_on_" + dt.Date.ToString() + "_bal_" + destbalance.ToString();
+           string refid = "Retail_Ref" + accid.ToString() + "_on_" + dt.Date.ToString() + "_bal_" + destbalance.ToString();
 
             return refid;
 

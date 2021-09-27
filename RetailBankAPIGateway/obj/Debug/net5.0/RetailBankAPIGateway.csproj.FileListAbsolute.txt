@@ -97,3 +97,4 @@ D:\Cts Project Fresh\Retail-Banking-System\RetailBankAPIGateway\obj\Debug\net5.0
 D:\Cts Project Fresh\Retail-Banking-System\RetailBankAPIGateway\obj\Debug\net5.0\ref\RetailBankAPIGateway.dll
 D:\Cts Project Fresh\Retail-Banking-System\RetailBankAPIGateway\obj\Debug\net5.0\RetailBankAPIGateway.pdb
 D:\Cts Project Fresh\Retail-Banking-System\RetailBankAPIGateway\obj\Debug\net5.0\RetailBankAPIGateway.genruntimeconfig.cache
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\RetailBankAPIGateway\obj\Debug\net5.0\RetailBankAPIGateway.csproj.AssemblyReference.cache

@@ -969,3 +969,9 @@ D:\Cts Project Fresh\Retail-Banking-System\TransactionMicroservice\obj\Debug\net
 D:\Cts Project Fresh\Retail-Banking-System\TransactionMicroservice\obj\Debug\net5.0\ref\TransactionMicroservice.dll
 D:\Cts Project Fresh\Retail-Banking-System\TransactionMicroservice\obj\Debug\net5.0\TransactionMicroservice.pdb
 D:\Cts Project Fresh\Retail-Banking-System\TransactionMicroservice\obj\Debug\net5.0\TransactionMicroservice.genruntimeconfig.cache
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.deps.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.dev.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.exe
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.dll
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\TransactionMicroservice\bin\Debug\net5.0\AccountMicroservice.pdb

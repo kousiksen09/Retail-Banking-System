@@ -9,3 +9,11 @@ INFO  12:25:16 Account details is successfully fetched in rules microservice for
 INFO  12:26:07 Transaction history returned for Account Id: 201340
 INFO  12:33:02 Account details is successfully fetched in rules microservice for AccountId- 201340
 INFO  12:33:15 Transaction history returned for Account Id: 201340
+INFO  02:59:19 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  02:59:22 Transaction history returned for Account Id: 201340
+INFO  04:28:45 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  04:28:48 Transaction history returned for Account Id: 201340
+INFO  04:36:01 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  04:36:09 Withdraw is Processingfor Account: 201340
+INFO  04:36:56 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  04:36:57 Transaction history returned for Account Id: 201340

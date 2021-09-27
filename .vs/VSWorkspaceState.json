@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\AccountMicroservice",
-    "\\AccountMicroservice\\AccountMicroservice",
-    "\\AccountMicroservice\\AccountMicroservice\\Controllers",
-    "\\AccountMicroservice\\AccountMicroservice\\Repositry"
+    ""
   ],
-  "SelectedNode": "\\AccountMicroservice\\AccountMicroservice\\Controllers\\AccountController.cs",
+  "SelectedNode": "\\Retail_Banking_API.sln",
   "PreviewInSolutionExplorer": false
 }
