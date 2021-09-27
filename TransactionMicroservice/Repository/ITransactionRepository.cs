@@ -13,6 +13,6 @@ namespace TransactionMicroservice.Repository
         Task<TransactionStatus> DepositAsync(int AccountId, double amount);
         Task<Account> GetDetailsAsync(int CustomerId);
         Task<TransactionStatus> WithdrawAsync(int AccountId, double amount);
-        Task<TransactionStatus> TransferAsync(int Source_Account_Id, int Target_Account_Id, int amount);
+        Task<TransactionStatus> TransferAsync(int Source_Account_Id, int Target_Account_Id, double amount);
     }
 }
