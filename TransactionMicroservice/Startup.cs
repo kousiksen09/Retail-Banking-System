@@ -30,6 +30,7 @@ namespace TransactionMicroservice
             services.AddDbContext<TransactionContext>(options => options.UseSqlServer(Configuration.GetConnectionString("dbConn")));
             services.AddControllers();
             services.AddScoped<ITransactionRepository, TransactionRepository>();
+            services.AddScoped<IStatementRepository, StatementRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TransactionMicroservice", Version = "v1" });

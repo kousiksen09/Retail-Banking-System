@@ -1,11 +1,10 @@
-﻿using AccountMicroservice.Model;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Transactions;
-
 using TransactionMicroservice.Models;
 using TransactionMicroservice.Repository;
 
@@ -17,11 +16,13 @@ namespace TransactionMicroservice.Controllers
     [ApiController]
     public class TransactionController : ControllerBase
     {
+        private IStatementRepository _ISR;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(TransactionController));
         private ITransactionRepository _ITR;
-        public TransactionController(ITransactionRepository TR)
+        public TransactionController(ITransactionRepository TR, IStatementRepository SR)
         {
             _ITR = TR;
+            _ISR = SR;
         }
 
         // GET: api/<TransactionController>
@@ -85,6 +86,22 @@ namespace TransactionMicroservice.Controllers
             return Ok(tr);
         }
 
+        [HttpGet]
+        [Route("getStatement/{AccountId}/{Fromdate}/{Todate}")]
+        public async Task<IActionResult> getStatementAsync(int AccountId, DateTime Fromdate, DateTime Todate)
+        {
+            if (AccountId == 0)
+            {
+                _log4net.Info("Invalid Account Id");
+                return NotFound();
+            }
+
+            List<Statement> Ts = await _ISR.GetStatementAsync(AccountId, Fromdate, Todate);
+            _log4net.Info("Transaction history returned for Account Id: " + AccountId);
+            return Ok(Ts);
+
+
+        }
 
 
     }

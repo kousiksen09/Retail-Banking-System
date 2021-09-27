@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {}
+    "D:\\Cts Project Fresh\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {}
   },
   "projects": {
-    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+    "D:\\Cts Project Fresh\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "projectUniqueName": "D:\\Cts Project Fresh\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
         "projectName": "AccountMicroservice",
-        "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
-        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
-        "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\obj\\",
+        "projectPath": "D:\\Cts Project Fresh\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\Cts Project Fresh\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,21 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
+    "D:\\Cts Project Fresh\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+        "projectUniqueName": "D:\\Cts Project Fresh\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
         "projectName": "TransactionMicroservice",
-        "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
-        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
-        "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\TransactionMicroservice\\obj\\",
+        "projectPath": "D:\\Cts Project Fresh\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\Cts Project Fresh\\Retail-Banking-System\\TransactionMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +105,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
-                "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
+              "D:\\Cts Project Fresh\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+                "projectPath": "D:\\Cts Project Fresh\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
               }
             }
           }
@@ -176,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
