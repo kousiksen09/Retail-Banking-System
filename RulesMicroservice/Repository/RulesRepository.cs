@@ -36,7 +36,7 @@ namespace RulesMicroservice.Repository
             catch (Exception e)
             {
                 _log4net.Error("Exception in getting accounts from Account API"+e);
-                return null;
+                throw;
 
             }
         }

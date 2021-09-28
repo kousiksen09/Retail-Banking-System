@@ -22,9 +22,13 @@ namespace RulesMicroservice.Controllers
         private IRuleRepository _ruleRepository;
         private IChargeRepository _chargeRepository;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(RulesController));
-        public RulesController(IRuleRepository ruleRepository, IChargeRepository chargeRepository)
+        public RulesController(IRuleRepository ruleRepository )
         {
             _ruleRepository = ruleRepository;
+            
+        }
+        public RulesController(IChargeRepository chargeRepository)
+        {
             _chargeRepository = chargeRepository;
         }
 
