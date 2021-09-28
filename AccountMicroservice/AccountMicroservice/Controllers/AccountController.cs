@@ -41,9 +41,13 @@ namespace AccountMicroservice.Controllers
 
         [HttpPost("{customer_id}")]
         [Route("createAccount/{customer_id}")]
-        public ActionResult<string> CreteAccount(int customer_id)
+        public IActionResult CreateAccount(int customer_id)
         {
             AccountCreationStatus creationStatus = new AccountCreationStatus();
+            if(customer_id==0)
+            {
+                return BadRequest();
+            }
             try
             {
                 var newaccount = _AccountRepo.CreateAccount(customer_id);
@@ -86,14 +90,18 @@ namespace AccountMicroservice.Controllers
 
         [HttpGet]
         [Route("getCustomerAccount/{customer_id}")]
-        public ActionResult<List<Account>> GetCustomerAccounts(int customer_id)
+        public IActionResult GetCustomerAccounts(int customer_id)
         {
+            if(customer_id==0)
+            {
+                return BadRequest();
+            }
             try
             {
                 var acc = _AccountRepo.GetCutomerAccounts(customer_id);
                 if (acc != null)
                 {
-                    return acc;
+                    return Ok(acc);
                 }
                 else
                     return NotFound();
@@ -111,7 +119,7 @@ namespace AccountMicroservice.Controllers
 
         [HttpGet]
         [Route("getAccount/{account_id}")]
-        public ActionResult GetAccount(int account_id)
+        public IActionResult GetAccount(int account_id)
         {
             if (account_id == 0)
             {
