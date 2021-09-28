@@ -16,17 +16,6 @@ namespace TransactionMicroservice.Repository
     {
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(TransactionRepository));
 
-
-
-        /*static List<TransactionHistory> historyList = new List<TransactionHistory>() {
-            new TransactionHistory(){TransactionId=1,AccountId=1,CustomerId=1,
-                message="Account has been credited",source_balance=1000,destination_balance=1500,DateOfTransaction=DateTime.Now},
-        new TransactionHistory(){TransactionId=2,AccountId=2,CustomerId=2,
-                message="Account has been Debited",source_balance=2000,destination_balance=1500,DateOfTransaction=DateTime.Now}
-      };*/
-
-
-
         public TransactionContext _context;
         public AccountRepository _account;
         public TransactionRepository(TransactionContext context)
@@ -94,8 +83,8 @@ namespace TransactionMicroservice.Repository
                         {
                             AccountId = AccountId,
                             TransactionAmount = amount,
-                            destination_balance = 0,
-                            source_balance = acc.Balance,
+                            destination_balance = acc.Balance,
+                            source_balance = acc.Balance-amount,
                             DateOfTransaction = DateTime.Now,
                             message = $"₹{amount} Amount Credited to account {AccountId}",
                             CustomerId = acc.CustomerId
@@ -165,8 +154,8 @@ namespace TransactionMicroservice.Repository
                             {
                                 AccountId = AccountId,
                                 TransactionAmount = amount,
-                                destination_balance = 0,
-                                source_balance = acc.Balance,
+                                destination_balance = acc.Balance,
+                                source_balance = acc.Balance+amount,
                                 DateOfTransaction = DateTime.Now,
                                 message = $"₹ {amount} Amount debited from account {AccountId}",
                                 CustomerId = acc.CustomerId

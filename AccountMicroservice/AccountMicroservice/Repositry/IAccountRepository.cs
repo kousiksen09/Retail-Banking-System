@@ -10,7 +10,7 @@ namespace AccountMicroservice.Repositry
     {
         public List<Account> GetAllAccounts();
 
-        public Account GetAccount(int sav_account_id, int curr_account_id);
+
         public Account GetParticularAccount(int accont_id);
 
         public bool CreateAccount(int customer_id);

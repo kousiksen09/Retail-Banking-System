@@ -13,14 +13,6 @@ namespace AccountMicroservice.Repositry
     {
 
 
-        private readonly List<Account> accounts = new List<Account>()
-        {
-            //new Account (){AccountId=1, accountType = AccountType.SavingAccount, Balance =5000, MinBalance=1000},
-            //new Account (){AccountId=2, accountType = AccountType.CurrentAccount, Balance =1000, MinBalance=500},
-        };
-
-
-
         private readonly AccountMicroserviceDbContext _context;
 
         System.Random random = new System.Random();
@@ -36,17 +28,29 @@ namespace AccountMicroservice.Repositry
 
         public bool CreateAccount(int customer_id)
         {
-            var acc = _context.Accounts.SingleOrDefault(a => a.CustomerId == customer_id);
+            var acc = GetCutomerAccounts(customer_id);
+            bool existingCustomer = false;
 
-            //var acc = _context.Accounts.Find(customer_id);
-
-            if (acc == null)
+            if (acc[0] == null && acc[1] == null)
             {
-                _context.Accounts.Add(new Account() { Sav_AccountId = GenerateSavingsAccountId(), Cur_AccountId = 0, CustomerId = customer_id, accountType = AccountType.SavingAccount.ToString(), Balance = 5000, MinBalance = 100 });
-                _context.Accounts.Add(new Account() { Sav_AccountId = 0, Cur_AccountId = GenerateCurrentAccountId(), CustomerId = customer_id, accountType = AccountType.CurrentAccount.ToString(), Balance = 3000, MinBalance = 1000 });
+                existingCustomer = false;
+            }
+            else
+            {
+                existingCustomer = true;
+            }
+
+
+
+            if (existingCustomer == false)
+            {
+                _context.Accounts.Add(new Account() { Sav_AccountId = GenerateSavingsAccountId() + (customer_id + 1), Cur_AccountId = 0, CustomerId = customer_id, accountType = AccountType.SavingAccount.ToString(), Balance = 5000, MinBalance = 100 });
+                _context.Accounts.Add(new Account() { Sav_AccountId = 0, Cur_AccountId = GenerateCurrentAccountId() + (customer_id + 2), CustomerId = customer_id, accountType = AccountType.CurrentAccount.ToString(), Balance = 3000, MinBalance = 1000 });
                 _context.SaveChanges();
                 return true;
             }
+
+
 
             else
                 return false;
@@ -98,51 +102,6 @@ namespace AccountMicroservice.Repositry
         }
 
 
-
-
-
-
-        public Account GetAccount(int sav_account_id, int curr_account_id)
-        {
-            var account = accounts.Find(a => a.Sav_AccountId == sav_account_id && a.Cur_AccountId == curr_account_id);
-            return account;
-        }
-
-        /*   public TransactionStatus Update(int AccountId, double amount)
-           {
-               TransactionStatus status = new TransactionStatus();
-               try
-               {
-                   if (AccountId == 0 || amount == 0)
-                   {
-                       status.Message = "Transaction Failed";
-
-
-                   }
-                   else
-                   {
-
-                       foreach (var item in _context.Accounts)
-                       {
-                           if (item.Cur_AccountId == AccountId || item.Sav_AccountId == AccountId)
-                           {
-
-
-                               item.Balance = item.Balance + amount;
-
-                               status.Message = "Transaction Done";
-
-                           }
-
-                       }
-                   }
-                   return status;
-               }
-               catch (Exception e)
-               {
-                   throw;
-               }
-               }*/
     }
-}
 
+    }
