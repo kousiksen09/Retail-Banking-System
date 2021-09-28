@@ -45,7 +45,7 @@ namespace TransactionMicroservice.Controllers
 
         [HttpPost("{AccountId}/{amount}")]
         [Route("Deposit/{AccountId}/{amount}")]
-        public async Task<IActionResult> Deposit(int AccountId, int amount)
+        public async Task<IActionResult> Deposit(int AccountId, double amount)
         {
             if (amount == 0 || AccountId == 0)
             {
@@ -61,7 +61,7 @@ namespace TransactionMicroservice.Controllers
         }
         [HttpPost("{AccountId}/{amount}")]
         [Route("Withdraw/{AccountId}/{amount}")]
-        public async Task<IActionResult> WithdrawAsync(int AccountId, int amount)
+        public async Task<IActionResult> WithdrawAsync(int AccountId, double amount)
         {
             if (amount == 0 || AccountId == 0)
             {
@@ -76,7 +76,7 @@ namespace TransactionMicroservice.Controllers
         }
         [HttpPost("{Source_Account_Id}/{Target_Account_Id}/{ amount}")]
         [Route("Transfer/{Source_Account_Id}/{Target_Account_Id}/{amount}")]
-        public async Task<IActionResult> TransferAsync(int Source_Account_Id, int Target_Account_Id, int amount)
+        public async Task<IActionResult> TransferAsync(int Source_Account_Id, int Target_Account_Id, double amount)
         {
             if (Source_Account_Id == 0 || Target_Account_Id == 0 || amount == 0)
             {

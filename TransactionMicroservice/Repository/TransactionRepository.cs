@@ -219,7 +219,7 @@ namespace TransactionMicroservice.Repository
             }
         }
 
-        public async Task<TransactionStatus> TransferAsync(int Source_Account_Id, int Target_Account_Id, int amount)
+        public async Task<TransactionStatus> TransferAsync(int Source_Account_Id, int Target_Account_Id, double amount)
         {
             TransactionStatus trans = new TransactionStatus();
             //RuleStatus rule = new RuleStatus();
