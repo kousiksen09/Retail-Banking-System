@@ -1,0 +1,6 @@
+D:\CTS Project\V5\Retail-Banking-System\Account.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+D:\CTS Project\V5\Retail-Banking-System\Account.Test\obj\Debug\net5.0\Account.Test.csproj.AssemblyReference.cache
+D:\CTS Project\V5\Retail-Banking-System\Account.Test\obj\Debug\net5.0\Account.Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTS Project\V5\Retail-Banking-System\Account.Test\obj\Debug\net5.0\Account.Test.AssemblyInfoInputs.cache
+D:\CTS Project\V5\Retail-Banking-System\Account.Test\obj\Debug\net5.0\Account.Test.AssemblyInfo.cs
+D:\CTS Project\V5\Retail-Banking-System\Account.Test\obj\Debug\net5.0\Account.Test.csproj.CoreCompileInputs.cache

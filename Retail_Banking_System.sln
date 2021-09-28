@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RulesMicroservice.Test", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerTest", "CustomerTest\CustomerTest.csproj", "{FAD9059C-BE8D-4495-8C85-E7E0339E6A24}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountTest", "Account.Test\AccountTest.csproj", "{DDEA2D52-0C6E-4123-A162-FD92FEA546DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{FAD9059C-BE8D-4495-8C85-E7E0339E6A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD9059C-BE8D-4495-8C85-E7E0339E6A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD9059C-BE8D-4495-8C85-E7E0339E6A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEA2D52-0C6E-4123-A162-FD92FEA546DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEA2D52-0C6E-4123-A162-FD92FEA546DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEA2D52-0C6E-4123-A162-FD92FEA546DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEA2D52-0C6E-4123-A162-FD92FEA546DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{DF9DE94B-9E72-4624-8E9A-C2A886AA00F4} = {AAA5BCCD-98FA-4005-8A92-40FE1676DB52}
 		{F5BA7514-E336-4D54-B2D3-8A1FA9B4F3D5} = {AAA5BCCD-98FA-4005-8A92-40FE1676DB52}
 		{FAD9059C-BE8D-4495-8C85-E7E0339E6A24} = {AAA5BCCD-98FA-4005-8A92-40FE1676DB52}
+		{DDEA2D52-0C6E-4123-A162-FD92FEA546DE} = {AAA5BCCD-98FA-4005-8A92-40FE1676DB52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {720C61B0-F251-4D65-BEC1-DFF86230B208}

@@ -22,12 +22,18 @@ namespace AccountMicroservice.Controllers
 
         private readonly AccountMicroserviceDbContext _accountMicroserviceDbContext;
 
-        public AccountController(IAccountRepository AccountRepo, AccountMicroserviceDbContext accountMicroserviceDbContext)
+        public AccountController(IAccountRepository AccountRepo)
         {
 
             _AccountRepo = AccountRepo;
-            _accountMicroserviceDbContext = accountMicroserviceDbContext;
+            
            
+        }
+        public AccountController(AccountMicroserviceDbContext _acm)
+        {
+
+            _accountMicroserviceDbContext = _acm;
+
         }
 
 

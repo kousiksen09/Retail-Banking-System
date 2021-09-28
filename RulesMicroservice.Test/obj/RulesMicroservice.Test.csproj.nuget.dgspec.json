@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj": {}
+    "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+    "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "projectUniqueName": "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
         "projectName": "AccountMicroservice",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\obj\\",
+        "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,21 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj": {
+    "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj",
+        "projectUniqueName": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj",
         "projectName": "RulesMicroservice.Test",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice.Test\\obj\\",
+        "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice.Test\\RulesMicroservice.Test.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +105,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj"
+              "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj": {
+                "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj"
               }
             }
           }
@@ -157,21 +157,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj": {
+    "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj",
+        "projectUniqueName": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj",
         "projectName": "RulesMicroservice",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RulesMicroservice\\obj\\",
+        "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice\\RulesMicroservice.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\RulesMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -185,11 +185,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
+              "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+                "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
               },
-              "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj"
+              "D:\\CTS Project\\V6\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
+                "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj"
               }
             }
           }
@@ -239,21 +239,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
+    "D:\\CTS Project\\V6\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+        "projectUniqueName": "D:\\CTS Project\\V6\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
         "projectName": "TransactionMicroservice",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\obj\\",
+        "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\TransactionMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,8 +267,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
+              "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
+                "projectPath": "D:\\CTS Project\\V6\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
               }
             }
           }
@@ -338,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
