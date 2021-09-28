@@ -120,3 +120,8 @@ INFO  03:49:59 Now listening on: http://localhost:5003
 INFO  03:49:59 Application started. Press Ctrl+C to shut down.
 INFO  03:49:59 Hosting environment: Development
 INFO  03:49:59 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:55:47 Now listening on: http://localhost:5003
+INFO  02:55:47 Application started. Press Ctrl+C to shut down.
+INFO  02:55:47 Hosting environment: Development
+INFO  02:55:47 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:56:17 getAllUser API is initiated

@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5003
         }
       ],
       "UpstreamPathTemplate": "/gateway/User/getAllUser",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5003
         }
       ],
       "UpstreamPathTemplate": "/gateway/User/getUser/{id}",
