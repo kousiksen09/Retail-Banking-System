@@ -29,6 +29,7 @@ namespace CustomerMicroService.Controllers
             if(id==0)
             {
                 _log4net.Warn("User send some invalid customer id");
+                return BadRequest();
             }
             
             try

@@ -1,5 +1,6 @@
 {
   "Routes": [
+    //User Microservice
     {
       "DownstreamPathTemplate": "/api/User/getAllUser",
       "DownstreamScheme": "http",
@@ -24,13 +25,14 @@
       "UpstreamPathTemplate": "/gateway/User/getUser/{id}",
       "UpstreamHttpMethod": [ "GET" ]
     },
+    //Customer Microservice
     {
       "DownstreamPathTemplate": "/api/Customer/getCustomerDetails/{id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 63256
+          "Port": 5004
         }
       ],
       "UpstreamPathTemplate": "/gateway/Customer/getCustomerDetails/{id}",
@@ -42,19 +44,20 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5004
         }
       ],
       "UpstreamPathTemplate": "/gateway/Customer/createCustomer",
       "UpstreamHttpMethod": [ "POST" ]
     },
+    //Account Microservice
     {
       "DownstreamPathTemplate": "/api/Account/createAccount/{customer_id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5001
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/createAccount/{customer_id}",
@@ -66,7 +69,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5001
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getAllAccounts",
@@ -78,7 +81,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5001
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getCustomerAccount/{customer_id}",
@@ -90,14 +93,27 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5000
+          "Port": 5001
         }
       ],
       "UpstreamPathTemplate": "/gateway/Account/getAccount/{account_id}",
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
-      "DownstreamPathTemplate": "/api/Account/getAccountStatement/{account_id}",
+      "DownstreamPathTemplate": "/api/Account/updateAccount/{AccountId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Account/updateAccount/{AccountId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    //Transaction Microservice
+    {
+      "DownstreamPathTemplate": "/api/Transaction/getTransactions/{CustomerId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -105,9 +121,71 @@
           "Port": 5000
         }
       ],
-      "UpstreamPathTemplate": "/gateway/Account/getAccountStatement/{account_id}",
+      "UpstreamPathTemplate": "/gateway/Transaction/getTransactions/{CustomerId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Transaction/Deposit/{AccountId}/{amount}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Transaction/Deposit/{AccountId}/{amount}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Transaction/Withdraw/{AccountId}/{amount}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Transaction/Withdraw/{AccountId}/{amount}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Transaction/Transfer/{Source_Account_Id}/{Target_Account_Id}/{amount}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Transaction/Transfer/{Source_Account_Id}/{Target_Account_Id}/{amount}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Transaction/getStatement/{AccountId}/{Fromdate}/{Todate}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Transaction/getStatement/{AccountId}/{Fromdate}/{Todate}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //Rules Microservice
+    {
+      "DownstreamPathTemplate": "/api/Rules/evaluateMinBal/{AccountID}/{Balance}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Rules/evaluateMinBal/{AccountID}/{Balance}",
       "UpstreamHttpMethod": [ "GET" ]
     }
+
 
   ]
  
