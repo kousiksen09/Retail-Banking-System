@@ -126,3 +126,9 @@ D:\CTS Project\V6\Retail-Banking-System\UserMicroService\obj\Debug\net5.0\UserMi
 D:\CTS Project\V6\Retail-Banking-System\UserMicroService\obj\Debug\net5.0\ref\UserMicroService.dll
 D:\CTS Project\V6\Retail-Banking-System\UserMicroService\obj\Debug\net5.0\UserMicroService.pdb
 D:\CTS Project\V6\Retail-Banking-System\UserMicroService\obj\Debug\net5.0\UserMicroService.genruntimeconfig.cache
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService\bin\Debug\net5.0\CustomerMicroService.deps.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService\bin\Debug\net5.0\CustomerMicroService.runtimeconfig.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService\bin\Debug\net5.0\CustomerMicroService.runtimeconfig.dev.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService\bin\Debug\net5.0\CustomerMicroService.exe
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService\bin\Debug\net5.0\CustomerMicroService.dll
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService\bin\Debug\net5.0\CustomerMicroService.pdb

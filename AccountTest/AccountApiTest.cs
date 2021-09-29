@@ -20,12 +20,13 @@ namespace AccountTest
 
         private Mock<IAccountRepository> _acpr;
         private AccountController _act;
+        private AccountMicroserviceDbContext _acm;
 
         [SetUp]
         public void SetUp()
         {
             _acpr = new Mock<IAccountRepository>();
-            _act = new AccountController(_acpr.Object);
+            _act = new AccountController(_acpr.Object,_acm);
 
         }
 

@@ -1,0 +1,183 @@
+﻿html {
+    overflow: hidden;
+    height: 100vh;
+    font-size: calc(0.75vh + 0.75vw);
+}
+
+body {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 50%;
+    line-height: 1em;
+    height:100vh;
+    width:100vw;
+    margin: 0;
+    overflow: hidden;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+div {
+    font-size: calc(0.75vh + 0.75vw);
+}
+
+span {
+    font-size: calc(0.75vh + 0.75vw);
+}
+
+p {
+    font-size: calc(0.75vh + 0.75vw);
+}
+
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    display:flex;
+    justify-content:center;
+   
+
+}
+
+
+.ks-container{
+    position:relative;
+    height:100vh;
+    width:100vw;
+    top:14vh;
+    left:10vw;
+}
+.box {
+    width: 30vw;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+}
+
+
+
+    .box input[type="text"],
+    .box input[type="number"],
+    .box select,
+    .box input[type="password"] {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #3498db;
+     
+        width: 250px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s
+    }
+    .box select option{
+        font-size:0.8rem;
+    }
+
+
+    .box h1 {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500
+    }
+
+
+
+    .box input[type="text"]:focus,
+    .box input[type="number"]:focus,
+    .box select:focus,
+    .box input[type="password"]:focus {
+        width: 300px;
+        border-color: #2ecc71
+    }
+
+
+
+    .box input[type="submit"] {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2ecc71;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer
+    }
+
+
+
+        .box input[type="submit"]:hover {
+            background: #2ecc71
+        }
+
+@media screen and (max-width: 768px) {
+    .box {
+        left: 0%;
+        width: 80vw;
+    }
+
+        .box input[type="text"],
+        .box input[type="number"],
+        .box select,
+        .box input[type="password"] {
+            width: 170px;
+        }
+
+            box input[type="text"]:focus,
+            .box input[type="number"]:focus,
+            .box select:focus,
+            .box input[type="password"]:focus {
+                width: 190px;
+            }
+}
+
+.profile-name {
+    padding: 12px;
+    margin-bottom: 16px;
+   
+}
+.profile {
+    position:relative;
+    top:0.6vh;
+    height:74px;
+    width:250px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+.profile-details {
+    position: relative;
+    top: 1.6vh;
+    height: 78vh;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.ks-pr-title{
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+.ks-pr-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+}

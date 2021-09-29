@@ -105,9 +105,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\AccountMicroservice\\AccountMicroservice\\AccountMicroservice.csproj"
-              },
               "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj": {
                 "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\TransactionMicroservice\\TransactionMicroservice.csproj"
               }

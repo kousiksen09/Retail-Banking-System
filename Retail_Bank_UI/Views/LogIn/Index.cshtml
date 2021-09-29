@@ -1,0 +1,80 @@
+﻿@model Retail_Bank_UI.Models.LogIn
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+      <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div class="container ks-container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <form method="post" asp-action="Index" class="box">
+                        <p class="text-danger text-center"> @ViewBag.Msg</p>
+                        <p class="text-muted"> Please enter your login and password!</p>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label class="control-label text-light">Please select the user type</label>
+                            <select onchange="fieldGenerate()" asp-for="LogInType" asp-items="Html.GetEnumSelectList<UserType>()" class="form-control" id="userType">
+                            </select>
+                            <span asp-validation-for="LogInType" class="text-danger"></span>
+                        </div>
+                        <div class="form-group" id="customerid" style="display:none;">
+                            <label asp-for="CustomerId" class="control-label text-light"></label>
+                            <input asp-for="CustomerId" class="form-control" />
+                            <span asp-validation-for="CustomerId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Username" class="control-label text-light"></label>
+                            <input asp-for="Username" class="form-control" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password" class="control-label text-light"></label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Log In" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+
+    }
+
+    <script>
+        function fieldGenerate() {
+            var c = document.getElementById("userType").value;
+            console.log(c);
+            var x = document.getElementById("customerid");
+            x.style.display = "none";
+            if (c == 0 && x.style.display == "block") {
+                x.style.display = 'none';
+            }
+            else if (c == 1 && x.style.display == "none") {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

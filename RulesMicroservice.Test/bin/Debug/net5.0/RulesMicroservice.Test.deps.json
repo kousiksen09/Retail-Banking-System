@@ -1953,7 +1953,6 @@
       },
       "RulesMicroservice/1.0.0": {
         "dependencies": {
-          "AccountMicroservice": "1.0.0",
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "5.0.4",
           "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore": "6.2.2",

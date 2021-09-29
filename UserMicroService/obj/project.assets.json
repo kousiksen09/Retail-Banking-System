@@ -1646,6 +1646,27 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "CustomerMicroService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "5.0.4",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "log4net": "2.0.12"
+        },
+        "compile": {
+          "bin/placeholder/CustomerMicroService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerMicroService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6110,10 +6131,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "CustomerMicroService/1.0.0": {
+      "type": "project",
+      "path": "../CustomerMicroService/CustomerMicroService.csproj",
+      "msbuildProject": "../CustomerMicroService/CustomerMicroService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CustomerMicroService >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
@@ -6149,7 +6176,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
+              "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

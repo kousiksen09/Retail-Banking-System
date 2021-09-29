@@ -13,7 +13,7 @@ namespace CustomerMicroService
         {
 
         }
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> Customer { get; set; }
        
     }
 }
