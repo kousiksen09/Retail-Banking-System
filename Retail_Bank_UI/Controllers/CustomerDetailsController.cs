@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Retail_Bank_UI.Controllers
 {
-    [Authorize(Roles ="Customer")]
+   
     public class CustomerDetailsController : Controller
     {
         [HttpGet]
@@ -19,6 +19,7 @@ namespace Retail_Bank_UI.Controllers
         {
             Client client = new Client();
             Customer customer = new Customer();
+            
             List<Account> accounts = new List<Account>();
             var result = await client.APIClient().GetAsync("/gateway/Customer/getCustomerDetails/"+customerId);
             var apiAcc = await client.APIClient().GetAsync("/gateway/Account/getCustomerAccount/" + customerId);
@@ -31,6 +32,7 @@ namespace Retail_Bank_UI.Controllers
             {
                 var account = apiAcc.Content.ReadAsStringAsync().Result;
                 accounts = JsonConvert.DeserializeObject<List<Account>>(account);
+
                 ViewData["AccountInfo"] = accounts;
             }
             return View(customer);

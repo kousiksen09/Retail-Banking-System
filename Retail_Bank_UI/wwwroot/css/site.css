@@ -181,3 +181,18 @@ p {
     font-size: 1rem;
     font-weight: 400;
 }
+
+.account-info{
+    display:flex;
+    flex-direction:row;
+    width:75%;
+}
+.savings {
+    padding-right:2rem;
+    justify-content:flex-end;
+    
+}
+.current {
+    padding-left: 2rem;
+    justify-content: flex-start;
+}

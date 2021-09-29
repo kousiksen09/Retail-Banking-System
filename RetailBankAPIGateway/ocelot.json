@@ -53,7 +53,7 @@
     //Account Microservice
     {
       "DownstreamPathTemplate": "/api/Account/createAccount/{customer_id}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -65,7 +65,7 @@
     },
     {
       "DownstreamPathTemplate": "/api/Account/getAllAccounts",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -77,7 +77,7 @@
     },
     {
       "DownstreamPathTemplate": "/api/Account/getCustomerAccount/{customer_id}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -89,7 +89,7 @@
     },
     {
       "DownstreamPathTemplate": "/api/Account/getAccount/{account_id}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -101,7 +101,7 @@
     },
     {
       "DownstreamPathTemplate": "/api/Account/updateAccount/{AccountId}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
