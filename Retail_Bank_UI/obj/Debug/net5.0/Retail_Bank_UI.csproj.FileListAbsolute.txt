@@ -453,3 +453,11 @@ C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.
 C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\AccountMicroservice.exe
 C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\AccountMicroservice.dll
 C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\AccountMicroservice.pdb
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\obj\Debug\net5.0\Razor\Views\CustomerDetails\Statement.cshtml.g.cs
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\TransactionMicroservice.deps.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\TransactionMicroservice.runtimeconfig.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\TransactionMicroservice.runtimeconfig.dev.json
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\TransactionMicroservice.exe
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\TransactionMicroservice.dll
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\bin\Debug\net5.0\TransactionMicroservice.pdb
+C:\Users\Kousik Sen\Desktop\Retail-Banking-System\Retail_Bank_UI\obj\Debug\net5.0\Razor\Views\CustomerDetails\StatementDetails.cshtml.g.cs

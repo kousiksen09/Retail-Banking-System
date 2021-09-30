@@ -17,13 +17,14 @@ namespace TransactionTests
     public class TransactionTest
     {
         private Mock<ITransactionRepository> _repo;
+        private Mock<IStatementRepository> _statementRepo;
         private TransactionController _controller;
 
         [SetUp]
         public void setup()
         {
             _repo = new Mock<ITransactionRepository>();
-            _controller = new TransactionController(_repo.Object);
+            _controller = new TransactionController(_repo.Object,_statementRepo.Object);
         }
 
 

@@ -3,10 +3,14 @@ using CustomerMicroService.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Retail_Bank_UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System.Threading.Tasks;
+using TransactionMicroservice.Models;
 
 namespace Retail_Bank_UI.Controllers
 {
@@ -36,6 +40,29 @@ namespace Retail_Bank_UI.Controllers
                 ViewData["AccountInfo"] = accounts;
             }
             return View(customer);
+        }
+
+
+
+        public IActionResult Statement(int AccountId)
+        {
+            ViewBag.AccountId = AccountId;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Statement(int AccountId, StatementUI statement)
+        {
+            Client client = new Client();
+            List<Statement> statements = new List<Statement>();
+            statement.AccountId = AccountId;
+            var result = await client.APIClient().GetAsync("/gateway/Transaction/getStatement/" + statement.AccountId+"/"+statement.FromDate.ToString("yyyy-MM-dd HH:mm:ss")+"/"+statement.ToDate.ToString("yyyy-MM-dd HH:mm:ss"));
+           if(result.IsSuccessStatusCode)
+            {
+                var s = result.Content.ReadAsStringAsync().Result;
+                statements = JsonConvert.DeserializeObject<List<Statement>>(s);
+            }
+            return View("StatementDetails",statements);
         }
     }
 }

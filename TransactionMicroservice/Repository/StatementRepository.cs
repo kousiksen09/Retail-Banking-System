@@ -45,6 +45,7 @@ namespace TransactionMicroservice.Repository
                     {
                         AccountId = item.AccountId,
                         Narration = item.message,
+                        DateOfTransaction = item.DateOfTransaction,
                         Amount = item.TransactionAmount,
                         ClosingBalance = item.destination_balance,
                         RefNo = generateRefNo(item.AccountId, item.DateOfTransaction, item.destination_balance)

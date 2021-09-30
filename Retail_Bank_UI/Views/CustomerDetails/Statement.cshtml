@@ -1,0 +1,84 @@
+﻿@model StatementUI
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .mini-statement {
+            position: relative;
+            top: 0.6vh;
+            height: auto;
+            text-align:center;
+            padding:2rem;
+            width: 100%;
+            background-color: #000000;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center mt-3">
+            <h2>Account Number</h2>
+            <h4>@ViewBag.AccountId</h4>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="mini-statement">
+
+                    <h3 class="ks-pr-title text-light">Last 10 Transactions</h3>
+                    <form method="post" asp-action="Statement" asp-route-AccountId="@ViewBag.AccountId">
+                        <input class="btn-lg btn-info" type="button" value="Mini Statement" />
+                    </form>
+                </div>
+            </div>
+            <div class="col-8">
+                <div >
+                    <h3 class="ks-pr-title" style="position:relative; left:64%">Please Select Dates</h3>
+                    <form method="post" onsubmit="ValidateDate()" asp-action="Statement" asp-route-AccountId="@ViewBag.AccountId" class="box" style="position:relative; top:0;">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="FromDate" class="control-label text-light"></label>
+                            <input type="date" id="frmDate" asp-for="FromDate" class="form-control" />
+                            <span asp-validation-for="FromDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ToDate"  class="control-label text-light"></label>
+                            <input type="date" id="toDate" onchange="ValidateDate()" asp-for="ToDate" class="form-control" />
+                            <span asp-validation-for="ToDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Detailed Statement" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <script>
+        function ValidateDate() {
+            var fromdate = document.getElementById("frmDate").value;
+            var todate = document.getElementById("toDate").value;
+            console.log(fromdate, todate);
+            if ((Date.parse(todate) <= Date.parse(fromdate))) {
+                alert("End date should be greater than Start date");
+                document.getElementById("toDate").value = "";
+            }
+
+        };
+    </script>
+</body>
+</html>

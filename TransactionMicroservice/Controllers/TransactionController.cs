@@ -19,15 +19,13 @@ namespace TransactionMicroservice.Controllers
         private IStatementRepository _ISR;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(TransactionController));
         private ITransactionRepository _ITR;
-        public TransactionController(ITransactionRepository TR )
+        public TransactionController(ITransactionRepository TR, IStatementRepository SR)
         {
             _ITR = TR;
+            _ISR = SR;
 
         }
-        public TransactionController(IStatementRepository SR)
-        {
-            _ISR = SR;
-        }
+     
 
         // GET: api/<TransactionController>
         [HttpGet]

@@ -17,3 +17,37 @@ INFO  04:36:01 Account details is successfully fetched in rules microservice for
 INFO  04:36:09 Withdraw is Processingfor Account: 201340
 INFO  04:36:56 Account details is successfully fetched in rules microservice for AccountId- 201340
 INFO  04:36:57 Transaction history returned for Account Id: 201340
+INFO  12:14:16 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  12:14:19 Transaction history returned for Account Id: 201340
+INFO  12:50:25 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  12:50:28 Transaction history returned for Account Id: 201340
+INFO  01:06:06 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  01:06:09 Transaction history returned for Account Id: 201340
+INFO  01:09:42 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  01:09:45 Transaction history returned for Account Id: 201340
+INFO  02:29:39 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  02:29:43 Transaction history returned for Account Id: 201340
+INFO  02:53:40 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  02:53:43 Transaction history returned for Account Id: 201340
+INFO  02:55:57 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  02:55:57 Transaction history returned for Account Id: 201340
+INFO  02:56:54 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  02:56:55 Transaction history returned for Account Id: 201340
+INFO  03:02:06 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:02:06 Transaction history returned for Account Id: 201340
+INFO  03:02:42 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:02:42 Transaction history returned for Account Id: 201340
+INFO  03:05:27 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:05:27 Transaction history returned for Account Id: 201340
+INFO  03:06:44 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:06:44 Transaction history returned for Account Id: 201340
+INFO  03:07:06 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:07:06 Transaction history returned for Account Id: 201340
+INFO  03:35:58 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:36:02 Transaction history returned for Account Id: 201340
+INFO  03:47:02 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:47:06 Transaction history returned for Account Id: 201340
+INFO  03:47:25 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:47:25 Transaction history returned for Account Id: 201340
+INFO  03:54:14 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  03:54:16 Transaction history returned for Account Id: 201340

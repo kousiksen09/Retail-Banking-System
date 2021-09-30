@@ -1,0 +1,74 @@
+﻿@model IEnumerable<TransactionMicroservice.Models.Statement>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StatementDetails</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div class="container-fluid table-responsive py-5">
+        <table style="width:100%" class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                   
+                    <th>
+                        @Html.DisplayNameFor(model => model.AccountId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Narration)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RefNo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DateOfTransaction)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ClosingBalance)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Amount)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                    
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AccountId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Narration)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RefNo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DateOfTransaction)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ClosingBalance)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Amount)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+        </div>
+</body>
+</html>
