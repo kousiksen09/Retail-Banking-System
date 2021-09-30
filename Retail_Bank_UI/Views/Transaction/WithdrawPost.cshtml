@@ -1,0 +1,44 @@
+﻿@model AccountMicroservice.Model.TransactionStatus
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>WithdrawPost</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div class="container">
+        <center><h4>Withdraw Status</h4></center>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.source_balance)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.source_balance)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.destination_balance)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.destination_balance)
+            </dd>
+        </dl>
+    </div>
+        <center> <h2>Thank You for using Our Service </h2></center>
+</body>
+</html>

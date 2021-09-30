@@ -1,0 +1,50 @@
+﻿@model Retail_Bank_UI.Models.Withdraw
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Withdraw Money</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <center><h4>Withdraw Your Money instantly..</h4></center>
+    <hr />
+    <div class="container ks-container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <form method="post" asp-action="WithdrawPost" class="box">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="AccountId" class="control-label text-light"></label>
+                            <input asp-for="AccountId" class="form-control" />
+                            <span asp-validation-for="AccountId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Amount" class="control-label text-light"></label>
+                            <input asp-for="Amount" class="form-control" />
+                            <span asp-validation-for="Amount" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Withdraw" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+</body>
+</html>
