@@ -1,20 +1,18 @@
 ﻿@model IEnumerable<AccountMicroservice.Model.Account>
 
     @{
-    Layout = null;
+        ViewData["Title"] = "Customer";
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
     }
 
-    <!DOCTYPE html>
-
-    <html>
+    
     <head>
         <meta name="viewport" content="width=device-width" />
         <title>View</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+      
     </head>
-    <body>
-
+  
 
         <div class="container-fluid table-responsive py-5">
             <table style="width:100%" class="table table-bordered table-hover">
@@ -76,5 +74,4 @@
             </table>
         </div>
 
-    </body>
-</html>
+ 

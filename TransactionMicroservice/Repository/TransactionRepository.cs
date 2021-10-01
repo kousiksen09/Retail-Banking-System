@@ -243,7 +243,7 @@ namespace TransactionMicroservice.Repository
                         destination_balance = cusCredit.Balance,
                         source_balance = cusDebit.Balance,
                         DateOfTransaction = DateTime.Now,
-                        message = "Transfer done",
+                        message = $"₹ {amount} has been transferred from Account Id: {Source_Account_Id} to Account Id: {Target_Account_Id}",
                         CustomerId = cusDebit.CustomerId
                     };
                     _context.TransactionHistories.Add(th);

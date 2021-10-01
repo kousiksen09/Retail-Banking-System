@@ -60,3 +60,31 @@ INFO  11:50:56 Account details is successfully fetched in rules microservice for
 INFO  11:50:56 Deposit is Processing for Account: 175894
 INFO  01:26:29 Account details is successfully fetched in rules microservice for AccountId- 175894
 INFO  01:26:32 Transaction history returned for Account Id: 175894
+INFO  02:33:19 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:33:24 Withdraw is Processingfor Account: 175894
+INFO  02:33:42 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:33:44 Withdraw is Processingfor Account: 175894
+INFO  02:38:50 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:38:52 Withdraw is Processingfor Account: 175894
+INFO  02:39:32 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:39:34 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:39:34 Deposit is Processing for Account: 175894
+INFO  02:45:45 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:45:50 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  02:45:50 Deposit is Processing for Account: 175894
+INFO  03:15:30 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:15:35 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:15:35 Deposit is Processing for Account: 175894
+INFO  03:15:59 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:16:01 Withdraw is Processingfor Account: 175894
+INFO  03:16:44 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:16:44 Account details is successfully fetched in rules microservice for AccountId- 220381
+INFO  03:16:45 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:16:47 Account details is successfully fetched in rules microservice for AccountId- 220381
+INFO  03:16:49 Account details is successfully fetched in rules microservice for AccountId- 220381
+INFO  03:18:01 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:18:01 Transaction history returned for Account Id: 175894
+INFO  03:19:38 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  03:19:38 Transaction history returned for Account Id: 175894
+INFO  05:35:49 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  05:35:52 Transaction history returned for Account Id: 175894

@@ -45,46 +45,46 @@ namespace TransactionMicroservice.Controllers
 
         }
 
-        [HttpPost("{AccountId}/{amount}")]
-        [Route("Deposit/{AccountId}/{amount}")]
-        public async Task<IActionResult> Deposit(int AccountId, double amount)
+        [HttpPost]
+        [Route("Deposit")]
+        public async Task<IActionResult> Deposit(Deposit _deposit)
         {
-            if (amount == 0 || AccountId == 0)
+            if (_deposit.Amount == 0 || _deposit.AccountId == 0)
             {
                 _log4net.Info("Invalid amount");
                 return NotFound();
             }
 
-            AccountMicroservice.Model.TransactionStatus status = await _ITR.DepositAsync(AccountId, amount);
-            _log4net.Info("Deposit is Processing for Account: " + AccountId);
+            AccountMicroservice.Model.TransactionStatus status = await _ITR.DepositAsync(_deposit.AccountId, _deposit.Amount);
+            _log4net.Info("Deposit is Processing for Account: " + _deposit.AccountId);
             return Ok(status);
 
 
         }
-        [HttpPost("{AccountId}/{amount}")]
-        [Route("Withdraw/{AccountId}/{amount}")]
-        public async Task<IActionResult> WithdrawAsync(int AccountId, double amount)
+        [HttpPost]
+        [Route("Withdraw")]
+        public async Task<IActionResult> WithdrawAsync(Deposit _deposit)
         {
-            if (amount == 0 || AccountId == 0)
+            if (_deposit.Amount== 0 || _deposit.AccountId == 0)
             {
                 _log4net.Info("Invalid ammount");
                 return NotFound();
             }
 
-            AccountMicroservice.Model.TransactionStatus status = await _ITR.WithdrawAsync(AccountId, amount);
-            _log4net.Info("Withdraw is Processingfor Account: " + AccountId);
+            AccountMicroservice.Model.TransactionStatus status = await _ITR.WithdrawAsync(_deposit.AccountId, _deposit.Amount);
+            _log4net.Info("Withdraw is Processingfor Account: " + _deposit.AccountId);
             return Ok(status);
 
         }
-        [HttpPost("{Source_Account_Id}/{Target_Account_Id}/{ amount}")]
-        [Route("Transfer/{Source_Account_Id}/{Target_Account_Id}/{amount}")]
-        public async Task<IActionResult> TransferAsync(int Source_Account_Id, int Target_Account_Id, double amount)
+        [HttpPost]
+        [Route("Transfer")]
+        public async Task<IActionResult> TransferAsync(Transfer _transfer)
         {
-            if (Source_Account_Id == 0 || Target_Account_Id == 0 || amount == 0)
+            if (_transfer.Source_ACC_ID == 0 || _transfer.Destination_ACC_ID == 0 || _transfer.Amount == 0)
             {
                 return NotFound();
             }
-            AccountMicroservice.Model.TransactionStatus tr = await _ITR.TransferAsync(Source_Account_Id, Target_Account_Id, amount);
+            AccountMicroservice.Model.TransactionStatus tr = await _ITR.TransferAsync(_transfer.Source_ACC_ID, _transfer.Destination_ACC_ID, _transfer.Amount);
             return Ok(tr);
         }
 

@@ -63,13 +63,13 @@ namespace Retail_Bank_UI.Controllers
         }
 
         [HttpGet]
-        [Route("GetCustomerAccountDetails/{customer_id}")]
-        public async Task<IActionResult> GetCustomerAccountDetails(int customer_id)
+        [Route("GetCustomerAccountDetails")]
+        public async Task<IActionResult> GetCustomerAccountDetails(int CustomerId)
         {
             Client client = new Client();
             List<Account> acc = new List<Account>();
 
-            var result = await client.APIClient().GetAsync("/gateway/Account/getCustomerAccount/" + customer_id);
+            var result = await client.APIClient().GetAsync("/gateway/Account/getCustomerAccount/" + CustomerId);
             if (result.IsSuccessStatusCode)
             {
                 var s = result.Content.ReadAsStringAsync().Result;
@@ -80,13 +80,13 @@ namespace Retail_Bank_UI.Controllers
         }
 
         [HttpGet]
-        [Route("GetAccount/{customer_id}")]
-        public async Task<IActionResult> GetAccount(int customer_id)
+        [Route("GetAccount")]
+        public async Task<IActionResult> GetAccount(int AccountId)
         {
             Client client = new Client();
             Account acc = new Account();
 
-            var result = await client.APIClient().GetAsync("/gateway/Account/GetAccount/" + customer_id);
+            var result = await client.APIClient().GetAsync("/gateway/Account/GetAccount/" + AccountId);
             if (result.IsSuccessStatusCode)
             {
                 var s = result.Content.ReadAsStringAsync().Result;

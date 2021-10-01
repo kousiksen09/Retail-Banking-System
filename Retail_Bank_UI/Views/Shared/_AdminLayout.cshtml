@@ -180,16 +180,16 @@
 
             <ul class="list-unstyled components">
                 <p>Retail Banking Sysytem</p>
-                <li class="active">
+                <li>
                     <a asp-area="" asp-controller="Admin" asp-action="Index">All Accounts</a>
                 </li>
                 <li>
-                    <a asp-area="" asp-controller="CreateCustomerAccount" asp-action="Index">Create Account</a>
+                    <a asp-area="" asp-controller="CreateCustomerAccount"  asp-action="Index">Create Account</a>
                 </li>
                 <li>
 
                 <li>
-                    <a id="abc"  onclick="searchAcc()">Display Account</a>
+                    <a id="abc" onclick="searchAcc()">Display Account</a>
                     <div style="display:none; position:relative; top:0.5rem; bottom:0.5rem" id="searchbyAcid">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search by Account ID">
@@ -205,15 +205,29 @@
                     <a onclick="searchCustomer()">Display Customer</a>
 
                     <div style="display:none; position:relative; top:0.5rem; bottom:0.5rem" id="searchbyCust">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search by Account ID">
-                            <div class="input-group-append">
-                                <button class="btn btn-secondary" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
+                        <form method="post" asp-route-CustomerId="9" asp-action="GetCustomerAccountDetails">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="CustomerId" placeholder="Search by Customer ID">
+                                
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-secondary">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
+                     
                     </div>
+                </li>
+
+                <li>
+                    <a asp-area="" asp-controller="TransactionView" asp-action="Deposit">Deposit</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="TransactionView" asp-action="Withdraw">Withdraw</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="TransactionView" asp-action="Transfer">Transfer</a>
                 </li>
 
 

@@ -36,13 +36,19 @@
             <tr>
 
                 <td>
-                    @Html.DisplayFor(modelItem => item.Sav_AccountId)
+                    <a asp-controller="GetAccount" asp-route-AccountId="@item.Sav_AccountId">
+                        @Html.DisplayFor(modelItem => item.Sav_AccountId)
+                    </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Cur_AccountId)
+                    <a asp-controller="GetAccount" asp-route-AccountId="@item.Cur_AccountId">
+                        @Html.DisplayFor(modelItem => item.Cur_AccountId)
+                        </a>
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.CustomerId)
+                    <a asp-controller="GetCustomerAccountDetails" asp-route-CustomerId="@item.CustomerId">
+                        @Html.DisplayFor(modelItem => item.CustomerId)
+                        </a>
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.accountType)

@@ -6124,16 +6124,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Kousik Sen\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\PRATIK\\.nuget\\packages\\": {}
->>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
       "projectName": "CustomerMicroService",
       "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
@@ -6142,16 +6137,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
-      "projectName": "CustomerMicroService",
-      "projectPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
-      "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
-      "outputPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6226,12 +6211,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
->>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
