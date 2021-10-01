@@ -61,7 +61,40 @@ namespace Retail_Bank_UI.Controllers
 
             return View(customer);
         }
-        
+
+        [HttpGet]
+        [Route("GetCustomerAccountDetails/{customer_id}")]
+        public async Task<IActionResult> GetCustomerAccountDetails(int customer_id)
+        {
+            Client client = new Client();
+            List<Account> acc = new List<Account>();
+
+            var result = await client.APIClient().GetAsync("/gateway/Account/getCustomerAccount/" + customer_id);
+            if (result.IsSuccessStatusCode)
+            {
+                var s = result.Content.ReadAsStringAsync().Result;
+                acc = JsonConvert.DeserializeObject<List<Account>>(s);
+            }
+            return View("AccountDetails", acc);
+
+        }
+
+        [HttpGet]
+        [Route("GetAccount/{customer_id}")]
+        public async Task<IActionResult> GetAccount(int customer_id)
+        {
+            Client client = new Client();
+            Account acc = new Account();
+
+            var result = await client.APIClient().GetAsync("/gateway/Account/GetAccount/" + customer_id);
+            if (result.IsSuccessStatusCode)
+            {
+                var s = result.Content.ReadAsStringAsync().Result;
+                acc = JsonConvert.DeserializeObject<Account>(s);
+            }
+            return View("AccountDetails2", acc);
+
+        }
 
 
 

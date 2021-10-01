@@ -680,6 +680,7 @@ Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'retail-b
 ClientConnectionId:f876c622-d5eb-4694-a7ab-020fcc5529a3
 Error Number:40615,State:1,Class:14
 ERROR 05:24:30 Cannot open server 'retail-banking-system' requested by the login. Client with IP address '45.250.244.237' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+<<<<<<< HEAD
 =======
 INFO  04:07:09 Now listening on: http://localhost:5003
 INFO  04:07:09 Application started. Press Ctrl+C to shut down.
@@ -860,3 +861,31 @@ INFO  01:25:21 Application started. Press Ctrl+C to shut down.
 INFO  01:25:21 Hosting environment: Development
 INFO  01:25:21 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\UserMicroService
 INFO  01:25:43 getAllUser API is initiated
+=======
+INFO  12:32:17 Now listening on: http://localhost:5003
+INFO  12:32:17 Application started. Press Ctrl+C to shut down.
+INFO  12:32:17 Hosting environment: Development
+INFO  12:32:17 Content root path: D:\CTS Project\V8\Retail-Banking-System\UserMicroService
+INFO  12:37:03 Now listening on: http://localhost:5003
+INFO  12:37:03 Application started. Press Ctrl+C to shut down.
+INFO  12:37:03 Hosting environment: Development
+INFO  12:37:03 Content root path: D:\CTS Project\V8\Retail-Banking-System\UserMicroService
+INFO  12:38:16 Now listening on: http://localhost:5003
+INFO  12:38:17 Application started. Press Ctrl+C to shut down.
+INFO  12:38:17 Hosting environment: Development
+INFO  12:38:17 Content root path: D:\CTS Project\V8\Retail-Banking-System\UserMicroService
+INFO  12:39:37 getAllUser API is initiated
+INFO  12:39:59 getAllUser API is initiated
+INFO  12:40:01 getAllUser API is initiated
+INFO  12:40:08 getAllUser API is initiated
+INFO  12:40:18 getAllUser API is initiated
+INFO  12:42:21 getAllUser API is initiated
+INFO  01:12:52 Now listening on: http://localhost:5003
+INFO  01:12:52 Application started. Press Ctrl+C to shut down.
+INFO  01:12:52 Hosting environment: Development
+INFO  01:12:52 Content root path: D:\CTS Project\V8\Retail-Banking-System\UserMicroService
+INFO  01:14:36 Now listening on: http://localhost:5003
+INFO  01:14:36 Application started. Press Ctrl+C to shut down.
+INFO  01:14:36 Hosting environment: Development
+INFO  01:14:36 Content root path: D:\CTS Project\V8\Retail-Banking-System\UserMicroService
+>>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6

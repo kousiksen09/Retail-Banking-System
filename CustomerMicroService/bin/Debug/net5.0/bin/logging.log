@@ -1043,6 +1043,7 @@ INFO  10:11:03 Application started. Press Ctrl+C to shut down.
 INFO  10:11:03 Hosting environment: Development
 INFO  10:11:03 Content root path: C:\Users\KIIT\Desktop\CTS_Project\Retail-Banking-System\CustomerMicroService
 INFO  10:13:14 Customer has been successfully created
+<<<<<<< HEAD
 =======
 INFO  04:07:06 Now listening on: http://localhost:5004
 INFO  04:07:06 Application started. Press Ctrl+C to shut down.
@@ -1167,3 +1168,25 @@ INFO  01:25:21 Application started. Press Ctrl+C to shut down.
 INFO  01:25:21 Hosting environment: Development
 INFO  01:25:21 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
 INFO  01:25:51 Customer details  has been successfully retrieved
+=======
+INFO  12:32:14 Now listening on: http://localhost:5004
+INFO  12:32:15 Application started. Press Ctrl+C to shut down.
+INFO  12:32:15 Hosting environment: Development
+INFO  12:32:15 Content root path: D:\CTS Project\V8\Retail-Banking-System\CustomerMicroService
+INFO  12:37:03 Now listening on: http://localhost:5004
+INFO  12:37:03 Application started. Press Ctrl+C to shut down.
+INFO  12:37:03 Hosting environment: Development
+INFO  12:37:03 Content root path: D:\CTS Project\V8\Retail-Banking-System\CustomerMicroService
+INFO  12:38:16 Now listening on: http://localhost:5004
+INFO  12:38:16 Application started. Press Ctrl+C to shut down.
+INFO  12:38:16 Hosting environment: Development
+INFO  12:38:16 Content root path: D:\CTS Project\V8\Retail-Banking-System\CustomerMicroService
+INFO  01:12:50 Now listening on: http://localhost:5004
+INFO  01:12:50 Application started. Press Ctrl+C to shut down.
+INFO  01:12:50 Hosting environment: Development
+INFO  01:12:50 Content root path: D:\CTS Project\V8\Retail-Banking-System\CustomerMicroService
+INFO  01:14:36 Now listening on: http://localhost:5004
+INFO  01:14:36 Application started. Press Ctrl+C to shut down.
+INFO  01:14:36 Hosting environment: Development
+INFO  01:14:36 Content root path: D:\CTS Project\V8\Retail-Banking-System\CustomerMicroService
+>>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6

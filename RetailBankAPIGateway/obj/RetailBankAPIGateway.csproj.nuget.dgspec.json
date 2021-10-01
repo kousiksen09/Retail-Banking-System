@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "D:\\CTS Project\\V8\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
+  },
+  "projects": {
+    "D:\\CTS Project\\V8\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CTS Project\\V8\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "projectName": "RetailBankAPIGateway",
+        "projectPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+        "outputPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +80,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> 0b9663fdc702ccc92a13e087fcd2fcc481dae4d6
         }
       }
     }
