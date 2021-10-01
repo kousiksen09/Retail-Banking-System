@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
+    "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
+    "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "projectUniqueName": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
         "projectName": "RetailBankAPIGateway",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
+        "projectPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

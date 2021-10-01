@@ -60,7 +60,7 @@ namespace AccountMicroservice.Controllers
 
 
 
-                    creationStatus.Message = "Account already exists!!!!";
+                    creationStatus.Message = "Customer already exists!!!!";
                     return BadRequest(creationStatus.Message);
                 }
             }
