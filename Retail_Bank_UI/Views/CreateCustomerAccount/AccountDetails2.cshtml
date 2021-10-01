@@ -1,0 +1,86 @@
+﻿@model AccountMicroservice.Model.Account
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AccountDetails2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div>
+        <div class="container-fluid table-responsive py-5">
+            <table style="width:100%" class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.MyId)</b>
+
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.MyId)
+                        </dd>
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.Sav_AccountId)</b>
+
+                        </dt>
+                        <dd class="col-sm-10">
+
+                            @Html.DisplayFor(model => model.Sav_AccountId)
+                        </dd>
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.Cur_AccountId)</b>
+
+                        </dt>
+                        <dd class="col-sm-10">
+
+
+                            @Html.DisplayFor(model => model.Cur_AccountId)
+                        </dd>
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.CustomerId)</b>
+
+                        </dt>
+                        <dd class="col-sm-10">
+
+                            @Html.DisplayFor(model => model.CustomerId)
+                        </dd>
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.accountType)</b>
+                        </dt>
+                        <dd class="col-sm-10">
+
+
+                            @Html.DisplayFor(model => model.accountType)
+                        </dd>
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.Balance)</b>
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Balance)
+                        </dd>
+                        <dt class="col-sm-2">
+                            <b>@Html.DisplayNameFor(model => model.MinBalance)</b>
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.MinBalance)
+                        </dd>
+                    </dl>
+            </table>
+
+        </div>
+        <div>
+            @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
+
+</body>
+</html>

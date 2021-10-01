@@ -1,0 +1,80 @@
+﻿@model IEnumerable<AccountMicroservice.Model.Account>
+
+    @{
+    Layout = null;
+    }
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>View</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+
+
+        <div class="container-fluid table-responsive py-5">
+            <table style="width:100%" class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.MyId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Sav_AccountId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Cur_AccountId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CustomerId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.accountType)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Balance)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.MinBalance)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MyId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Sav_AccountId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Cur_AccountId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.accountType)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Balance)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MinBalance)
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>

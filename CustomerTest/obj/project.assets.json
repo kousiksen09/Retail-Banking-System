@@ -7959,24 +7959,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KIIT\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PRATIK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
+      "projectUniqueName": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
       "projectName": "CustomerTest",
-      "projectPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
-      "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerTest\\obj\\",
+      "projectPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
+      "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+      "outputPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7990,8 +7985,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
-              "projectPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj"
+            "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
+              "projectPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj"
             }
           }
         }
@@ -8042,7 +8037,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

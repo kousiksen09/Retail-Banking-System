@@ -6124,24 +6124,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KIIT\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PRATIK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
+      "projectUniqueName": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
       "projectName": "CustomerMicroService",
-      "projectPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
-      "packagesPath": "C:\\Users\\KIIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KIIT\\Desktop\\CTS_Project\\Retail-Banking-System\\CustomerMicroService\\obj\\",
+      "projectPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
+      "packagesPath": "C:\\Users\\PRATIK\\.nuget\\packages\\",
+      "outputPath": "D:\\CTS Project\\V8\\Retail-Banking-System\\CustomerMicroService\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\KIIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\PRATIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6216,7 +6211,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
