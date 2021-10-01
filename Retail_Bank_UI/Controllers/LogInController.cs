@@ -35,23 +35,22 @@ namespace Retail_Bank_UI.Controllers
         public async Task<IActionResult> Index(LogIn logIn)
         {
             IEnumerable<UserCred> userCreds =await GetAllUserAsync();
-            ClaimsIdentity identity = null;
-            bool isAuthenticated = false;
+
             if (logIn.LogInType==UserType.Admin)
             {
                 foreach (var item in userCreds)
                 {
                     if(item.UserName==logIn.Username && item.Password==logIn.Password)
                     {
-                         identity = new ClaimsIdentity(new[] {
+                        var identity = new ClaimsIdentity(new[] {
                     new Claim(ClaimTypes.Name, logIn.Username),
                     new Claim(ClaimTypes.Role,"Admin")
                 }, CookieAuthenticationDefaults.AuthenticationScheme);
-                        isAuthenticated = true;
+
 
                         ViewBag.Msg = "Successfully Logged In";
                         ModelState.Clear();
-                        break;
+                        return RedirectToAction("Index", "Admin");
                     }
                     ViewBag.Msg = "OOPS!!Wrong Cred";
                 }
@@ -63,11 +62,11 @@ namespace Retail_Bank_UI.Controllers
                 {
                     if (item.UserName == logIn.Username && item.Password == logIn.Password && item.CustomerId==logIn.CustomerId)
                     {
-                        identity = new ClaimsIdentity(new[] {
+                       var  identity = new ClaimsIdentity(new[] {
                     new Claim(ClaimTypes.Name, logIn.Username),
                     new Claim(ClaimTypes.Role,"Customer")
                 }, CookieAuthenticationDefaults.AuthenticationScheme);
-                        isAuthenticated = true;
+
 
                         ViewBag.Msg = "Successfully Logged In";
                         ModelState.Clear();
@@ -78,12 +77,7 @@ namespace Retail_Bank_UI.Controllers
                 }
             }
 
-            if (isAuthenticated)
-            {
-                var principal = new ClaimsPrincipal(identity);
-
-                var login = HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-            }
+        
             return View();
         }
     }

@@ -51,3 +51,12 @@ INFO  03:47:25 Account details is successfully fetched in rules microservice for
 INFO  03:47:25 Transaction history returned for Account Id: 201340
 INFO  03:54:14 Account details is successfully fetched in rules microservice for AccountId- 201340
 INFO  03:54:16 Transaction history returned for Account Id: 201340
+INFO  04:08:08 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  04:08:11 Transaction history returned for Account Id: 201340
+INFO  05:01:44 Account details is successfully fetched in rules microservice for AccountId- 201340
+INFO  05:01:48 Transaction history returned for Account Id: 201340
+INFO  11:50:51 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  11:50:56 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  11:50:56 Deposit is Processing for Account: 175894
+INFO  01:26:29 Account details is successfully fetched in rules microservice for AccountId- 175894
+INFO  01:26:32 Transaction history returned for Account Id: 175894

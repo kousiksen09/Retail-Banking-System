@@ -898,6 +898,7 @@ INFO  03:46:13 Hosting environment: Development
 INFO  03:46:13 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
 INFO  03:46:29 Customer details  has been successfully retrieved
 INFO  03:46:30 Customer details  has been successfully retrieved
+<<<<<<< Updated upstream
 INFO  05:23:48 Now listening on: http://localhost:5004
 INFO  05:23:48 Application started. Press Ctrl+C to shut down.
 INFO  05:23:48 Hosting environment: Development
@@ -1042,3 +1043,127 @@ INFO  10:11:03 Application started. Press Ctrl+C to shut down.
 INFO  10:11:03 Hosting environment: Development
 INFO  10:11:03 Content root path: C:\Users\KIIT\Desktop\CTS_Project\Retail-Banking-System\CustomerMicroService
 INFO  10:13:14 Customer has been successfully created
+=======
+INFO  04:07:06 Now listening on: http://localhost:5004
+INFO  04:07:06 Application started. Press Ctrl+C to shut down.
+INFO  04:07:06 Hosting environment: Development
+INFO  04:07:06 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  04:07:46 Customer details  has been successfully retrieved
+INFO  04:21:18 Now listening on: http://localhost:5004
+INFO  04:21:18 Application started. Press Ctrl+C to shut down.
+INFO  04:21:18 Hosting environment: Development
+INFO  04:21:18 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  04:21:32 Customer details  has been successfully retrieved
+INFO  04:21:33 Customer details  has been successfully retrieved
+INFO  05:00:28 Now listening on: http://localhost:5004
+INFO  05:00:28 Application started. Press Ctrl+C to shut down.
+INFO  05:00:28 Hosting environment: Development
+INFO  05:00:28 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:01:12 Customer details  has been successfully retrieved
+INFO  09:33:18 Now listening on: http://localhost:5004
+INFO  09:33:18 Application started. Press Ctrl+C to shut down.
+INFO  09:33:18 Hosting environment: Development
+INFO  09:33:18 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:39:58 Now listening on: http://localhost:5004
+INFO  11:39:58 Application started. Press Ctrl+C to shut down.
+INFO  11:39:59 Hosting environment: Development
+INFO  11:39:59 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:04:47 Now listening on: http://localhost:5004
+INFO  12:04:47 Application started. Press Ctrl+C to shut down.
+INFO  12:04:47 Hosting environment: Development
+INFO  12:04:48 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  08:52:49 Now listening on: http://localhost:5004
+INFO  08:52:49 Application started. Press Ctrl+C to shut down.
+INFO  08:52:49 Hosting environment: Development
+INFO  08:52:49 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:29:37 Now listening on: http://localhost:5004
+INFO  09:29:37 Application started. Press Ctrl+C to shut down.
+INFO  09:29:37 Hosting environment: Development
+INFO  09:29:37 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:32:21 Now listening on: http://localhost:5004
+INFO  09:32:21 Application started. Press Ctrl+C to shut down.
+INFO  09:32:21 Hosting environment: Development
+INFO  09:32:21 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:35:29 Now listening on: http://localhost:5004
+INFO  09:35:29 Application started. Press Ctrl+C to shut down.
+INFO  09:35:29 Hosting environment: Development
+INFO  09:35:29 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:37:20 Now listening on: http://localhost:5004
+INFO  09:37:20 Application started. Press Ctrl+C to shut down.
+INFO  09:37:20 Hosting environment: Development
+INFO  09:37:20 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:48:40 Customer details  has been successfully retrieved
+INFO  09:56:11 Now listening on: http://localhost:5004
+INFO  09:56:11 Application started. Press Ctrl+C to shut down.
+INFO  09:56:12 Hosting environment: Development
+INFO  09:56:13 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  10:11:31 Now listening on: http://localhost:5004
+INFO  10:11:31 Application started. Press Ctrl+C to shut down.
+INFO  10:11:31 Hosting environment: Development
+INFO  10:11:31 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+>>>>>>> Stashed changes
+INFO  11:16:27 Now listening on: http://localhost:5004
+INFO  11:16:27 Application started. Press Ctrl+C to shut down.
+INFO  11:16:27 Hosting environment: Development
+INFO  11:16:27 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:23:14 Now listening on: http://localhost:5004
+INFO  11:23:14 Application started. Press Ctrl+C to shut down.
+INFO  11:23:14 Hosting environment: Development
+INFO  11:23:14 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:25:38 Now listening on: http://localhost:5004
+INFO  11:25:38 Application started. Press Ctrl+C to shut down.
+INFO  11:25:38 Hosting environment: Development
+INFO  11:25:38 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:26:13 Customer details  has been successfully retrieved
+INFO  11:31:41 Now listening on: http://localhost:5004
+INFO  11:31:41 Application started. Press Ctrl+C to shut down.
+INFO  11:31:41 Hosting environment: Development
+INFO  11:31:41 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:35:26 Now listening on: http://localhost:5004
+INFO  11:35:26 Application started. Press Ctrl+C to shut down.
+INFO  11:35:26 Hosting environment: Development
+INFO  11:35:26 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+WARN  11:38:36 No Matching result found for the id: 1
+INFO  11:49:06 Now listening on: http://localhost:5004
+INFO  11:49:06 Application started. Press Ctrl+C to shut down.
+INFO  11:49:06 Hosting environment: Development
+INFO  11:49:06 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:01:08 Now listening on: http://localhost:5004
+INFO  12:01:08 Application started. Press Ctrl+C to shut down.
+INFO  12:01:08 Hosting environment: Development
+INFO  12:01:08 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+WARN  12:01:39 No Matching result found for the id: 1
+INFO  12:10:07 Now listening on: http://localhost:5004
+INFO  12:10:07 Application started. Press Ctrl+C to shut down.
+INFO  12:10:07 Hosting environment: Development
+INFO  12:10:07 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+WARN  12:10:22 No Matching result found for the id: 1
+INFO  12:31:51 Now listening on: http://localhost:5004
+INFO  12:31:51 Application started. Press Ctrl+C to shut down.
+INFO  12:31:51 Hosting environment: Development
+INFO  12:31:52 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:53:20 Now listening on: http://localhost:5004
+INFO  12:53:20 Application started. Press Ctrl+C to shut down.
+INFO  12:53:20 Hosting environment: Development
+INFO  12:53:20 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:03:06 Now listening on: http://localhost:5004
+INFO  01:03:06 Application started. Press Ctrl+C to shut down.
+INFO  01:03:06 Hosting environment: Development
+INFO  01:03:06 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:05:23 Now listening on: http://localhost:5004
+INFO  01:05:23 Application started. Press Ctrl+C to shut down.
+INFO  01:05:23 Hosting environment: Development
+INFO  01:05:23 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:09:18 Now listening on: http://localhost:5004
+INFO  01:09:18 Application started. Press Ctrl+C to shut down.
+INFO  01:09:18 Hosting environment: Development
+INFO  01:09:18 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:13:26 Now listening on: http://localhost:5004
+INFO  01:13:26 Application started. Press Ctrl+C to shut down.
+INFO  01:13:26 Hosting environment: Development
+INFO  01:13:26 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:25:21 Now listening on: http://localhost:5004
+INFO  01:25:21 Application started. Press Ctrl+C to shut down.
+INFO  01:25:21 Hosting environment: Development
+INFO  01:25:21 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:25:51 Customer details  has been successfully retrieved

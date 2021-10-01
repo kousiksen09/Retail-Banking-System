@@ -9,9 +9,11 @@ using System.Net.Http.Json;
 using Newtonsoft.Json;
 using CustomerMicroService.Model;
 using AccountMicroservice.Model;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Retail_Bank_UI.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class CreateCustomerAccountController : Controller
     {
         // GET: CreateCustomerAccount
@@ -25,7 +27,7 @@ namespace Retail_Bank_UI.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Index(Customer customer)
+        public IActionResult Index(Customer customer)
         {
             if (ModelState.IsValid)
             {
@@ -52,7 +54,7 @@ namespace Retail_Bank_UI.Controllers
                 }
                 catch(Exception e)
                 {
-
+                    ViewData["message"] = e.Message;
                 }
 
             }

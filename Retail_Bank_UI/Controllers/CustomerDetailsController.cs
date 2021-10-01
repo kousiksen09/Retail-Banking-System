@@ -14,7 +14,7 @@ using TransactionMicroservice.Models;
 
 namespace Retail_Bank_UI.Controllers
 {
-   
+
     public class CustomerDetailsController : Controller
     {
         [HttpGet]
@@ -64,7 +64,6 @@ namespace Retail_Bank_UI.Controllers
             }
             return View("StatementDetails",statements);
         }
-
 
 
     }

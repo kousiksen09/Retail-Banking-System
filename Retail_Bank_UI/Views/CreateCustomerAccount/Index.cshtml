@@ -1,19 +1,18 @@
 ﻿@model CustomerMicroService.Model.Customer
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Create Customer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<!DOCTYPE html>
 
-<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Create Customer</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+   
 </head>
-<body>
+
     <h4>
         <b class="text-success" >@ViewData["message"]</b>
     </h4>
@@ -68,12 +67,7 @@
         </div>
     </div>
 
-    <div>
-        <a asp-action="Index">Back to List</a>
-    </div>
+  
 
-    @section Scripts {
-        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-    }
-</body>
-</html>
+ 
+
