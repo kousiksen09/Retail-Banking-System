@@ -36,7 +36,7 @@ namespace TransactionMicroservice.Repository
 
             if (THistory.Count == 0)
             {
-                throw new System.ArgumentException("No Record Found for this Customer Id: " + CustomerId);
+                _log4net.Info("No Record Found for this Customer Id: " + CustomerId);
             }
             return THistory;
         }
@@ -104,7 +104,10 @@ namespace TransactionMicroservice.Repository
                     }
                 }
             }
-            catch (Exception) { throw; }
+            catch (Exception) 
+            { 
+                return null; 
+            }
         }
 
 
@@ -187,7 +190,10 @@ namespace TransactionMicroservice.Repository
 
             }
 
-            catch (Exception) { throw; }
+            catch (Exception) 
+            { 
+                return null; 
+            }
         }
 
 
@@ -215,7 +221,7 @@ namespace TransactionMicroservice.Repository
             }
             catch (Exception)
             {
-                throw;
+                return null;
             }
         }
 
@@ -259,9 +265,10 @@ namespace TransactionMicroservice.Repository
                     return trans;
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw;
+                trans.Message = e.Message;
+                return trans;
             }
 
         }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
+    "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "projectUniqueName": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
         "projectName": "RetailBankAPIGateway",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
-        "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
+        "projectPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "packagesPath": "C:\\Users\\rohit\\.nuget\\packages\\",
+        "outputPath": "D:\\Cognizant DotNet_FSE\\Project\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
