@@ -74,7 +74,7 @@
                         letter-spacing: 1px;
                     }
 
-                    .form .input .inputBox input,select {
+                    .form .input .inputBox input,select,option {
                         position: relative;
                         width: 100%;
                         height: 40px;
@@ -85,12 +85,6 @@
                         color: #fff;
                         font-size: 18px;
                         border-radius: 10px;
-                    }
-
-                    .form .input .inputBox select option {
-                        position: relative;
-                        background: linear-gradient(315deg,#e91e63,#5d02ff);
-                        color: #fff;
                     }
 
                         .form .input .inputBox input[type="submit"] {
@@ -108,6 +102,11 @@
                                 background: linear-gradient(315deg,#e91e6271,#5f02ff8c);
                             }
 
+    
+
+
+         
+
 
     </style>
 </head>
@@ -121,7 +120,7 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="inputBox">
                     <label class="control-label text-light">Please select the user type</label>
-                    <select onchange="fieldGenerate()" asp-for="LogInType" asp-items="Html.GetEnumSelectList<UserType>()"  id="userType">
+                    <select onchange="fieldGenerate()" asp-for="LogInType" asp-items="Html.GetEnumSelectList<UserType>()" class="form-control" id="userType">
                     </select>
                     <span asp-validation-for="LogInType" class="text-danger"></span>
                 </div>

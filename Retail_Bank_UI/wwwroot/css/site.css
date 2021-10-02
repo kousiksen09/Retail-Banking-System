@@ -13,12 +13,11 @@ body {
     margin: 0;
     font-size: 50%;
     line-height: 1em;
-    height:100vh;
-    width:100vw;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     overflow: hidden;
-    background-color: #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background: #060c21;
 }
 
 div {
@@ -190,4 +189,6 @@ p {
     padding-left: 2rem;
     justify-content: flex-start;
 }
+
+
 

@@ -1261,3 +1261,11 @@ INFO  05:34:36 Application started. Press Ctrl+C to shut down.
 INFO  05:34:36 Hosting environment: Development
 INFO  05:34:36 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
 INFO  05:35:07 Customer details  has been successfully retrieved
+INFO  10:44:58 Now listening on: http://localhost:5004
+INFO  10:44:58 Application started. Press Ctrl+C to shut down.
+INFO  10:44:58 Hosting environment: Development
+INFO  10:44:58 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:10:56 Now listening on: http://localhost:5004
+INFO  11:10:56 Application started. Press Ctrl+C to shut down.
+INFO  11:10:56 Hosting environment: Development
+INFO  11:10:56 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService

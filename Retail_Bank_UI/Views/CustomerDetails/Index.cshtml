@@ -15,127 +15,128 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-<div class="container">
-    <div class="profile">
-        <div class="profile-name">
+    <div class="container">
+        <b class="text-danger">@ViewBag.Error</b>
+        <div class="profile">
+            <div class="profile-name">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/profile-pic-male_4811a1.svg" alt="icon" height="50" width="50" />
+                    </div>
+                    <div class="col-8">
+                        <h4 class="text-dark" style="font-size:0.8rem">Hello,</h4>
+                        <h2 style="font-size:1.2rem">@Model.Name</h2>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="profile-details">
+            <div class="card-title"><b>Personal Information</b></div>
             <div class="row">
-                <div class="col-4">
-                    <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/profile-pic-male_4811a1.svg" alt="icon" height="50" width="50" />
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">Name</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.Name</h4>
+                    </div>
                 </div>
-                <div class="col-8">
-                    <h4 class="text-dark" style="font-size:0.8rem">Hello,</h4>
-                    <h2 style="font-size:1.2rem">@Model.Name</h2>
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">PIN Number</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.ZIPCode</h4>
+                    </div>
                 </div>
-            </div>
-          
-           
-        </div>
-    </div>
-    <div class="profile-details">
-        <div class="card-title"><b>Personal Information</b></div>
-        <div class="row">
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">Name</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.Name</h4>
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">Address</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.Address</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">PIN Number</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.ZIPCode</h4>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">Address</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.Address</h4>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">Date Of Birth</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.DOB.Day/@Model.DOB.Month/@Model.DOB.Year</h4>
-                </div>
-            </div>
-        </div>
-
-        <br /><br />
-        <div class="row">
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">Mobile Number</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.MobileNo</h4>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">Gender</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.gender</h4>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card-subtitle">
-                    <h3 class="ks-pr-title">PAN Number</h3>
-                    <h4 class="ks-pr-subtitle ">@Model.PAN</h4>
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">Date Of Birth</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.DOB.Day/@Model.DOB.Month/@Model.DOB.Year</h4>
+                    </div>
                 </div>
             </div>
 
-        </div>
-        <br /><br />
-        <div class="card-title"><b>Account Information</b></div>
-        @{
-            if (ViewData["AccountInfo"] != null)
-            {
-                if (ViewData.Values != null && ViewData.Values.Count() > 0)
+            <br /><br />
+            <div class="row">
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">Mobile Number</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.MobileNo</h4>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">Gender</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.gender</h4>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card-subtitle">
+                        <h3 class="ks-pr-title">PAN Number</h3>
+                        <h4 class="ks-pr-subtitle ">@Model.PAN</h4>
+                    </div>
+                </div>
+
+            </div>
+            <br /><br />
+            <div class="card-title"><b>Account Information</b></div>
+            @{
+                if (ViewData["AccountInfo"] != null)
                 {
-                <div class="account-info">
-                    @foreach (var item in ViewData["AccountInfo"] as List<AccountMicroservice.Model.Account>
-                       )
+                    if (ViewData.Values != null && ViewData.Values.Count() > 0)
                     {
+                        <div class="account-info">
+                            @foreach (var item in ViewData["AccountInfo"] as List<AccountMicroservice.Model.Account>
+                              )
+                            {
 
 
-                        @if (item.Cur_AccountId != 0)
-                        {
-                            <div class="current">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/current-account-1409345-1192438.png"  alt="save" height="50" width="50"/> 
+                                @if (item.Cur_AccountId != 0)
+                                {
+                                    <div class="current">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/current-account-1409345-1192438.png" alt="save" height="50" width="50" />
+                                            </div>
+                                            <div class="col-8">
+                                                <h3 class="ks-pr-title">@item.accountType</h3>
+                                                <a asp-action="Statement" asp-route-AccountId="@item.Cur_AccountId" class="ks-pr-subtitle ">@item.Cur_AccountId</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-8">
-                                        <h3 class="ks-pr-title">@item.accountType</h3>
-                                        <a asp-action="Statement" asp-route-AccountId="@item.Cur_AccountId" class="ks-pr-subtitle ">@item.Cur_AccountId</a>
+                                }
+                                @if (item.Sav_AccountId != 0)
+                                {
+                                    <div class="savings">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="https://www.vhv.rs/dpng/d/609-6099648_savings-account-icon-green-png-transparent-png.png" alt="save" height="50" width="50" />
+                                            </div>
+                                            <div class="col-8">
+                                                <h3 class="ks-pr-title">@item.accountType</h3>
+                                                <a asp-action="Statement" asp-route-AccountId="@item.Sav_AccountId" class="ks-pr-subtitle ">@item.Sav_AccountId</a>
+                                            </div>
+                                        </div>
+
+
                                     </div>
-                                </div>
-                                </div>
-                        }
-                        @if (item.Sav_AccountId != 0)
-                        {
-                            <div class="savings">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="https://www.vhv.rs/dpng/d/609-6099648_savings-account-icon-green-png-transparent-png.png" alt="save" height="50" width="50" />
-                                    </div>
-                                    <div class="col-8">
-                                        <h3 class="ks-pr-title">@item.accountType</h3>
-                                        <a asp-action="Statement" asp-route-AccountId="@item.Sav_AccountId" class="ks-pr-subtitle ">@item.Sav_AccountId</a>
-                                    </div>
-                                </div>
-                               
-                               
-                            </div>
-                        }
+                                }
 
 
 
+                            }
+                        </div>
                     }
-                </div>
+                }
             }
-        }
-        }
-    </div>
+        </div>
 
-</div>
+    </div>
    
 </body>
 </html>

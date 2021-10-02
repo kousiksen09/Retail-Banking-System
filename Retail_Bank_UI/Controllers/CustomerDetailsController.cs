@@ -18,29 +18,41 @@ namespace Retail_Bank_UI.Controllers
     public class CustomerDetailsController : Controller
     {
         [HttpGet]
-       
-        public async Task<IActionResult> Index(int? customerId)
+
+        public async Task<IActionResult> Index(int customerId)
         {
             Client client = new Client();
             Customer customer = new Customer();
-            
-            List<Account> accounts = new List<Account>();
-            var result = await client.APIClient().GetAsync("/gateway/Customer/getCustomerDetails/"+customerId);
-            var apiAcc = await client.APIClient().GetAsync("/gateway/Account/getCustomerAccount/" + customerId);
-            if (result.IsSuccessStatusCode)
-            {
-                var user = result.Content.ReadAsStringAsync().Result;
-                customer= JsonConvert.DeserializeObject<Customer>(user);
-            }
-            if(apiAcc.IsSuccessStatusCode)
-            {
-                var account = apiAcc.Content.ReadAsStringAsync().Result;
-                accounts = JsonConvert.DeserializeObject<List<Account>>(account);
 
-                ViewData["AccountInfo"] = accounts;
+            List<Account> accounts = new List<Account>();
+            try
+            {
+
+
+                var result = await client.APIClient().GetAsync("/gateway/Customer/getCustomerDetails/" + customerId);
+                var apiAcc = await client.APIClient().GetAsync("/gateway/Account/getCustomerAccount/" + customerId);
+                if (result.IsSuccessStatusCode)
+                {
+                    var user = result.Content.ReadAsStringAsync().Result;
+                    customer = JsonConvert.DeserializeObject<Customer>(user);
+                }
+                if (apiAcc.IsSuccessStatusCode)
+                {
+                    var account = apiAcc.Content.ReadAsStringAsync().Result;
+                    accounts = JsonConvert.DeserializeObject<List<Account>>(account);
+
+                    ViewData["AccountInfo"] = accounts;
+                }
+
+                return View(customer);
             }
-            return View(customer);
+            catch(Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View();
+            }
         }
+        
 
 
 
@@ -56,13 +68,21 @@ namespace Retail_Bank_UI.Controllers
             Client client = new Client();
             List<Statement> statements = new List<Statement>();
             statement.AccountId = AccountId;
-            var result = await client.APIClient().GetAsync("/gateway/Transaction/getStatement/" + statement.AccountId+"/"+statement.FromDate.ToString("yyyy-MM-dd HH:mm:ss")+"/"+statement.ToDate.ToString("yyyy-MM-dd HH:mm:ss"));
-           if(result.IsSuccessStatusCode)
+            try
             {
-                var s = result.Content.ReadAsStringAsync().Result;
-                statements = JsonConvert.DeserializeObject<List<Statement>>(s);
+                var result = await client.APIClient().GetAsync("/gateway/Transaction/getStatement/" + statement.AccountId + "/" + statement.FromDate.ToString("yyyy-MM-dd HH:mm:ss") + "/" + statement.ToDate.ToString("yyyy-MM-dd HH:mm:ss"));
+                if (result.IsSuccessStatusCode)
+                {
+                    var s = result.Content.ReadAsStringAsync().Result;
+                    statements = JsonConvert.DeserializeObject<List<Statement>>(s);
+                }
+                return View("StatementDetails", statements);
             }
-            return View("StatementDetails",statements);
+            catch(Exception e)
+            {
+                ViewBag.Error = e.Message;
+                return View();
+            }
         }
 
 
