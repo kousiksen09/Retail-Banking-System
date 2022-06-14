@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
+    "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
+    "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "projectUniqueName": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
         "projectName": "RetailBankAPIGateway",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
+        "projectPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\RetailBankAPIGateway\\RetailBankAPIGateway.csproj",
         "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
+        "outputPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\RetailBankAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,7 +5,8 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<table style="width:100%" class="table table-bordered table-hover">
+
+<table id="accountTable" style="width:100%" class="table table-bordered table-hover">
     <thead class="thead-dark">
         <tr>
 
@@ -24,10 +25,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Balance)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MinBalance)
-            </th>
-            <th></th>
+          
         </tr>
     </thead>
     <tbody>
@@ -56,11 +54,11 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Balance)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MinBalance)
-                </td>
+             
 
             </tr>
         }
     </tbody>
 </table>
+
+

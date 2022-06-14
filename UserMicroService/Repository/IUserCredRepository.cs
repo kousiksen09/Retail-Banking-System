@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CustomerMicroService.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,5 +11,6 @@ namespace UserMicroService.Repository
     {
         IEnumerable<UserCred> GetUserCreds();
         UserCred GetUserCredById(int userid);
+        public UserCred CreateUser(Customer customer);
     }
 }

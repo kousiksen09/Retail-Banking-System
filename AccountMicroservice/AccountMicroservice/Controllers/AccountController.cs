@@ -148,6 +148,10 @@ namespace AccountMicroservice.Controllers
                 return BadRequest();
             }
             var dbAccount = _AccountRepo.GetParticularAccount(AccountId);
+            if(dbAccount==null)
+            {
+                return BadRequest();
+            }
             dbAccount.Balance = acc.Balance;
 
             _accountMicroserviceDbContext.Entry(dbAccount).State = EntityState.Modified;

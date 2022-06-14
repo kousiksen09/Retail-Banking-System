@@ -234,6 +234,7 @@ namespace TransactionMicroservice.Repository
             {
                 var cusDebit = await GetDetailsAsync(Source_Account_Id);
                 var cusCredit = await GetDetailsAsync(Target_Account_Id);
+                
                 if (cusDebit.MinBalance <= cusDebit.Balance - amount)
                 {
                     await WithdrawAsync(Source_Account_Id, amount);

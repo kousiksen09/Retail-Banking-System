@@ -11,12 +11,12 @@
   "profiles": {
     "UserMicroService": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "api/User",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": "true",
+      "dotnetRunMessages": "false",
       "applicationUrl": "http://localhost:5003"
     }
   }

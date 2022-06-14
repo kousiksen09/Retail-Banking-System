@@ -11,12 +11,12 @@
   "profiles": {
     "TransactionMicroservice": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "api/Transaction",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": "true",
+      "dotnetRunMessages": "false",
       "applicationUrl": "http://localhost:5000"
     }
   }

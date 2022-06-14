@@ -35,6 +35,9 @@ namespace TransactionMicroservice.Migrations
                     b.Property<double>("ClosingBalance")
                         .HasColumnType("float");
 
+                    b.Property<DateTime>("DateOfTransaction")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Narration")
                         .HasColumnType("nvarchar(max)");
 

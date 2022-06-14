@@ -88,3 +88,115 @@ INFO  03:19:38 Account details is successfully fetched in rules microservice for
 INFO  03:19:38 Transaction history returned for Account Id: 175894
 INFO  05:35:49 Account details is successfully fetched in rules microservice for AccountId- 175894
 INFO  05:35:52 Transaction history returned for Account Id: 175894
+INFO  10:19:13 Account details is successfully fetched in rules microservice for AccountId- 512315
+INFO  10:19:14 No Record Found for this Customer Id: 2
+INFO  10:19:14 Transaction history returned for Account Id: 512315
+INFO  10:20:04 Invalid amount
+INFO  10:21:19 Invalid ammount
+INFO  10:21:33 Withdraw is Processingfor Account: 86897
+INFO  10:59:04 Deposit is Processing for Account: 148182
+INFO  05:11:53 Account details is successfully fetched in rules microservice for AccountId- 132103
+INFO  05:11:55 Account details is successfully fetched in rules microservice for AccountId- 132103
+INFO  05:11:55 Deposit is Processing for Account: 132103
+INFO  05:12:28 Account details is successfully fetched in rules microservice for AccountId- 132103
+INFO  05:12:28 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:12:39 Account details is successfully fetched in rules microservice for AccountId- 132103
+INFO  05:12:39 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:12:39 Account details is successfully fetched in rules microservice for AccountId- 132103
+INFO  05:12:39 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:12:39 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:14:03 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:14:03 Transaction history returned for Account Id: 148181
+INFO  05:17:16 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:17:16 Transaction history returned for Account Id: 148181
+INFO  05:17:55 Account details is successfully fetched in rules microservice for AccountId- 148181
+INFO  05:17:55 Transaction history returned for Account Id: 148181
+INFO  12:56:48 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  12:56:50 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  12:56:50 Deposit is Processing for Account: 190039
+INFO  01:02:51 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  01:02:52 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  01:02:52 Deposit is Processing for Account: 190039
+INFO  01:06:46 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  01:06:48 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  01:06:48 Deposit is Processing for Account: 190039
+INFO  02:32:54 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  02:32:56 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  02:32:56 Deposit is Processing for Account: 190039
+INFO  04:34:51 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:34:53 Withdraw is Processingfor Account: 190039
+INFO  04:35:51 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:35:51 Withdraw is Processingfor Account: 190039
+INFO  04:37:27 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:37:27 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:37:27 Deposit is Processing for Account: 190039
+INFO  04:41:02 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:41:04 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:41:04 Deposit is Processing for Account: 190039
+INFO  04:45:20 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:45:21 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:45:21 Deposit is Processing for Account: 190039
+INFO  04:48:47 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:48:47 Withdraw is Processingfor Account: 190039
+INFO  04:50:32 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  04:50:33 Withdraw is Processingfor Account: 190039
+INFO  05:09:54 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  05:09:54 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  05:09:54 Deposit is Processing for Account: 190039
+INFO  05:15:30 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  05:15:32 Withdraw is Processingfor Account: 190039
+INFO  05:18:12 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  05:18:12 Withdraw is Processingfor Account: 190039
+INFO  05:38:59 Account details is successfully fetched in rules microservice for AccountId- 237422
+INFO  05:39:01 Account details is successfully fetched in rules microservice for AccountId- 237422
+INFO  05:39:01 Deposit is Processing for Account: 237422
+INFO  02:44:21 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  02:44:22 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  02:44:22 Deposit is Processing for Account: 190039
+INFO  02:46:40 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  02:46:42 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  02:46:42 Deposit is Processing for Account: 190039
+INFO  09:04:04 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  09:04:06 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  09:04:06 Deposit is Processing for Account: 190039
+INFO  09:15:57 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  09:15:58 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  09:15:58 Deposit is Processing for Account: 190039
+INFO  09:28:22 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  09:28:24 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  09:28:24 Deposit is Processing for Account: 190039
+INFO  10:08:20 Account details is successfully fetched in rules microservice for AccountId- 126929
+INFO  10:08:22 Account details is successfully fetched in rules microservice for AccountId- 126929
+INFO  10:08:22 Deposit is Processing for Account: 126929
+INFO  10:47:16 Account details is successfully fetched in rules microservice for AccountId- 225815
+INFO  10:47:17 Account details is successfully fetched in rules microservice for AccountId- 225815
+INFO  10:47:17 Account details is successfully fetched in rules microservice for AccountId- 225815
+INFO  10:47:17 Account details is successfully fetched in rules microservice for AccountId- 225815
+INFO  10:47:17 Deposit is Processing for Account: 225815
+INFO  10:47:17 Deposit is Processing for Account: 225815
+INFO  11:15:13 Account details is successfully fetched in rules microservice for AccountId- 275579
+INFO  11:15:14 Account details is successfully fetched in rules microservice for AccountId- 275579
+INFO  11:15:14 Deposit is Processing for Account: 275579
+INFO  12:23:08 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  12:23:09 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  12:23:09 Deposit is Processing for Account: 190039
+INFO  12:24:23 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  12:24:24 Account details is successfully fetched in rules microservice for AccountId- 190039
+INFO  12:24:24 Deposit is Processing for Account: 190039
+INFO  05:59:02 Account details is successfully fetched in rules microservice for AccountId- 133544
+INFO  05:59:04 Account details is successfully fetched in rules microservice for AccountId- 133544
+INFO  05:59:04 Deposit is Processing for Account: 133544
+INFO  10:38:36 Account details is successfully fetched in rules microservice for AccountId- 289336
+INFO  10:38:39 Account details is successfully fetched in rules microservice for AccountId- 289336
+INFO  10:38:39 Deposit is Processing for Account: 289336
+INFO  10:48:42 Account details is successfully fetched in rules microservice for AccountId- 289336
+INFO  10:48:47 Account details is successfully fetched in rules microservice for AccountId- 289336
+INFO  10:48:47 Deposit is Processing for Account: 289336
+INFO  10:50:21 Account details is successfully fetched in rules microservice for AccountId- 289336
+INFO  10:50:21 Account details is successfully fetched in rules microservice for AccountId- 289336
+INFO  10:50:21 Deposit is Processing for Account: 289336
+INFO  08:41:47 Account details is successfully fetched in rules microservice for AccountId- 423964
+INFO  08:41:50 Account details is successfully fetched in rules microservice for AccountId- 423964
+INFO  08:41:50 Deposit is Processing for Account: 423964
+INFO  08:42:58 Account details is successfully fetched in rules microservice for AccountId- 423964
+INFO  08:42:59 Transaction history returned for Account Id: 423964

@@ -20,9 +20,13 @@ namespace CustomerMicroService.Model
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Mobile Number is required.")]
-        [RegularExpression(@"^([0-9]{10})$", ErrorMessage = "Invalid Mobile Number.")]
+        [DataType(DataType.PhoneNumber)]
+        [Phone]
         public string MobileNo { get; set; }
-        
+
+        [Required(ErrorMessage = "Email ID is required.")]
+        public string Email { get; set; }
+
         [Required]
         [RegularExpression(@"^([0-9]{6})$", ErrorMessage ="Invalid PIN Number")]
         public int ZIPCode { get; set; }

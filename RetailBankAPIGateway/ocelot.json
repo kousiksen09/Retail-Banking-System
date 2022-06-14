@@ -25,6 +25,19 @@
       "UpstreamPathTemplate": "/gateway/User/getUser/{id}",
       "UpstreamHttpMethod": [ "GET" ]
     },
+    {
+      "DownstreamPathTemplate": "/api/User/createUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/User/createUser",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+
     //Customer Microservice
     {
       "DownstreamPathTemplate": "/api/Customer/getCustomerDetails/{id}",

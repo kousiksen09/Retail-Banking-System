@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj": {}
+    "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
+    "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
+        "projectUniqueName": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
         "projectName": "CustomerMicroService",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
+        "projectPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj",
         "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\obj\\",
+        "outputPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerMicroService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,18 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj": {
+    "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
+        "projectUniqueName": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
         "projectName": "CustomerTest",
-        "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
+        "projectPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerTest\\CustomerTest.csproj",
         "packagesPath": "C:\\Users\\Kousik Sen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerTest\\obj\\",
+        "outputPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kousik Sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,8 +117,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
-                "projectPath": "C:\\Users\\Kousik Sen\\Desktop\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj"
+              "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj": {
+                "projectPath": "D:\\[Kousik] Projects\\Retail-Banking-System\\Retail-Banking-System\\CustomerMicroService\\CustomerMicroService.csproj"
               }
             }
           }
@@ -169,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

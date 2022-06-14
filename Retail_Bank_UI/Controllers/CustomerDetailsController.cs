@@ -18,7 +18,7 @@ namespace Retail_Bank_UI.Controllers
     public class CustomerDetailsController : Controller
     {
         [HttpGet]
-
+        [Authorize(Roles = "Customer")]
         public async Task<IActionResult> Index(int customerId)
         {
             Client client = new Client();
@@ -52,15 +52,17 @@ namespace Retail_Bank_UI.Controllers
                 return View();
             }
         }
-        
 
 
 
+        [Authorize(Roles = "Customer")]
         public IActionResult Statement(int AccountId)
         {
             ViewBag.AccountId = AccountId;
             return View();
         }
+
+        [Authorize(Roles = "Customer")]
 
         [HttpPost]
         public async Task<IActionResult> Statement(int AccountId, StatementUI statement)

@@ -303,3 +303,125 @@ D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\Accoun
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\ref\AccountMicroservice.dll
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.pdb
 D:\Cognizant DotNet_FSE\Project\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.genruntimeconfig.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.json
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.exe
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.deps.json
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.json
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.dev.json
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\ref\AccountMicroservice.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.pdb
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Humanizer.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.csproj.AssemblyReference.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.AssemblyInfoInputs.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.AssemblyInfo.cs
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\staticwebassets\AccountMicroservice.StaticWebAssets.Manifest.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\staticwebassets\AccountMicroservice.StaticWebAssets.xml
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\scopedcss\bundle\AccountMicroservice.styles.css
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.csproj.CopyComplete
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\ref\AccountMicroservice.dll
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.pdb
+C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.genruntimeconfig.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.Development.json
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\appsettings.json
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.StaticWebAssets.xml
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.exe
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.deps.json
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.json
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.runtimeconfig.dev.json
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\AccountMicroservice.pdb
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Humanizer.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.csproj.AssemblyReference.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.AssemblyInfoInputs.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.AssemblyInfo.cs
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.csproj.CoreCompileInputs.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.MvcApplicationPartsAssemblyInfo.cs
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.MvcApplicationPartsAssemblyInfo.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\scopedcss\bundle\AccountMicroservice.styles.css
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\staticwebassets\AccountMicroservice.StaticWebAssets.Manifest.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.RazorTargetAssemblyInfo.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.csproj.CopyComplete
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\refint\AccountMicroservice.dll
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.pdb
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\AccountMicroservice.genruntimeconfig.cache
+D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\AccountMicroservice\AccountMicroservice\obj\Debug\net5.0\ref\AccountMicroservice.dll

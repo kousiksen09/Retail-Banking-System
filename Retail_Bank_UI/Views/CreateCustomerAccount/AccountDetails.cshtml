@@ -15,12 +15,10 @@
   
 
         <div class="container-fluid table-responsive py-5">
-            <table style="width:100%" class="table table-bordered table-hover">
+            <table id="accountTable" style="width:100%" class="table table-bordered table-hover">
                 <thead class="thead-dark">
                     <tr>
-                        <th>
-                            @Html.DisplayNameFor(model => model.MyId)
-                        </th>
+                       
                         <th>
                             @Html.DisplayNameFor(model => model.Sav_AccountId)
                         </th>
@@ -36,19 +34,15 @@
                         <th>
                             @Html.DisplayNameFor(model => model.Balance)
                         </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.MinBalance)
-                        </th>
-                        <th></th>
+                       
+                       
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
                         <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.MyId)
-                            </td>
+                           
                             <td>
                                 @Html.DisplayFor(modelItem => item.Sav_AccountId)
                             </td>
@@ -64,9 +58,7 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.Balance)
                             </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.MinBalance)
-                            </td>
+                          
 
                         </tr>
                     }
@@ -74,4 +66,9 @@
             </table>
         </div>
 
- 
+ @section Scripts
+{
+    <script src="~/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src"~/js/AccountTable.js"></script>
+}

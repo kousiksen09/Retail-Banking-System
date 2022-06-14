@@ -26,6 +26,16 @@ namespace Retail_Bank_UI.Controllers
             }
             return allCred;
         }
+
+
+        [HttpGet]
+        [Route("/Account/AccessDenied")]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -35,6 +45,9 @@ namespace Retail_Bank_UI.Controllers
         public async Task<IActionResult> Index(LogIn logIn)
         {
             IEnumerable<UserCred> userCreds =await GetAllUserAsync();
+            ClaimsIdentity identity = null;
+            bool isAuthenticate = false;
+            bool isAdmin = false;
 
             if (logIn.LogInType==UserType.Admin)
             {
@@ -42,43 +55,70 @@ namespace Retail_Bank_UI.Controllers
                 {
                     if(item.UserName==logIn.Username && item.Password==logIn.Password)
                     {
-                        var identity = new ClaimsIdentity(new[] {
+                        
+                         identity = new ClaimsIdentity(new[] {
                     new Claim(ClaimTypes.Name, logIn.Username),
                     new Claim(ClaimTypes.Role,"Admin")
-                }, CookieAuthenticationDefaults.AuthenticationScheme);
+                   
+                    }, CookieAuthenticationDefaults.AuthenticationScheme);
 
-
+                        isAuthenticate = true;
+                        isAdmin = true;
                         ViewBag.Msg = "Successfully Logged In";
                         ModelState.Clear();
-                        return RedirectToAction("Index", "Admin");
+                       
                     }
                     ViewBag.Msg = "OOPS!!Wrong Cred";
                 }
                
             }
-            else if(logIn.LogInType == UserType.Customer)
+            if(logIn.LogInType == UserType.Customer)
             {
                 foreach (var item in userCreds)
                 {
                     if (item.UserName == logIn.Username && item.Password == logIn.Password && item.CustomerId==logIn.CustomerId)
                     {
-                       var  identity = new ClaimsIdentity(new[] {
+                         identity = new ClaimsIdentity(new[] {
                     new Claim(ClaimTypes.Name, logIn.Username),
                     new Claim(ClaimTypes.Role,"Customer")
                 }, CookieAuthenticationDefaults.AuthenticationScheme);
 
-
+                        isAuthenticate = true;
+                        isAdmin = false;
                         ViewBag.Msg = "Successfully Logged In";
                         ModelState.Clear();
-                        return RedirectToAction("Index","CustomerDetails",new {customerId= logIn.CustomerId });
+                        
                        
                     }
                     ViewBag.Msg = "OOPS!!Wrong Cred";
                 }
             }
 
-        
-            return View();
+            if(isAuthenticate)
+            {
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    
+
+                };
+                var principal = new ClaimsPrincipal(identity);
+
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    principal,
+                    authProperties);
+               // var login = HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal,authProperties);
+                if(isAdmin)
+                {
+                    return RedirectToAction("Index", "Admin");
+                }
+                return RedirectToAction("Index", "CustomerDetails", new { customerId = logIn.CustomerId });
+            }
+         
+                return View("AccessDenied");
+            
+      
         }
     }
 }

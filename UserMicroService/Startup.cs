@@ -1,3 +1,4 @@
+using CustomerMicroService.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,7 @@ namespace UserMicroService
 
             services.AddControllers();
             services.AddTransient<IUserCredRepository, UserCredRepository>();
+           
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "UserMicroService", Version = "v1" });

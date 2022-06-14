@@ -1269,3 +1269,328 @@ INFO  11:10:56 Now listening on: http://localhost:5004
 INFO  11:10:56 Application started. Press Ctrl+C to shut down.
 INFO  11:10:56 Hosting environment: Development
 INFO  11:10:56 Content root path: C:\Users\Kousik Sen\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:54:09 Now listening on: http://localhost:5004
+INFO  09:54:09 Application started. Press Ctrl+C to shut down.
+INFO  09:54:09 Hosting environment: Development
+INFO  09:54:09 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+WARN  10:02:37 User send some invalid customer id
+INFO  10:09:32 Now listening on: http://localhost:5004
+INFO  10:09:32 Application started. Press Ctrl+C to shut down.
+INFO  10:09:32 Hosting environment: Development
+INFO  10:09:32 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  10:12:13 Customer has been successfully created
+WARN  10:13:36 User send some invalid customer id
+INFO  10:13:49 Customer details  has been successfully retrieved
+INFO  10:18:10 Customer details  has been successfully retrieved
+INFO  10:58:28 Now listening on: http://localhost:5004
+INFO  10:58:28 Application started. Press Ctrl+C to shut down.
+INFO  10:58:28 Hosting environment: Development
+INFO  10:58:28 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:28:13 Now listening on: http://localhost:5004
+INFO  11:28:13 Application started. Press Ctrl+C to shut down.
+INFO  11:28:13 Hosting environment: Development
+INFO  11:28:13 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:31:13 Now listening on: http://localhost:5004
+INFO  11:31:13 Application started. Press Ctrl+C to shut down.
+INFO  11:31:13 Hosting environment: Development
+INFO  11:31:13 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:43:26 Now listening on: http://localhost:5004
+INFO  11:43:26 Application started. Press Ctrl+C to shut down.
+INFO  11:43:26 Hosting environment: Development
+INFO  11:43:26 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:46:59 Now listening on: http://localhost:5004
+INFO  11:46:59 Application started. Press Ctrl+C to shut down.
+INFO  11:46:59 Hosting environment: Development
+INFO  11:46:59 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:38:43 Now listening on: http://localhost:5004
+INFO  12:38:43 Application started. Press Ctrl+C to shut down.
+INFO  12:38:43 Hosting environment: Development
+INFO  12:38:43 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  02:53:39 Now listening on: http://localhost:5004
+INFO  02:53:39 Application started. Press Ctrl+C to shut down.
+INFO  02:53:39 Hosting environment: Development
+INFO  02:53:39 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  03:05:45 Now listening on: http://localhost:5004
+INFO  03:05:45 Application started. Press Ctrl+C to shut down.
+INFO  03:05:45 Hosting environment: Development
+INFO  03:05:45 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  03:39:21 Now listening on: http://localhost:5004
+INFO  03:39:21 Application started. Press Ctrl+C to shut down.
+INFO  03:39:21 Hosting environment: Development
+INFO  03:39:21 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:00:42 Now listening on: http://localhost:5004
+INFO  05:00:42 Application started. Press Ctrl+C to shut down.
+INFO  05:00:42 Hosting environment: Development
+INFO  05:00:42 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:03:22 Now listening on: http://localhost:5004
+INFO  05:03:22 Application started. Press Ctrl+C to shut down.
+INFO  05:03:22 Hosting environment: Development
+INFO  05:03:22 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:10:12 Customer has been successfully created
+INFO  05:13:38 Customer details  has been successfully retrieved
+INFO  10:56:46 Now listening on: http://localhost:5004
+INFO  10:56:47 Application started. Press Ctrl+C to shut down.
+INFO  10:56:47 Hosting environment: Development
+INFO  10:56:47 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:00:06 Customer has been successfully created
+INFO  12:11:10 Now listening on: http://localhost:5004
+INFO  12:11:10 Application started. Press Ctrl+C to shut down.
+INFO  12:11:10 Hosting environment: Development
+INFO  12:11:10 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:26:35 Now listening on: http://localhost:5004
+INFO  12:26:36 Application started. Press Ctrl+C to shut down.
+INFO  12:26:36 Hosting environment: Development
+INFO  12:26:36 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:55:51 Now listening on: http://localhost:5004
+INFO  12:55:51 Application started. Press Ctrl+C to shut down.
+INFO  12:55:51 Hosting environment: Development
+INFO  12:55:51 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:56:51 Customer details  has been successfully retrieved
+INFO  01:02:04 Now listening on: http://localhost:5004
+INFO  01:02:05 Application started. Press Ctrl+C to shut down.
+INFO  01:02:05 Hosting environment: Development
+INFO  01:02:05 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:02:53 Customer details  has been successfully retrieved
+INFO  01:06:12 Now listening on: http://localhost:5004
+INFO  01:06:12 Application started. Press Ctrl+C to shut down.
+INFO  01:06:12 Hosting environment: Development
+INFO  01:06:12 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  01:06:49 Customer details  has been successfully retrieved
+INFO  02:31:31 Now listening on: http://localhost:5004
+INFO  02:31:31 Application started. Press Ctrl+C to shut down.
+INFO  02:31:31 Hosting environment: Development
+INFO  02:31:31 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  02:32:57 Customer details  has been successfully retrieved
+INFO  04:34:17 Now listening on: http://localhost:5004
+INFO  04:34:18 Application started. Press Ctrl+C to shut down.
+INFO  04:34:18 Hosting environment: Development
+INFO  04:34:18 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  04:34:54 Customer details  has been successfully retrieved
+INFO  04:35:51 Customer details  has been successfully retrieved
+INFO  04:37:27 Customer details  has been successfully retrieved
+INFO  04:39:59 Now listening on: http://localhost:5004
+INFO  04:39:59 Application started. Press Ctrl+C to shut down.
+INFO  04:39:59 Hosting environment: Development
+INFO  04:39:59 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  04:41:05 Customer details  has been successfully retrieved
+INFO  04:44:37 Now listening on: http://localhost:5004
+INFO  04:44:37 Application started. Press Ctrl+C to shut down.
+INFO  04:44:37 Hosting environment: Development
+INFO  04:44:37 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  04:45:22 Customer details  has been successfully retrieved
+INFO  04:48:47 Customer details  has been successfully retrieved
+INFO  04:50:06 Now listening on: http://localhost:5004
+INFO  04:50:06 Application started. Press Ctrl+C to shut down.
+INFO  04:50:06 Hosting environment: Development
+INFO  04:50:06 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  04:50:35 Customer details  has been successfully retrieved
+INFO  05:09:54 Customer details  has been successfully retrieved
+INFO  05:14:44 Now listening on: http://localhost:5004
+INFO  05:14:44 Application started. Press Ctrl+C to shut down.
+INFO  05:14:44 Hosting environment: Development
+INFO  05:14:44 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:15:33 Customer details  has been successfully retrieved
+INFO  05:18:12 Customer details  has been successfully retrieved
+INFO  05:36:18 Now listening on: http://localhost:5004
+INFO  05:36:18 Application started. Press Ctrl+C to shut down.
+INFO  05:36:18 Hosting environment: Development
+INFO  05:36:18 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:38:41 Customer has been successfully created
+INFO  05:39:02 Customer details  has been successfully retrieved
+INFO  02:41:51 Now listening on: http://localhost:5004
+INFO  02:41:51 Application started. Press Ctrl+C to shut down.
+INFO  02:41:51 Hosting environment: Development
+INFO  02:41:51 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  02:42:38 Now listening on: http://localhost:5004
+INFO  02:42:38 Application started. Press Ctrl+C to shut down.
+INFO  02:42:38 Hosting environment: Development
+INFO  02:42:38 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  02:44:24 Customer details  has been successfully retrieved
+INFO  02:45:47 Now listening on: http://localhost:5004
+INFO  02:45:47 Application started. Press Ctrl+C to shut down.
+INFO  02:45:47 Hosting environment: Development
+INFO  02:45:47 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  02:46:43 Customer details  has been successfully retrieved
+INFO  09:02:29 Now listening on: http://localhost:5004
+INFO  09:02:29 Application started. Press Ctrl+C to shut down.
+INFO  09:02:29 Hosting environment: Development
+INFO  09:02:29 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:04:07 Customer details  has been successfully retrieved
+INFO  09:15:09 Now listening on: http://localhost:5004
+INFO  09:15:09 Application started. Press Ctrl+C to shut down.
+INFO  09:15:09 Hosting environment: Development
+INFO  09:15:09 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:16:00 Customer details  has been successfully retrieved
+INFO  09:27:44 Now listening on: http://localhost:5004
+INFO  09:27:44 Application started. Press Ctrl+C to shut down.
+INFO  09:27:44 Hosting environment: Development
+INFO  09:27:44 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:28:26 Customer details  has been successfully retrieved
+INFO  09:50:16 Now listening on: http://localhost:5004
+INFO  09:50:16 Application started. Press Ctrl+C to shut down.
+INFO  09:50:16 Hosting environment: Development
+INFO  09:50:16 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  09:57:55 Now listening on: http://localhost:5004
+INFO  09:57:55 Application started. Press Ctrl+C to shut down.
+INFO  09:57:55 Hosting environment: Development
+INFO  09:57:55 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  10:06:06 Customer has been successfully created
+INFO  10:08:22 Customer details  has been successfully retrieved
+INFO  10:18:54 Now listening on: http://localhost:5004
+INFO  10:18:54 Application started. Press Ctrl+C to shut down.
+INFO  10:18:55 Hosting environment: Development
+INFO  10:18:55 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  10:21:14 Now listening on: http://localhost:5004
+INFO  10:21:14 Application started. Press Ctrl+C to shut down.
+INFO  10:21:14 Hosting environment: Development
+INFO  10:21:14 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  10:39:41 Now listening on: http://localhost:5004
+INFO  10:39:41 Application started. Press Ctrl+C to shut down.
+INFO  10:39:41 Hosting environment: Development
+INFO  10:39:41 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  10:46:49 Customer has been successfully created
+INFO  10:47:18 Customer details  has been successfully retrieved
+INFO  10:47:18 Customer details  has been successfully retrieved
+INFO  10:56:31 Now listening on: http://localhost:5004
+INFO  10:56:31 Application started. Press Ctrl+C to shut down.
+INFO  10:56:31 Hosting environment: Development
+INFO  10:56:31 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:00:28 Customer has been successfully created
+INFO  11:12:37 Now listening on: http://localhost:5004
+INFO  11:12:37 Application started. Press Ctrl+C to shut down.
+INFO  11:12:37 Hosting environment: Development
+INFO  11:12:37 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  11:13:42 Customer has been successfully created
+INFO  11:15:15 Customer details  has been successfully retrieved
+INFO  12:22:18 Now listening on: http://localhost:5004
+INFO  12:22:18 Application started. Press Ctrl+C to shut down.
+INFO  12:22:18 Hosting environment: Development
+INFO  12:22:18 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  12:23:10 Customer details  has been successfully retrieved
+INFO  12:24:24 Customer details  has been successfully retrieved
+INFO  05:54:43 Now listening on: http://localhost:5004
+INFO  05:54:43 Application started. Press Ctrl+C to shut down.
+INFO  05:54:43 Hosting environment: Development
+INFO  05:54:43 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\CustomerMicroService
+INFO  05:58:07 Customer has been successfully created
+INFO  05:59:04 Customer details  has been successfully retrieved
+INFO  10:36:46 Now listening on: http://localhost:5004
+INFO  10:36:47 Application started. Press Ctrl+C to shut down.
+INFO  10:36:47 Hosting environment: Development
+INFO  10:36:47 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  10:38:15 Customer has been successfully created
+INFO  10:38:39 Customer details  has been successfully retrieved
+INFO  10:47:51 Now listening on: http://localhost:5004
+INFO  10:47:51 Application started. Press Ctrl+C to shut down.
+INFO  10:47:51 Hosting environment: Development
+INFO  10:47:51 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  10:48:50 Customer details  has been successfully retrieved
+INFO  10:50:21 Customer details  has been successfully retrieved
+INFO  09:37:31 Now listening on: http://localhost:5004
+INFO  09:37:32 Application started. Press Ctrl+C to shut down.
+INFO  09:37:32 Hosting environment: Development
+INFO  09:37:32 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:42:57 Now listening on: http://localhost:5004
+INFO  09:42:57 Application started. Press Ctrl+C to shut down.
+INFO  09:42:57 Hosting environment: Development
+INFO  09:42:57 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:44:11 Customer details  has been successfully retrieved
+INFO  09:51:23 Now listening on: http://localhost:5004
+INFO  09:51:23 Application started. Press Ctrl+C to shut down.
+INFO  09:51:23 Hosting environment: Development
+INFO  09:51:23 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:07:53 Now listening on: http://localhost:5004
+INFO  12:07:53 Application started. Press Ctrl+C to shut down.
+INFO  12:07:53 Hosting environment: Development
+INFO  12:07:53 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:11:02 Now listening on: http://localhost:5004
+INFO  12:11:02 Application started. Press Ctrl+C to shut down.
+INFO  12:11:02 Hosting environment: Development
+INFO  12:11:02 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:16:26 Now listening on: http://localhost:5004
+INFO  12:16:26 Application started. Press Ctrl+C to shut down.
+INFO  12:16:26 Hosting environment: Development
+INFO  12:16:26 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:19:42 Now listening on: http://localhost:5004
+INFO  12:19:42 Application started. Press Ctrl+C to shut down.
+INFO  12:19:42 Hosting environment: Development
+INFO  12:19:42 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:21:00 Customer has been successfully created
+INFO  12:24:53 Customer has been successfully created
+INFO  12:37:49 Now listening on: http://localhost:5004
+INFO  12:37:50 Application started. Press Ctrl+C to shut down.
+INFO  12:37:50 Hosting environment: Development
+INFO  12:37:50 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:39:48 Customer has been successfully created
+INFO  12:53:10 Now listening on: http://localhost:5004
+INFO  12:53:10 Application started. Press Ctrl+C to shut down.
+INFO  12:53:10 Hosting environment: Development
+INFO  12:53:10 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  12:55:21 Customer has been successfully created
+INFO  12:55:45 Customer details  has been successfully retrieved
+INFO  07:59:38 Now listening on: http://localhost:5004
+INFO  07:59:38 Application started. Press Ctrl+C to shut down.
+INFO  07:59:38 Hosting environment: Development
+INFO  07:59:38 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  08:08:12 Now listening on: http://localhost:5004
+INFO  08:08:12 Application started. Press Ctrl+C to shut down.
+INFO  08:08:12 Hosting environment: Development
+INFO  08:08:12 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  08:20:02 Now listening on: http://localhost:5004
+INFO  08:20:02 Application started. Press Ctrl+C to shut down.
+INFO  08:20:02 Hosting environment: Development
+INFO  08:20:02 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  08:23:13 Now listening on: http://localhost:5004
+INFO  08:23:13 Application started. Press Ctrl+C to shut down.
+INFO  08:23:14 Hosting environment: Development
+INFO  08:23:14 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  08:36:56 Customer has been successfully created
+INFO  08:36:57 Customer details  has been successfully retrieved
+INFO  08:41:50 Customer details  has been successfully retrieved
+INFO  08:42:42 Customer details  has been successfully retrieved
+INFO  08:56:57 Now listening on: http://localhost:5004
+INFO  08:56:57 Application started. Press Ctrl+C to shut down.
+INFO  08:56:57 Hosting environment: Development
+INFO  08:56:57 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  08:58:37 Customer has been successfully created
+INFO  08:58:37 Customer details  has been successfully retrieved
+INFO  09:02:49 Customer has been successfully created
+INFO  09:02:49 Customer details  has been successfully retrieved
+INFO  07:11:24 Now listening on: http://localhost:5004
+INFO  07:11:24 Application started. Press Ctrl+C to shut down.
+INFO  07:11:24 Hosting environment: Development
+INFO  07:11:24 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  07:12:57 Customer has been successfully created
+INFO  07:12:58 Customer details  has been successfully retrieved
+INFO  07:21:26 Now listening on: http://localhost:5004
+INFO  07:21:26 Application started. Press Ctrl+C to shut down.
+INFO  07:21:26 Hosting environment: Development
+INFO  07:21:26 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:37:53 Now listening on: http://localhost:5004
+INFO  09:37:53 Application started. Press Ctrl+C to shut down.
+INFO  09:37:54 Hosting environment: Development
+INFO  09:37:54 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  10:53:15 Now listening on: http://localhost:5004
+INFO  10:53:15 Application started. Press Ctrl+C to shut down.
+INFO  10:53:16 Hosting environment: Development
+INFO  10:53:16 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:04:52 Now listening on: http://localhost:5004
+INFO  09:04:52 Application started. Press Ctrl+C to shut down.
+INFO  09:04:52 Hosting environment: Development
+INFO  09:04:52 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:10:40 Now listening on: http://localhost:5004
+INFO  09:10:40 Application started. Press Ctrl+C to shut down.
+INFO  09:10:40 Hosting environment: Development
+INFO  09:10:41 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:13:35 Now listening on: http://localhost:5004
+INFO  09:13:35 Application started. Press Ctrl+C to shut down.
+INFO  09:13:35 Hosting environment: Development
+INFO  09:13:35 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:20:56 Now listening on: http://localhost:5004
+INFO  09:20:56 Application started. Press Ctrl+C to shut down.
+INFO  09:20:56 Hosting environment: Development
+INFO  09:20:56 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService
+INFO  09:24:02 Now listening on: http://localhost:5004
+INFO  09:24:02 Application started. Press Ctrl+C to shut down.
+INFO  09:24:02 Hosting environment: Development
+INFO  09:24:02 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\CustomerMicroService

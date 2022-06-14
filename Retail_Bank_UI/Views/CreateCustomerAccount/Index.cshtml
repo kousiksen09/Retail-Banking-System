@@ -1,5 +1,5 @@
 ﻿@model CustomerMicroService.Model.Customer
-
+@using UserMicroService.Models
 @{
     ViewData["Title"] = "Create Customer";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -10,64 +10,117 @@
     <meta name="viewport" content="width=device-width" />
     <title>Create Customer</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-   
+    <link rel="stylesheet" href="~/lib/Mobile/build/css/intlTelInput.css" />
+
+    <script src="~/lib/Mobile/build/js/intlTelInput-jquery.js"></script>
+    <script src="~/lib/Mobile/build/js/intlTelInput.js"></script>
+
 </head>
 
-    <h4>
-        <b class="text-success" >@ViewData["message"]</b>
-    </h4>
+<div class=@ViewData["messgae"]!=null?"card":"">
+    <div class="card-header">
+    <b class="card-title text-success" >@ViewData["message"]</b>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-4">
+                 <p class="card-text">
+    <b class="text-center" >@ViewData["CustomerId"]</b>
+    </p>
+            </div>
+             <div class="col-4">
+  <p class="card-text p-2">
+    <b class="text-center" >@ViewData["UserName"]</b>
+    </p>
+            </div>
+             <div class="col-4">
+                  <p class="card-text p-2">
+    <b class="text-center" >@ViewData["Password"]</b>
+    </p>
+            </div>
+        </div>
+   
+  
+   
+    </div>
+    </div>
     <h4> Create New Customer Account</h4>
     <hr />
     <div class="container ks-container" >
-        <div class="col-md-4 justify-content-center">
+        <div class="justify-content-center">
             <form asp-action="Index" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-                <div class="form-group">
+                 <div class="row ">
+                <div class="col-4 form-group">
                     <label asp-for="Name" class="control-label"></label>
                     <input asp-for="Name" class="form-control" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="col-4 form-group">
                     <label asp-for="MobileNo" class="control-label"></label>
-                    <input asp-for="MobileNo" class="form-control" />
+                    <input id="mobile-number" type="tel" asp-for="MobileNo" placeholder=""  class="form-control" />
                     <span asp-validation-for="MobileNo" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="col-4 form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                </div>
+                <div class="row ">
+
+                <div class="col-4 form-group">
                     <label asp-for="ZIPCode" class="control-label"></label>
                     <input asp-for="ZIPCode" class="form-control" />
                     <span asp-validation-for="ZIPCode" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="col-4 form-group">
                     <label asp-for="Address" class="control-label"></label>
                     <input asp-for="Address" class="form-control" />
                     <span asp-validation-for="Address" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                <div class="col-4 form-group">
                     <label asp-for="DOB" class="control-label"></label>
                     <input asp-for="DOB" class="form-control" />
                     <span asp-validation-for="DOB" class="text-danger"></span>
                 </div>
-                <div class="form-group">
+                </div>
+                <div class="row ">
+                <div class="col-6 form-group">
                     <label asp-for="gender" class="control-label"></label>
                     <select asp-for="gender" asp-items="Html.GetEnumSelectList<CustomerMicroService.Model.Gender>()" class="form-control" id="userType">
                     </select>
                 </div>
 
 
-                <div class="form-group">
+                <div class="col-6 form-group">
                     <label asp-for="PAN" class="control-label"></label>
                     <input asp-for="PAN" class="form-control" />
                     <span asp-validation-for="PAN" class="text-danger"></span>
                 </div>
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
+               
                 </div>
+                 <div class="col-12 form-group mt-4">
+                    <input type="submit" value="Create Account" class="btn btn-primary float-right" />
+                </div>
+                 
+                
+                
             </form>
         </div>
     </div>
 
-  
 
- 
+
+        <script>
+            $("#mobile-number").intlTelInput({
+                separateDialCode: true,
+                nationalMode: false
+            });
+    </script>
+
+
+
+
+
 

@@ -29,12 +29,8 @@ namespace TransactionMicroservice.Repository
             try
             {
                 var acc = await transactionRepository.GetDetailsAsync(account_id);
-                
-                IEnumerable<TransactionHistory> History = null;
 
-
-
-                History = transactionRepository.GetTransactionHistory(acc.CustomerId).Where(e=>e.DateOfTransaction.Date >=fromdate.Date && e.DateOfTransaction.Date <= todate.Date);
+                IEnumerable<TransactionHistory> History = transactionRepository.GetTransactionHistory(acc.CustomerId).Where(e=>e.DateOfTransaction.Date >=fromdate.Date && e.DateOfTransaction.Date <= todate.Date);
                 List<Statement> s = new List<Statement>();
                 
 

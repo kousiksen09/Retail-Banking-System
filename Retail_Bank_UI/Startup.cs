@@ -1,3 +1,4 @@
+using AccountMicroservice.Repositry;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Retail_Bank_UI.Utility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,12 +28,18 @@ namespace Retail_Bank_UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-             services.Configure<CookiePolicyOptions>(options =>
+            services.AddSingleton<IEmailSender, EmailSender>();
+            services.AddSingleton<ISMSsender, SMSsender>();
+
+            services.Configure<EmailOptions>(Configuration);
+            services.Configure<SmsOptions>(Configuration);
+            services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.  
-                options.CheckConsentNeeded = context => true;
+
                 options.MinimumSameSitePolicy = SameSiteMode.None;
+                
             });
+       
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
             services.AddMvc();
@@ -50,11 +58,13 @@ namespace Retail_Bank_UI
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseCookiePolicy();
             app.UseAuthentication();
             app.UseRouting();
+
             app.UseAuthorization();
-           
 
             app.UseEndpoints(endpoints =>
             {

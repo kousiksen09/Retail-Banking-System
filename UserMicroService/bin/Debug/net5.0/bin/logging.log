@@ -1012,3 +1012,366 @@ Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'retail-b
 ClientConnectionId:bf05f38a-390f-4197-a95a-8102f874cddd
 Error Number:40615,State:1,Class:14
 ERROR 11:12:26 Cannot open server 'retail-banking-system' requested by the login. Client with IP address '47.11.69.144' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+INFO  09:54:10 Now listening on: http://localhost:5003
+INFO  09:54:10 Application started. Press Ctrl+C to shut down.
+INFO  09:54:10 Hosting environment: Development
+INFO  09:54:10 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  10:09:34 Now listening on: http://localhost:5003
+INFO  10:09:34 Application started. Press Ctrl+C to shut down.
+INFO  10:09:34 Hosting environment: Development
+INFO  10:09:34 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  10:58:28 Now listening on: http://localhost:5003
+INFO  10:58:28 Application started. Press Ctrl+C to shut down.
+INFO  10:58:28 Hosting environment: Development
+INFO  10:58:28 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  11:28:12 Now listening on: http://localhost:5003
+INFO  11:28:12 Application started. Press Ctrl+C to shut down.
+INFO  11:28:12 Hosting environment: Development
+INFO  11:28:12 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  11:31:13 Now listening on: http://localhost:5003
+INFO  11:31:13 Application started. Press Ctrl+C to shut down.
+INFO  11:31:13 Hosting environment: Development
+INFO  11:31:13 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  11:33:51 getAllUser API is initiated
+INFO  11:43:27 Now listening on: http://localhost:5003
+INFO  11:43:27 Application started. Press Ctrl+C to shut down.
+INFO  11:43:27 Hosting environment: Development
+INFO  11:43:27 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  11:46:59 Now listening on: http://localhost:5003
+INFO  11:46:59 Application started. Press Ctrl+C to shut down.
+INFO  11:46:59 Hosting environment: Development
+INFO  11:46:59 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  11:48:36 getAllUser API is initiated
+INFO  12:38:43 Now listening on: http://localhost:5003
+INFO  12:38:43 Application started. Press Ctrl+C to shut down.
+INFO  12:38:43 Hosting environment: Development
+INFO  12:38:43 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:53:39 Now listening on: http://localhost:5003
+INFO  02:53:39 Application started. Press Ctrl+C to shut down.
+INFO  02:53:39 Hosting environment: Development
+INFO  02:53:39 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:05:46 Now listening on: http://localhost:5003
+INFO  03:05:46 Application started. Press Ctrl+C to shut down.
+INFO  03:05:46 Hosting environment: Development
+INFO  03:05:46 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  03:39:21 Now listening on: http://localhost:5003
+INFO  03:39:21 Application started. Press Ctrl+C to shut down.
+INFO  03:39:21 Hosting environment: Development
+INFO  03:39:21 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:00:42 Now listening on: http://localhost:5003
+INFO  05:00:42 Application started. Press Ctrl+C to shut down.
+INFO  05:00:42 Hosting environment: Development
+INFO  05:00:42 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:03:22 Now listening on: http://localhost:5003
+INFO  05:03:22 Application started. Press Ctrl+C to shut down.
+INFO  05:03:22 Hosting environment: Development
+INFO  05:03:22 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:05:14 getAllUser API is initiated
+INFO  05:13:34 getAllUser API is initiated
+INFO  10:56:49 Now listening on: http://localhost:5003
+INFO  10:56:49 Application started. Press Ctrl+C to shut down.
+INFO  10:56:49 Hosting environment: Development
+INFO  10:56:49 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:11:10 Now listening on: http://localhost:5003
+INFO  12:11:11 Application started. Press Ctrl+C to shut down.
+INFO  12:11:11 Hosting environment: Development
+INFO  12:11:11 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:21:34 getAllUser API is initiated
+INFO  12:26:36 Now listening on: http://localhost:5003
+INFO  12:26:36 Application started. Press Ctrl+C to shut down.
+INFO  12:26:36 Hosting environment: Development
+INFO  12:26:36 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:55:52 Now listening on: http://localhost:5003
+INFO  12:55:52 Application started. Press Ctrl+C to shut down.
+INFO  12:55:52 Hosting environment: Development
+INFO  12:55:52 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:56:23 getAllUser API is initiated
+INFO  01:02:04 Now listening on: http://localhost:5003
+INFO  01:02:04 Application started. Press Ctrl+C to shut down.
+INFO  01:02:04 Hosting environment: Development
+INFO  01:02:04 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  01:06:12 Now listening on: http://localhost:5003
+INFO  01:06:12 Application started. Press Ctrl+C to shut down.
+INFO  01:06:12 Hosting environment: Development
+INFO  01:06:12 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:31:35 Now listening on: http://localhost:5003
+INFO  02:31:35 Application started. Press Ctrl+C to shut down.
+INFO  02:31:35 Hosting environment: Development
+INFO  02:31:35 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  04:34:13 Now listening on: http://localhost:5003
+INFO  04:34:13 Application started. Press Ctrl+C to shut down.
+INFO  04:34:13 Hosting environment: Development
+INFO  04:34:13 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  04:39:59 Now listening on: http://localhost:5003
+INFO  04:39:59 Application started. Press Ctrl+C to shut down.
+INFO  04:39:59 Hosting environment: Development
+INFO  04:39:59 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  04:40:44 getAllUser API is initiated
+INFO  04:44:38 Now listening on: http://localhost:5003
+INFO  04:44:38 Application started. Press Ctrl+C to shut down.
+INFO  04:44:38 Hosting environment: Development
+INFO  04:44:38 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  04:50:07 Now listening on: http://localhost:5003
+INFO  04:50:07 Application started. Press Ctrl+C to shut down.
+INFO  04:50:07 Hosting environment: Development
+INFO  04:50:07 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:14:44 Now listening on: http://localhost:5003
+INFO  05:14:44 Application started. Press Ctrl+C to shut down.
+INFO  05:14:44 Hosting environment: Development
+INFO  05:14:44 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:36:17 Now listening on: http://localhost:5003
+INFO  05:36:17 Application started. Press Ctrl+C to shut down.
+INFO  05:36:17 Hosting environment: Development
+INFO  05:36:18 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:37:48 getAllUser API is initiated
+INFO  02:42:38 Now listening on: http://localhost:5003
+INFO  02:42:39 Application started. Press Ctrl+C to shut down.
+INFO  02:42:39 Hosting environment: Development
+INFO  02:42:39 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:45:48 Now listening on: http://localhost:5003
+INFO  02:45:48 Application started. Press Ctrl+C to shut down.
+INFO  02:45:48 Hosting environment: Development
+INFO  02:45:48 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  02:46:26 getAllUser API is initiated
+INFO  09:02:29 Now listening on: http://localhost:5003
+INFO  09:02:29 Application started. Press Ctrl+C to shut down.
+INFO  09:02:29 Hosting environment: Development
+INFO  09:02:29 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  09:03:05 getAllUser API is initiated
+INFO  09:15:10 Now listening on: http://localhost:5003
+INFO  09:15:10 Application started. Press Ctrl+C to shut down.
+INFO  09:15:10 Hosting environment: Development
+INFO  09:15:10 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  09:27:44 Now listening on: http://localhost:5003
+INFO  09:27:44 Application started. Press Ctrl+C to shut down.
+INFO  09:27:44 Hosting environment: Development
+INFO  09:27:44 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  09:50:18 Now listening on: http://localhost:5003
+INFO  09:50:18 Application started. Press Ctrl+C to shut down.
+INFO  09:50:18 Hosting environment: Development
+INFO  09:50:18 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  09:57:55 Now listening on: http://localhost:5003
+INFO  09:57:55 Application started. Press Ctrl+C to shut down.
+INFO  09:57:55 Hosting environment: Development
+INFO  09:57:55 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  10:19:02 Now listening on: http://localhost:5003
+INFO  10:19:02 Application started. Press Ctrl+C to shut down.
+INFO  10:19:02 Hosting environment: Development
+INFO  10:19:02 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  10:21:15 Now listening on: http://localhost:5003
+INFO  10:21:15 Application started. Press Ctrl+C to shut down.
+INFO  10:21:15 Hosting environment: Development
+INFO  10:21:15 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  10:39:41 Now listening on: http://localhost:5003
+INFO  10:39:41 Application started. Press Ctrl+C to shut down.
+INFO  10:39:41 Hosting environment: Development
+INFO  10:39:41 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  10:56:31 Now listening on: http://localhost:5003
+INFO  10:56:31 Application started. Press Ctrl+C to shut down.
+INFO  10:56:31 Hosting environment: Development
+INFO  10:56:31 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  11:12:36 Now listening on: http://localhost:5003
+INFO  11:12:36 Application started. Press Ctrl+C to shut down.
+INFO  11:12:36 Hosting environment: Development
+INFO  11:12:36 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:22:16 Now listening on: http://localhost:5003
+INFO  12:22:16 Application started. Press Ctrl+C to shut down.
+INFO  12:22:16 Hosting environment: Development
+INFO  12:22:16 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  12:22:46 getAllUser API is initiated
+INFO  05:54:55 Now listening on: http://localhost:5003
+INFO  05:54:56 Application started. Press Ctrl+C to shut down.
+INFO  05:54:56 Hosting environment: Development
+INFO  05:54:56 Content root path: C:\Users\934754\OneDrive - Cognizant\Desktop\Retail-Banking-System\UserMicroService
+INFO  05:56:23 getAllUser API is initiated
+INFO  10:36:53 Now listening on: http://localhost:5003
+INFO  10:36:53 Application started. Press Ctrl+C to shut down.
+INFO  10:36:53 Hosting environment: Development
+INFO  10:36:53 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  10:37:18 getAllUser API is initiated
+INFO  10:47:57 Now listening on: http://localhost:5003
+INFO  10:47:57 Application started. Press Ctrl+C to shut down.
+INFO  10:47:57 Hosting environment: Development
+INFO  10:47:57 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  10:48:17 getAllUser API is initiated
+INFO  09:37:32 Now listening on: http://localhost:5003
+INFO  09:37:32 Application started. Press Ctrl+C to shut down.
+INFO  09:37:32 Hosting environment: Development
+INFO  09:37:32 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:42:58 Now listening on: http://localhost:5003
+INFO  09:42:58 Application started. Press Ctrl+C to shut down.
+INFO  09:42:58 Hosting environment: Development
+INFO  09:42:58 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:51:23 Now listening on: http://localhost:5003
+INFO  09:51:23 Application started. Press Ctrl+C to shut down.
+INFO  09:51:23 Hosting environment: Development
+INFO  09:51:23 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:07:54 Now listening on: http://localhost:5003
+INFO  12:07:54 Application started. Press Ctrl+C to shut down.
+INFO  12:07:54 Hosting environment: Development
+INFO  12:07:54 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:08:25 getAllUser API is initiated
+INFO  12:11:04 Now listening on: http://localhost:5003
+INFO  12:11:04 Application started. Press Ctrl+C to shut down.
+INFO  12:11:04 Hosting environment: Development
+INFO  12:11:05 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:11:25 getAllUser API is initiated
+INFO  12:16:29 Now listening on: http://localhost:5003
+INFO  12:16:29 Application started. Press Ctrl+C to shut down.
+INFO  12:16:29 Hosting environment: Development
+INFO  12:16:29 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:16:48 getAllUser API is initiated
+INFO  12:19:43 Now listening on: http://localhost:5003
+INFO  12:19:43 Application started. Press Ctrl+C to shut down.
+INFO  12:19:43 Hosting environment: Development
+INFO  12:19:43 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:19:59 getAllUser API is initiated
+INFO  12:37:52 Now listening on: http://localhost:5003
+INFO  12:37:52 Application started. Press Ctrl+C to shut down.
+INFO  12:37:52 Hosting environment: Development
+INFO  12:37:52 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:38:07 getAllUser API is initiated
+INFO  12:38:22 getAllUser API is initiated
+INFO  12:38:36 getAllUser API is initiated
+ERROR 12:40:13 Failed executing DbCommand (64ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [UserCreds] ([CreatedBy], [CreatedOn], [CustomerId], [Password], [UserName], [UserType])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [UserID]
+FROM [UserCreds]
+WHERE @@ROWCOUNT = 1 AND [UserID] = scope_identity();
+ERROR 12:40:13 An exception occurred in the database while saving changes for context type 'UserMicroService.DBContext.UserContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserCreds_Customer_CustomerId". The conflict occurred in database "retail-banking-system", table "dbo.Customer", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:f37afb2f-8e87-4f1e-b212-169f03f30ecb
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_UserCreds_Customer_CustomerId". The conflict occurred in database "retail-banking-system", table "dbo.Customer", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:f37afb2f-8e87-4f1e-b212-169f03f30ecb
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+INFO  12:53:11 Now listening on: http://localhost:5003
+INFO  12:53:12 Application started. Press Ctrl+C to shut down.
+INFO  12:53:12 Hosting environment: Development
+INFO  12:53:12 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  12:53:50 getAllUser API is initiated
+INFO  07:59:40 Now listening on: http://localhost:5003
+INFO  07:59:40 Application started. Press Ctrl+C to shut down.
+INFO  07:59:40 Hosting environment: Development
+INFO  07:59:40 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  08:02:32 getAllUser API is initiated
+INFO  08:08:13 Now listening on: http://localhost:5003
+INFO  08:08:13 Application started. Press Ctrl+C to shut down.
+INFO  08:08:13 Hosting environment: Development
+INFO  08:08:13 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  08:08:39 getAllUser API is initiated
+INFO  08:20:05 Now listening on: http://localhost:5003
+INFO  08:20:05 Application started. Press Ctrl+C to shut down.
+INFO  08:20:05 Hosting environment: Development
+INFO  08:20:05 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  08:20:24 getAllUser API is initiated
+INFO  08:23:15 Now listening on: http://localhost:5003
+INFO  08:23:15 Application started. Press Ctrl+C to shut down.
+INFO  08:23:15 Hosting environment: Development
+INFO  08:23:15 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  08:23:36 getAllUser API is initiated
+INFO  08:42:42 getAllUser API is initiated
+INFO  08:57:02 Now listening on: http://localhost:5003
+INFO  08:57:02 Application started. Press Ctrl+C to shut down.
+INFO  08:57:02 Hosting environment: Development
+INFO  08:57:02 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  08:57:16 getAllUser API is initiated
+INFO  07:11:26 Now listening on: http://localhost:5003
+INFO  07:11:26 Application started. Press Ctrl+C to shut down.
+INFO  07:11:26 Hosting environment: Development
+INFO  07:11:26 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  07:11:39 getAllUser API is initiated
+INFO  07:21:28 Now listening on: http://localhost:5003
+INFO  07:21:28 Application started. Press Ctrl+C to shut down.
+INFO  07:21:28 Hosting environment: Development
+INFO  07:21:28 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  07:21:33 getAllUser API is initiated
+INFO  09:37:56 Now listening on: http://localhost:5003
+INFO  09:37:56 Application started. Press Ctrl+C to shut down.
+INFO  09:37:56 Hosting environment: Development
+INFO  09:37:56 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:38:12 getAllUser API is initiated
+INFO  10:53:18 Now listening on: http://localhost:5003
+INFO  10:53:18 Application started. Press Ctrl+C to shut down.
+INFO  10:53:18 Hosting environment: Development
+INFO  10:53:18 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  10:55:42 getAllUser API is initiated
+INFO  09:04:52 Now listening on: http://localhost:5003
+INFO  09:04:52 Application started. Press Ctrl+C to shut down.
+INFO  09:04:52 Hosting environment: Development
+INFO  09:04:52 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:05:02 getAllUser API is initiated
+INFO  09:10:41 Now listening on: http://localhost:5003
+INFO  09:10:41 Application started. Press Ctrl+C to shut down.
+INFO  09:10:41 Hosting environment: Development
+INFO  09:10:41 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:11:08 getAllUser API is initiated
+INFO  09:13:37 Now listening on: http://localhost:5003
+INFO  09:13:37 Application started. Press Ctrl+C to shut down.
+INFO  09:13:37 Hosting environment: Development
+INFO  09:13:37 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:13:53 getAllUser API is initiated
+INFO  09:21:00 Now listening on: http://localhost:5003
+INFO  09:21:00 Application started. Press Ctrl+C to shut down.
+INFO  09:21:00 Hosting environment: Development
+INFO  09:21:00 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:21:07 getAllUser API is initiated
+INFO  09:24:05 Now listening on: http://localhost:5003
+INFO  09:24:05 Application started. Press Ctrl+C to shut down.
+INFO  09:24:05 Hosting environment: Development
+INFO  09:24:05 Content root path: D:\[Kousik] Projects\Retail-Banking-System\Retail-Banking-System\UserMicroService
+INFO  09:24:42 getAllUser API is initiated
